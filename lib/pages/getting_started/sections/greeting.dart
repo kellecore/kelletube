@@ -1,10 +1,10 @@
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:shadcn_flutter/shadcn_flutter.dart';
-import 'package:spotube/collections/assets.gen.dart';
-import 'package:spotube/collections/spotube_icons.dart';
-import 'package:spotube/extensions/context.dart';
-import 'package:spotube/modules/getting_started/blur_card.dart';
-import 'package:spotube/utils/platform.dart';
+import 'package:kelletube/collections/assets.gen.dart';
+import 'package:kelletube/collections/kelletube_icons.dart';
+import 'package:kelletube/extensions/context.dart';
+import 'package:kelletube/modules/getting_started/blur_card.dart';
+import 'package:kelletube/utils/platform.dart';
 
 class GettingStartedPageGreetingSection extends HookConsumerWidget {
   final VoidCallback onNext;
@@ -17,9 +17,9 @@ class GettingStartedPageGreetingSection extends HookConsumerWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Assets.branding.spotubeLogoPng.image(height: 200),
+            Assets.branding.kelletubeLogoPng.image(height: 200),
             const Gap(24),
-            const Text("Spotube").semiBold().h4(),
+            const Text("Kelletube").semiBold().h4(),
             const Gap(4),
             Text(
               kIsMobile
@@ -30,7 +30,7 @@ class GettingStartedPageGreetingSection extends HookConsumerWidget {
             const Gap(84),
             Button.primary(
               onPressed: onNext,
-              trailing: const Icon(SpotubeIcons.angleRight),
+              trailing: const Icon(KelletubeIcons.angleRight),
               child: Text(context.l10n.get_started),
             ),
           ],

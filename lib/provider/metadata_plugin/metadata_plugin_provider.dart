@@ -8,15 +8,15 @@ import 'package:flutter/services.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:spotube/models/database/database.dart';
-import 'package:spotube/models/metadata/metadata.dart';
-import 'package:spotube/provider/database/database.dart';
-import 'package:spotube/provider/youtube_engine/youtube_engine.dart';
-import 'package:spotube/services/dio/dio.dart';
-import 'package:spotube/services/logger/logger.dart';
-import 'package:spotube/services/metadata/errors/exceptions.dart';
-import 'package:spotube/services/metadata/metadata.dart';
-import 'package:spotube/utils/service_utils.dart';
+import 'package:kelletube/models/database/database.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
+import 'package:kelletube/provider/database/database.dart';
+import 'package:kelletube/provider/youtube_engine/youtube_engine.dart';
+import 'package:kelletube/services/dio/dio.dart';
+import 'package:kelletube/services/logger/logger.dart';
+import 'package:kelletube/services/metadata/errors/exceptions.dart';
+import 'package:kelletube/services/metadata/metadata.dart';
+import 'package:kelletube/utils/service_utils.dart';
 import 'package:archive/archive.dart';
 import 'package:pub_semver/pub_semver.dart';
 
@@ -178,8 +178,8 @@ class MetadataPluginNotifier extends AsyncNotifier<MetadataPluginState> {
 
   Future<void> _loadDefaultPlugins(MetadataPluginState pluginState) async {
     const plugins = [
-      "spotube-plugin-musicbrainz-listenbrainz",
-      "spotube-plugin-youtube-audio",
+      "kelletube-plugin-musicbrainz-listenbrainz",
+      "kelletube-plugin-youtube-audio",
     ];
 
     for (final plugin in plugins) {

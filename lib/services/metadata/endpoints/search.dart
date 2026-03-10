@@ -1,6 +1,6 @@
 import 'package:hetu_script/hetu_script.dart';
 import 'package:hetu_script/values.dart';
-import 'package:spotube/models/metadata/metadata.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
 
 class MetadataPluginSearchEndpoint {
   final Hetu hetu;
@@ -14,9 +14,9 @@ class MetadataPluginSearchEndpoint {
     return (hetuMetadataSearch.memberGet("chips") as List).cast<String>();
   }
 
-  Future<SpotubeSearchResponseObject> all(String query) async {
+  Future<KelletubeSearchResponseObject> all(String query) async {
     if (query.isEmpty) {
-      return SpotubeSearchResponseObject(
+      return KelletubeSearchResponseObject(
         albums: [],
         artists: [],
         playlists: [],
@@ -29,16 +29,16 @@ class MetadataPluginSearchEndpoint {
       positionalArgs: [query],
     ) as Map;
 
-    return SpotubeSearchResponseObject.fromJson(raw.cast<String, dynamic>());
+    return KelletubeSearchResponseObject.fromJson(raw.cast<String, dynamic>());
   }
 
-  Future<SpotubePaginationResponseObject<SpotubeSimpleAlbumObject>> albums(
+  Future<KelletubePaginationResponseObject<KelletubeSimpleAlbumObject>> albums(
     String query, {
     int? limit,
     int? offset,
   }) async {
     if (query.isEmpty) {
-      return SpotubePaginationResponseObject<SpotubeSimpleAlbumObject>(
+      return KelletubePaginationResponseObject<KelletubeSimpleAlbumObject>(
         items: [],
         total: 0,
         limit: limit ?? 20,
@@ -56,19 +56,19 @@ class MetadataPluginSearchEndpoint {
       }..removeWhere((key, value) => value == null),
     ) as Map;
 
-    return SpotubePaginationResponseObject<SpotubeSimpleAlbumObject>.fromJson(
+    return KelletubePaginationResponseObject<KelletubeSimpleAlbumObject>.fromJson(
       raw.cast<String, dynamic>(),
-      (json) => SpotubeSimpleAlbumObject.fromJson(json.cast<String, dynamic>()),
+      (json) => KelletubeSimpleAlbumObject.fromJson(json.cast<String, dynamic>()),
     );
   }
 
-  Future<SpotubePaginationResponseObject<SpotubeFullArtistObject>> artists(
+  Future<KelletubePaginationResponseObject<KelletubeFullArtistObject>> artists(
     String query, {
     int? limit,
     int? offset,
   }) async {
     if (query.isEmpty) {
-      return SpotubePaginationResponseObject<SpotubeFullArtistObject>(
+      return KelletubePaginationResponseObject<KelletubeFullArtistObject>(
         items: [],
         total: 0,
         limit: limit ?? 20,
@@ -86,22 +86,22 @@ class MetadataPluginSearchEndpoint {
       }..removeWhere((key, value) => value == null),
     ) as Map;
 
-    return SpotubePaginationResponseObject<SpotubeFullArtistObject>.fromJson(
+    return KelletubePaginationResponseObject<KelletubeFullArtistObject>.fromJson(
       raw.cast<String, dynamic>(),
-      (json) => SpotubeFullArtistObject.fromJson(
+      (json) => KelletubeFullArtistObject.fromJson(
         json.cast<String, dynamic>(),
       ),
     );
   }
 
-  Future<SpotubePaginationResponseObject<SpotubeSimplePlaylistObject>>
+  Future<KelletubePaginationResponseObject<KelletubeSimplePlaylistObject>>
       playlists(
     String query, {
     int? limit,
     int? offset,
   }) async {
     if (query.isEmpty) {
-      return SpotubePaginationResponseObject<SpotubeSimplePlaylistObject>(
+      return KelletubePaginationResponseObject<KelletubeSimplePlaylistObject>(
         items: [],
         total: 0,
         limit: limit ?? 20,
@@ -119,22 +119,22 @@ class MetadataPluginSearchEndpoint {
       }..removeWhere((key, value) => value == null),
     ) as Map;
 
-    return SpotubePaginationResponseObject<
-        SpotubeSimplePlaylistObject>.fromJson(
+    return KelletubePaginationResponseObject<
+        KelletubeSimplePlaylistObject>.fromJson(
       raw.cast<String, dynamic>(),
-      (json) => SpotubeSimplePlaylistObject.fromJson(
+      (json) => KelletubeSimplePlaylistObject.fromJson(
         json.cast<String, dynamic>(),
       ),
     );
   }
 
-  Future<SpotubePaginationResponseObject<SpotubeFullTrackObject>> tracks(
+  Future<KelletubePaginationResponseObject<KelletubeFullTrackObject>> tracks(
     String query, {
     int? limit,
     int? offset,
   }) async {
     if (query.isEmpty) {
-      return SpotubePaginationResponseObject<SpotubeFullTrackObject>(
+      return KelletubePaginationResponseObject<KelletubeFullTrackObject>(
         items: [],
         total: 0,
         limit: limit ?? 20,
@@ -152,9 +152,9 @@ class MetadataPluginSearchEndpoint {
       }..removeWhere((key, value) => value == null),
     ) as Map;
 
-    return SpotubePaginationResponseObject<SpotubeFullTrackObject>.fromJson(
+    return KelletubePaginationResponseObject<KelletubeFullTrackObject>.fromJson(
       raw.cast<String, dynamic>(),
-      (json) => SpotubeFullTrackObject.fromJson(json.cast<String, dynamic>()),
+      (json) => KelletubeFullTrackObject.fromJson(json.cast<String, dynamic>()),
     );
   }
 }

@@ -1,4 +1,4 @@
-package oss.krtirtho.spotube.glance
+package com.kellecore.kelletube.glance
 
 import HomeWidgetGlanceWidgetReceiver
 

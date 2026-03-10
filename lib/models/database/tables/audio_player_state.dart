@@ -7,26 +7,26 @@ class AudioPlayerStateTable extends Table {
   BoolColumn get shuffled => boolean()();
   TextColumn get collections => text().map(const StringListConverter())();
   TextColumn get tracks => text()
-      .map(const SpotubeTrackObjectListConverter())
+      .map(const KelletubeTrackObjectListConverter())
       .withDefault(const Constant("[]"))();
   IntColumn get currentIndex => integer().withDefault(const Constant(0))();
 }
 
-class SpotubeTrackObjectListConverter
-    extends TypeConverter<List<SpotubeTrackObject>, String> {
-  const SpotubeTrackObjectListConverter();
+class KelletubeTrackObjectListConverter
+    extends TypeConverter<List<KelletubeTrackObject>, String> {
+  const KelletubeTrackObjectListConverter();
 
   @override
-  List<SpotubeTrackObject> fromSql(String fromDb) {
+  List<KelletubeTrackObject> fromSql(String fromDb) {
     final raw = (jsonDecode(fromDb) as List).cast<Map>();
 
     return raw
-        .map((e) => SpotubeTrackObject.fromJson(e.cast<String, dynamic>()))
+        .map((e) => KelletubeTrackObject.fromJson(e.cast<String, dynamic>()))
         .toList();
   }
 
   @override
-  String toSql(List<SpotubeTrackObject> value) {
+  String toSql(List<KelletubeTrackObject> value) {
     return jsonEncode(
       value.map((e) => e.toJson()).toList(),
     );

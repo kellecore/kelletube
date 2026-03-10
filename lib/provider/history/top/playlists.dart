@@ -1,15 +1,15 @@
 import 'package:collection/collection.dart';
 import 'package:drift/drift.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:spotube/models/database/database.dart';
-import 'package:spotube/models/metadata/metadata.dart';
-import 'package:spotube/provider/database/database.dart';
-import 'package:spotube/provider/history/top.dart';
-import 'package:spotube/provider/metadata_plugin/utils/family_paginated.dart';
+import 'package:kelletube/models/database/database.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
+import 'package:kelletube/provider/database/database.dart';
+import 'package:kelletube/provider/history/top.dart';
+import 'package:kelletube/provider/metadata_plugin/utils/family_paginated.dart';
 
 typedef PlaybackHistoryPlaylist = ({
   int count,
-  SpotubeSimplePlaylistObject playlist
+  KelletubeSimplePlaylistObject playlist
 });
 
 class HistoryTopPlaylistsNotifier extends FamilyPaginatedAsyncNotifier<
@@ -36,7 +36,7 @@ class HistoryTopPlaylistsNotifier extends FamilyPaginatedAsyncNotifier<
 
     final items = getPlaylistsWithCount(await playlistsQuery.get());
 
-    return SpotubePaginationResponseObject(
+    return KelletubePaginationResponseObject(
       items: items,
       nextOffset: offset + limit,
       total: items.length,
@@ -80,7 +80,7 @@ class HistoryTopPlaylistsNotifier extends FamilyPaginatedAsyncNotifier<
 
 final historyTopPlaylistsProvider = AsyncNotifierProviderFamily<
     HistoryTopPlaylistsNotifier,
-    SpotubePaginationResponseObject<PlaybackHistoryPlaylist>,
+    KelletubePaginationResponseObject<PlaybackHistoryPlaylist>,
     HistoryDuration>(
   () => HistoryTopPlaylistsNotifier(),
 );

@@ -1,12 +1,12 @@
 import 'package:riverpod/riverpod.dart';
-import 'package:spotube/models/metadata/metadata.dart';
-import 'package:spotube/provider/metadata_plugin/core/auth.dart';
-import 'package:spotube/provider/metadata_plugin/utils/paginated.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
+import 'package:kelletube/provider/metadata_plugin/core/auth.dart';
+import 'package:kelletube/provider/metadata_plugin/utils/paginated.dart';
 
 class MetadataPluginSavedAlbumNotifier
-    extends PaginatedAsyncNotifier<SpotubeSimpleAlbumObject> {
+    extends PaginatedAsyncNotifier<KelletubeSimpleAlbumObject> {
   @override
-  Future<SpotubePaginationResponseObject<SpotubeSimpleAlbumObject>> fetch(
+  Future<KelletubePaginationResponseObject<KelletubeSimpleAlbumObject>> fetch(
     int offset,
     int limit,
   ) async {
@@ -22,7 +22,7 @@ class MetadataPluginSavedAlbumNotifier
     return await fetch(0, 20);
   }
 
-  Future<void> addFavorite(List<SpotubeSimpleAlbumObject> albums) async {
+  Future<void> addFavorite(List<KelletubeSimpleAlbumObject> albums) async {
     if (albums.isEmpty || state.value == null) return;
     final oldState = state.value;
 
@@ -42,7 +42,7 @@ class MetadataPluginSavedAlbumNotifier
     }
   }
 
-  Future<void> removeFavorite(List<SpotubeSimpleAlbumObject> albums) async {
+  Future<void> removeFavorite(List<KelletubeSimpleAlbumObject> albums) async {
     if (albums.isEmpty || state.value == null) return;
 
     final oldState = state.value;
@@ -68,7 +68,7 @@ class MetadataPluginSavedAlbumNotifier
 
 final metadataPluginSavedAlbumsProvider = AsyncNotifierProvider<
     MetadataPluginSavedAlbumNotifier,
-    SpotubePaginationResponseObject<SpotubeSimpleAlbumObject>>(
+    KelletubePaginationResponseObject<KelletubeSimpleAlbumObject>>(
   () => MetadataPluginSavedAlbumNotifier(),
 );
 

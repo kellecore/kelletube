@@ -3,20 +3,20 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:shadcn_flutter/shadcn_flutter.dart';
 import 'package:shadcn_flutter/shadcn_flutter_extension.dart';
-import 'package:spotube/extensions/context.dart';
+import 'package:kelletube/extensions/context.dart';
 
-import 'package:spotube/provider/user_preferences/user_preferences_provider.dart';
+import 'package:kelletube/provider/user_preferences/user_preferences_provider.dart';
 
-class SpotubeColor extends Color {
+class KelletubeColor extends Color {
   final String name;
 
-  const SpotubeColor(super.color, {required this.name});
+  const KelletubeColor(super.color, {required this.name});
 
-  const SpotubeColor.from(super.value, {required this.name});
+  const KelletubeColor.from(super.value, {required this.name});
 
-  factory SpotubeColor.fromString(String string) {
+  factory KelletubeColor.fromString(String string) {
     final slices = string.split(":");
-    return SpotubeColor(int.parse(slices.last), name: slices.first);
+    return KelletubeColor(int.parse(slices.last), name: slices.first);
   }
 
   @override
@@ -25,19 +25,19 @@ class SpotubeColor extends Color {
   }
 }
 
-final Set<SpotubeColor> colorsMap = {
-  SpotubeColor(Colors.slate.value, name: "slate"),
-  SpotubeColor(Colors.gray.value, name: "gray"),
-  SpotubeColor(Colors.zinc.value, name: "zinc"),
-  SpotubeColor(Colors.neutral.value, name: "neutral"),
-  SpotubeColor(Colors.stone.value, name: "stone"),
-  SpotubeColor(Colors.red.value, name: "red"),
-  SpotubeColor(Colors.orange.value, name: "orange"),
-  SpotubeColor(Colors.yellow.value, name: "yellow"),
-  SpotubeColor(Colors.green.value, name: "green"),
-  SpotubeColor(Colors.blue.value, name: "blue"),
-  SpotubeColor(Colors.violet.value, name: "violet"),
-  SpotubeColor(Colors.rose.value, name: "rose"),
+final Set<KelletubeColor> colorsMap = {
+  KelletubeColor(Colors.slate.value, name: "slate"),
+  KelletubeColor(Colors.gray.value, name: "gray"),
+  KelletubeColor(Colors.zinc.value, name: "zinc"),
+  KelletubeColor(Colors.neutral.value, name: "neutral"),
+  KelletubeColor(Colors.stone.value, name: "stone"),
+  KelletubeColor(Colors.red.value, name: "red"),
+  KelletubeColor(Colors.orange.value, name: "orange"),
+  KelletubeColor(Colors.yellow.value, name: "yellow"),
+  KelletubeColor(Colors.green.value, name: "green"),
+  KelletubeColor(Colors.blue.value, name: "blue"),
+  KelletubeColor(Colors.violet.value, name: "violet"),
+  KelletubeColor(Colors.rose.value, name: "rose"),
 };
 
 final colorSchemeMap = {

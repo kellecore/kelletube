@@ -20,7 +20,7 @@ class MacosBuildCommand extends Command with BuildCommandCommonSteps {
     await shell.run(
       """
       flutter build macos
-      appdmg appdmg.json ${join(cwd.path, "build", "Spotube-macos-universal.dmg")}
+      appdmg appdmg.json ${join(cwd.path, "build", "Kelletube-macos-universal.dmg")}
       fastforge package --platform=macos --targets pkg --skip-clean
       """,
     );
@@ -30,12 +30,12 @@ class MacosBuildCommand extends Command with BuildCommandCommonSteps {
         cwd.path,
         "dist",
         pubspec.version.toString(),
-        "spotube-${pubspec.version}-macos.pkg",
+        "kelletube-${pubspec.version}-macos.pkg",
       ),
     );
 
     await ogPkg.copy(
-      join(cwd.path, "build", "Spotube-macos-universal.pkg"),
+      join(cwd.path, "build", "Kelletube-macos-universal.pkg"),
     );
     await ogPkg.delete();
   }

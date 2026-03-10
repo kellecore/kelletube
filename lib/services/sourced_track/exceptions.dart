@@ -1,7 +1,7 @@
-import 'package:spotube/models/metadata/metadata.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
 
 class TrackNotFoundError extends Error {
-  final SpotubeTrackObject track;
+  final KelletubeTrackObject track;
 
   TrackNotFoundError(this.track);
 

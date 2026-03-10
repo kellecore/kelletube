@@ -5,25 +5,25 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:shadcn_flutter/shadcn_flutter.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
 
-import 'package:spotube/collections/assets.gen.dart';
-import 'package:spotube/collections/routes.gr.dart';
-import 'package:spotube/collections/spotube_icons.dart';
-import 'package:spotube/components/framework/app_pop_scope.dart';
-import 'package:spotube/models/metadata/metadata.dart';
-import 'package:spotube/modules/player/player_actions.dart';
-import 'package:spotube/modules/player/player_controls.dart';
-import 'package:spotube/modules/player/volume_slider.dart';
-import 'package:spotube/components/dialogs/track_details_dialog.dart';
-import 'package:spotube/components/links/artist_link.dart';
-import 'package:spotube/components/titlebar/titlebar.dart';
-import 'package:spotube/components/image/universal_image.dart';
-import 'package:spotube/extensions/constrains.dart';
-import 'package:spotube/extensions/context.dart';
-import 'package:spotube/modules/root/spotube_navigation_bar.dart';
-import 'package:spotube/provider/audio_player/audio_player.dart';
-import 'package:spotube/provider/metadata_plugin/audio_source/quality_label.dart';
-import 'package:spotube/provider/server/active_track_sources.dart';
-import 'package:spotube/provider/volume_provider.dart';
+import 'package:kelletube/collections/assets.gen.dart';
+import 'package:kelletube/collections/routes.gr.dart';
+import 'package:kelletube/collections/kelletube_icons.dart';
+import 'package:kelletube/components/framework/app_pop_scope.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
+import 'package:kelletube/modules/player/player_actions.dart';
+import 'package:kelletube/modules/player/player_controls.dart';
+import 'package:kelletube/modules/player/volume_slider.dart';
+import 'package:kelletube/components/dialogs/track_details_dialog.dart';
+import 'package:kelletube/components/links/artist_link.dart';
+import 'package:kelletube/components/titlebar/titlebar.dart';
+import 'package:kelletube/components/image/universal_image.dart';
+import 'package:kelletube/extensions/constrains.dart';
+import 'package:kelletube/extensions/context.dart';
+import 'package:kelletube/modules/root/kelletube_navigation_bar.dart';
+import 'package:kelletube/provider/audio_player/audio_player.dart';
+import 'package:kelletube/provider/metadata_plugin/audio_source/quality_label.dart';
+import 'package:kelletube/provider/server/active_track_sources.dart';
+import 'package:kelletube/provider/volume_provider.dart';
 
 class PlayerView extends HookConsumerWidget {
   final PanelController panelController;
@@ -41,7 +41,7 @@ class PlayerView extends HookConsumerWidget {
     final currentActiveTrack =
         ref.watch(audioPlayerProvider.select((s) => s.activeTrack));
     final currentActiveTrackSource = sourcedCurrentTrack.asData?.value?.source;
-    final isLocalTrack = currentActiveTrack is SpotubeLocalTrackObject;
+    final isLocalTrack = currentActiveTrack is KelletubeLocalTrackObject;
     final mediaQuery = MediaQuery.sizeOf(context);
     final qualityLabel = ref.watch(audioSourceQualityLabelProvider);
 
@@ -103,7 +103,7 @@ class PlayerView extends HookConsumerWidget {
                 leading: [
                   IconButton.ghost(
                     size: const ButtonSize(1.2),
-                    icon: const Icon(SpotubeIcons.angleDown),
+                    icon: const Icon(KelletubeIcons.angleDown),
                     onPressed: panelController.close,
                   )
                 ],
@@ -115,7 +115,7 @@ class PlayerView extends HookConsumerWidget {
                       ).call,
                       child: IconButton.ghost(
                         size: const ButtonSize(1.2),
-                        icon: const Icon(SpotubeIcons.info),
+                        icon: const Icon(KelletubeIcons.info),
                         onPressed: currentActiveTrackSource == null
                             ? null
                             : () {
@@ -124,7 +124,7 @@ class PlayerView extends HookConsumerWidget {
                                     builder: (context) {
                                       return TrackDetailsDialog(
                                         track: currentActiveTrack
-                                            as SpotubeFullTrackObject,
+                                            as KelletubeFullTrackObject,
                                       );
                                     });
                               },
@@ -216,7 +216,7 @@ class PlayerView extends HookConsumerWidget {
                       const SizedBox(width: 10),
                       Expanded(
                         child: OutlineButton(
-                          leading: const Icon(SpotubeIcons.queue),
+                          leading: const Icon(KelletubeIcons.queue),
                           child: Text(context.l10n.queue),
                           onPressed: () {
                             context.pushRoute(const PlayerQueueRoute());
@@ -226,7 +226,7 @@ class PlayerView extends HookConsumerWidget {
                       const SizedBox(width: 10),
                       Expanded(
                         child: OutlineButton(
-                          leading: const Icon(SpotubeIcons.music),
+                          leading: const Icon(KelletubeIcons.music),
                           child: Text(context.l10n.lyrics),
                           onPressed: () {
                             context.pushRoute(const PlayerLyricsRoute());
@@ -261,7 +261,7 @@ class PlayerView extends HookConsumerWidget {
                         return value.copyWith(fontWeight: FontWeight.w500);
                       },
                     ),
-                    leading: const Icon(SpotubeIcons.lightningOutlined),
+                    leading: const Icon(KelletubeIcons.lightningOutlined),
                     child: Text(qualityLabel),
                   )
                 ],

@@ -1,13 +1,13 @@
 import 'package:audio_service/audio_service.dart';
 import 'package:shadcn_flutter/shadcn_flutter.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:spotube/collections/env.dart';
-import 'package:spotube/models/metadata/metadata.dart';
-import 'package:spotube/provider/audio_player/audio_player.dart';
-import 'package:spotube/services/audio_player/audio_player.dart';
-import 'package:spotube/services/audio_services/mobile_audio_service.dart';
-import 'package:spotube/services/audio_services/windows_audio_service.dart';
-import 'package:spotube/utils/platform.dart';
+import 'package:kelletube/collections/env.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
+import 'package:kelletube/provider/audio_player/audio_player.dart';
+import 'package:kelletube/services/audio_player/audio_player.dart';
+import 'package:kelletube/services/audio_services/mobile_audio_service.dart';
+import 'package:kelletube/services/audio_services/windows_audio_service.dart';
+import 'package:kelletube/utils/platform.dart';
 
 class AudioServices with WidgetsBindingObserver {
   final MobileAudioService? mobile;
@@ -29,14 +29,14 @@ class AudioServices with WidgetsBindingObserver {
                 kIsLinux,
                 Env.releaseChannel
               )) {
-                (true, _) => "spotube",
-                (_, ReleaseChannel.stable) => "oss.krtirtho.spotube",
-                (_, ReleaseChannel.nightly) => "oss.krtirtho.spotube.nightly",
+                (true, _) => "kelletube",
+                (_, ReleaseChannel.stable) => "com.kellecore.kelletube",
+                (_, ReleaseChannel.nightly) => "com.kellecore.kelletube.nightly",
               },
-              androidNotificationChannelName: 'Spotube',
+              androidNotificationChannelName: 'Kelletube',
               androidNotificationOngoing: false,
               androidStopForegroundOnPause: false,
-              androidNotificationChannelDescription: "Spotube Media Controls",
+              androidNotificationChannelDescription: "Kelletube Media Controls",
             ),
           )
         : null;
@@ -45,7 +45,7 @@ class AudioServices with WidgetsBindingObserver {
     return AudioServices(mobile, smtc);
   }
 
-  Future<void> addTrack(SpotubeTrackObject track) async {
+  Future<void> addTrack(KelletubeTrackObject track) async {
     await smtc?.addTrack(track);
     mobile?.addItem(MediaItem(
       id: track.id,

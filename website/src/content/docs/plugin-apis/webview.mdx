@@ -1,28 +1,28 @@
 ---
-layout: "layouts/DocLayout.astro"
+layout: "layouts/docLayout.astro"
 title: WebView
-description: Documentation for the WebView API for spotube plugins
+description: Documentation for the WebView API for Kelletube plugins
 order: 0
 ---
 
-The [hetu_spotube_plugin][hetu_spotube_plugin] is a built-in module that plugin developers can use in their plugins.
+The [hetu_kelletube_plugin][hetu_kelletube_plugin] is a built-in module that plugin developers can use in their plugins.
 
 ```hetu_script
-import "module:spotube_plugin" as spotube
+import "module:kelletube_plugin" as kelletube
 ```
 
 ## WebView API
 
-The WebView API allows plugins to create and manage web views within the Spotube application.
+The WebView API allows plugins to create and manage web views within the Kelletube application.
 
 ### Usage
 
 First, an WebView instance needs to be created with `uri`.
 
 ```hetu_script
-import "module:spotube_plugin" as spotube
+import "module:kelletube_plugin" as kelletube
 
-let webview = spotube.Webview(uri: "https://example.com")
+let webview = kelletube.Webview(uri: "https://example.com")
 ```
 
 To open the webview, you can use the `open` method:
@@ -67,9 +67,9 @@ To get cookies from the webview, you can use the `getCookies` method:
 webview.getCookies("https://example.com") // returns Future<List<Cookie>>
 ```
 
-You can find the [`Cookie` class][spotube_plugin_cookie] and all it's methods and properties in the
-`hetu_spotube_plugin` module source code
+You can find the [`Cookie` class][kelletube_plugin_cookie] and all it's methods and properties in the
+`hetu_kelletube_plugin` module source code
 
 {/* Links */}
-[hetu_spotube_plugin]: https://github.com/KRTirtho/hetu_spotube_plugin
-[spotube_plugin_cookie]: https://github.com/KRTirtho/hetu_spotube_plugin/blob/main/lib/assets/hetu/webview.ht
+[hetu_kelletube_plugin]: https://github.com/KRTirtho/hetu_kelletube_plugin
+[kelletube_plugin_cookie]: https://github.com/KRTirtho/hetu_kelletube_plugin/blob/main/lib/assets/hetu/webview.ht

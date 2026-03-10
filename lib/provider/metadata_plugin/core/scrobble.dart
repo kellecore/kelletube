@@ -1,12 +1,12 @@
 import 'dart:async';
 
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:spotube/models/metadata/metadata.dart';
-import 'package:spotube/provider/metadata_plugin/metadata_plugin_provider.dart';
-import 'package:spotube/services/logger/logger.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
+import 'package:kelletube/provider/metadata_plugin/metadata_plugin_provider.dart';
+import 'package:kelletube/services/logger/logger.dart';
 
 class MetadataPluginScrobbleNotifier
-    extends Notifier<StreamController<SpotubeTrackObject>?> {
+    extends Notifier<StreamController<KelletubeTrackObject>?> {
   @override
   build() {
     final metadataPlugin = ref.watch(metadataPluginProvider);
@@ -21,7 +21,7 @@ class MetadataPluginScrobbleNotifier
       return null;
     }
 
-    final controller = StreamController<SpotubeTrackObject>.broadcast();
+    final controller = StreamController<KelletubeTrackObject>.broadcast();
 
     final subscription = controller.stream.listen((event) async {
       try {
@@ -40,7 +40,7 @@ class MetadataPluginScrobbleNotifier
           },
           "timestamp": DateTime.now().millisecondsSinceEpoch ~/ 1000,
           "duration_ms": event.durationMs,
-          "isrc": event is SpotubeFullTrackObject ? event.isrc : null,
+          "isrc": event is KelletubeFullTrackObject ? event.isrc : null,
         });
       } catch (e, stack) {
         AppLogger.reportError(e, stack);
@@ -55,12 +55,12 @@ class MetadataPluginScrobbleNotifier
     return controller;
   }
 
-  void scrobble(SpotubeTrackObject track) {
+  void scrobble(KelletubeTrackObject track) {
     state?.add(track);
   }
 }
 
 final metadataPluginScrobbleProvider = NotifierProvider<
-    MetadataPluginScrobbleNotifier, StreamController<SpotubeTrackObject>?>(
+    MetadataPluginScrobbleNotifier, StreamController<KelletubeTrackObject>?>(
   MetadataPluginScrobbleNotifier.new,
 );

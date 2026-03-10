@@ -92,7 +92,7 @@ export default function ReleasesSection() {
   useEffect(() => {
     github.repos.listReleases({
       owner: "KRTirtho",
-      repo: "spotube",
+      repo: "kelletube",
 
     }).then((res) => {
       setReleases(

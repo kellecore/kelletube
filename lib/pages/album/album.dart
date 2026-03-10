@@ -2,19 +2,19 @@ import 'package:flutter/material.dart' as material;
 import 'package:auto_route/auto_route.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:shadcn_flutter/shadcn_flutter.dart';
-import 'package:spotube/components/track_presentation/presentation_props.dart';
-import 'package:spotube/components/track_presentation/track_presentation.dart';
-import 'package:spotube/extensions/context.dart';
-import 'package:spotube/models/metadata/metadata.dart';
-import 'package:spotube/provider/metadata_plugin/library/albums.dart';
-import 'package:spotube/provider/metadata_plugin/tracks/album.dart';
-import 'package:spotube/provider/metadata_plugin/utils/common.dart';
+import 'package:kelletube/components/track_presentation/presentation_props.dart';
+import 'package:kelletube/components/track_presentation/track_presentation.dart';
+import 'package:kelletube/extensions/context.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
+import 'package:kelletube/provider/metadata_plugin/library/albums.dart';
+import 'package:kelletube/provider/metadata_plugin/tracks/album.dart';
+import 'package:kelletube/provider/metadata_plugin/utils/common.dart';
 
 @RoutePage()
 class AlbumPage extends HookConsumerWidget {
   static const name = "album";
 
-  final SpotubeSimpleAlbumObject album;
+  final KelletubeSimpleAlbumObject album;
   final String id;
   const AlbumPage({
     super.key,

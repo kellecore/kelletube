@@ -1,22 +1,22 @@
-import 'package:spotube/models/database/database.dart';
-import 'package:spotube/models/metadata/metadata.dart';
-import 'package:spotube/provider/history/summary.dart';
+import 'package:kelletube/models/database/database.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
+import 'package:kelletube/provider/history/summary.dart';
 
 abstract class FakeData {
-  static final SpotubeImageObject image = SpotubeImageObject(
+  static final KelletubeImageObject image = KelletubeImageObject(
     height: 100,
     width: 100,
     url: "https://dummyimage.com/100x100/cfcfcf/cfcfcf.jpg",
   );
 
-  static final SpotubeFullArtistObject artist = SpotubeFullArtistObject(
+  static final KelletubeFullArtistObject artist = KelletubeFullArtistObject(
     id: "1",
     name: "What an artist",
     externalUri: "https://example.com",
     followers: 10000,
     genres: ["genre"],
     images: [
-      SpotubeImageObject(
+      KelletubeImageObject(
         height: 100,
         width: 100,
         url: "https://dummyimage.com/100x100/cfcfcf/cfcfcf.jpg",
@@ -24,36 +24,36 @@ abstract class FakeData {
     ],
   );
 
-  static final SpotubeFullAlbumObject album = SpotubeFullAlbumObject(
+  static final KelletubeFullAlbumObject album = KelletubeFullAlbumObject(
     id: "1",
     name: "A good album",
     externalUri: "https://example.com",
     artists: [artistSimple],
     releaseDate: "2021-01-01",
-    albumType: SpotubeAlbumType.album,
+    albumType: KelletubeAlbumType.album,
     images: [image],
     totalTracks: 10,
     genres: ["genre"],
     recordLabel: "Record Label",
   );
 
-  static final SpotubeSimpleArtistObject artistSimple =
-      SpotubeSimpleArtistObject(
+  static final KelletubeSimpleArtistObject artistSimple =
+      KelletubeSimpleArtistObject(
     id: "1",
     name: "What an artist",
     externalUri: "https://example.com",
     images: null,
   );
 
-  static final SpotubeSimpleAlbumObject albumSimple = SpotubeSimpleAlbumObject(
-    albumType: SpotubeAlbumType.album,
+  static final KelletubeSimpleAlbumObject albumSimple = KelletubeSimpleAlbumObject(
+    albumType: KelletubeAlbumType.album,
     artists: [],
     externalUri: "https://example.com",
     id: "1",
     name: "A good album",
     releaseDate: "2021-01-01",
     images: [
-      SpotubeImageObject(
+      KelletubeImageObject(
         height: 1,
         width: 1,
         url: "https://dummyimage.com/100x100/cfcfcf/cfcfcf.jpg",
@@ -61,7 +61,7 @@ abstract class FakeData {
     ],
   );
 
-  static final SpotubeFullTrackObject track = SpotubeTrackObject.full(
+  static final KelletubeFullTrackObject track = KelletubeTrackObject.full(
     id: "1",
     name: "A good track",
     externalUri: "https://example.com",
@@ -69,16 +69,16 @@ abstract class FakeData {
     durationMs: 3 * 60 * 1000, // 3 minutes
     isrc: "USUM72112345",
     explicit: false,
-  ) as SpotubeFullTrackObject;
+  ) as KelletubeFullTrackObject;
 
-  static final SpotubeUserObject user = SpotubeUserObject(
+  static final KelletubeUserObject user = KelletubeUserObject(
     id: "1",
     name: "User Name",
     externalUri: "https://example.com",
     images: [image],
   );
 
-  static final SpotubeFullPlaylistObject playlist = SpotubeFullPlaylistObject(
+  static final KelletubeFullPlaylistObject playlist = KelletubeFullPlaylistObject(
       id: "1",
       name: "A good playlist",
       description: "A very good playlist description",
@@ -89,8 +89,8 @@ abstract class FakeData {
       images: [image],
       collaborators: [user]);
 
-  static final SpotubeSimplePlaylistObject playlistSimple =
-      SpotubeSimplePlaylistObject(
+  static final KelletubeSimplePlaylistObject playlistSimple =
+      KelletubeSimplePlaylistObject(
     id: "1",
     name: "A good playlist",
     description: "A very good playlist description",
@@ -99,8 +99,8 @@ abstract class FakeData {
     images: [image],
   );
 
-  static final SpotubeBrowseSectionObject browseSection =
-      SpotubeBrowseSectionObject(
+  static final KelletubeBrowseSectionObject browseSection =
+      KelletubeBrowseSectionObject(
           id: "section-id",
           title: "Browse Section",
           browseMore: true,

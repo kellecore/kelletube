@@ -1,4 +1,4 @@
-import 'package:hetu_spotube_plugin/hetu_spotube_plugin.dart';
+import 'package:hetu_kelletube_plugin/hetu_kelletube_plugin.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SharedPreferencesLocalStorage implements Localstorage {
@@ -8,7 +8,7 @@ class SharedPreferencesLocalStorage implements Localstorage {
   SharedPreferencesLocalStorage(this._prefs, this.pluginSlug);
 
   String prefix(String key) {
-    return 'spotube_plugin.$pluginSlug.$key';
+    return 'kelletube_plugin.$pluginSlug.$key';
   }
 
   @override

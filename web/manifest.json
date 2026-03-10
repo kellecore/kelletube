@@ -1,6 +1,6 @@
 {
-    "name": "spotube",
-    "short_name": "spotube",
+    "name": "kelletube",
+    "short_name": "kelletube",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

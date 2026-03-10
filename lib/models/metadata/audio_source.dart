@@ -2,33 +2,33 @@ part of 'metadata.dart';
 
 final oneOptionalDecimalFormatter = NumberFormat('0.#', 'en_US');
 
-enum SpotubeMediaCompressionType {
+enum KelletubeMediaCompressionType {
   lossy,
   lossless,
 }
 
 @Freezed(unionKey: 'type')
-class SpotubeAudioSourceContainerPreset
-    with _$SpotubeAudioSourceContainerPreset {
-  const SpotubeAudioSourceContainerPreset._();
+class KelletubeAudioSourceContainerPreset
+    with _$KelletubeAudioSourceContainerPreset {
+  const KelletubeAudioSourceContainerPreset._();
 
   @FreezedUnionValue("lossy")
-  factory SpotubeAudioSourceContainerPreset.lossy({
-    required SpotubeMediaCompressionType type,
+  factory KelletubeAudioSourceContainerPreset.lossy({
+    required KelletubeMediaCompressionType type,
     required String name,
-    required List<SpotubeAudioLossyContainerQuality> qualities,
-  }) = SpotubeAudioSourceContainerPresetLossy;
+    required List<KelletubeAudioLossyContainerQuality> qualities,
+  }) = KelletubeAudioSourceContainerPresetLossy;
 
   @FreezedUnionValue("lossless")
-  factory SpotubeAudioSourceContainerPreset.lossless({
-    required SpotubeMediaCompressionType type,
+  factory KelletubeAudioSourceContainerPreset.lossless({
+    required KelletubeMediaCompressionType type,
     required String name,
-    required List<SpotubeAudioLosslessContainerQuality> qualities,
-  }) = SpotubeAudioSourceContainerPresetLossless;
+    required List<KelletubeAudioLosslessContainerQuality> qualities,
+  }) = KelletubeAudioSourceContainerPresetLossless;
 
-  factory SpotubeAudioSourceContainerPreset.fromJson(
+  factory KelletubeAudioSourceContainerPreset.fromJson(
           Map<String, dynamic> json) =>
-      _$SpotubeAudioSourceContainerPresetFromJson(json);
+      _$KelletubeAudioSourceContainerPresetFromJson(json);
 
   String getFileExtension() {
     return switch (name) {
@@ -40,17 +40,17 @@ class SpotubeAudioSourceContainerPreset
 }
 
 @freezed
-class SpotubeAudioLossyContainerQuality
-    with _$SpotubeAudioLossyContainerQuality {
-  const SpotubeAudioLossyContainerQuality._();
+class KelletubeAudioLossyContainerQuality
+    with _$KelletubeAudioLossyContainerQuality {
+  const KelletubeAudioLossyContainerQuality._();
 
-  factory SpotubeAudioLossyContainerQuality({
+  factory KelletubeAudioLossyContainerQuality({
     required int bitrate, // bits per second
-  }) = _SpotubeAudioLossyContainerQuality;
+  }) = _KelletubeAudioLossyContainerQuality;
 
-  factory SpotubeAudioLossyContainerQuality.fromJson(
+  factory KelletubeAudioLossyContainerQuality.fromJson(
           Map<String, dynamic> json) =>
-      _$SpotubeAudioLossyContainerQualityFromJson(json);
+      _$KelletubeAudioLossyContainerQualityFromJson(json);
 
   @override
   toString() {
@@ -59,18 +59,18 @@ class SpotubeAudioLossyContainerQuality
 }
 
 @freezed
-class SpotubeAudioLosslessContainerQuality
-    with _$SpotubeAudioLosslessContainerQuality {
-  const SpotubeAudioLosslessContainerQuality._();
+class KelletubeAudioLosslessContainerQuality
+    with _$KelletubeAudioLosslessContainerQuality {
+  const KelletubeAudioLosslessContainerQuality._();
 
-  factory SpotubeAudioLosslessContainerQuality({
+  factory KelletubeAudioLosslessContainerQuality({
     required int bitDepth, // bit
     required int sampleRate, // hz
-  }) = _SpotubeAudioLosslessContainerQuality;
+  }) = _KelletubeAudioLosslessContainerQuality;
 
-  factory SpotubeAudioLosslessContainerQuality.fromJson(
+  factory KelletubeAudioLosslessContainerQuality.fromJson(
           Map<String, dynamic> json) =>
-      _$SpotubeAudioLosslessContainerQualityFromJson(json);
+      _$KelletubeAudioLosslessContainerQualityFromJson(json);
 
   @override
   toString() {
@@ -79,32 +79,32 @@ class SpotubeAudioLosslessContainerQuality
 }
 
 @freezed
-class SpotubeAudioSourceMatchObject with _$SpotubeAudioSourceMatchObject {
-  factory SpotubeAudioSourceMatchObject({
+class KelletubeAudioSourceMatchObject with _$KelletubeAudioSourceMatchObject {
+  factory KelletubeAudioSourceMatchObject({
     required String id,
     required String title,
     required List<String> artists,
     required Duration duration,
     String? thumbnail,
     required String externalUri,
-  }) = _SpotubeAudioSourceMatchObject;
+  }) = _KelletubeAudioSourceMatchObject;
 
-  factory SpotubeAudioSourceMatchObject.fromJson(Map<String, dynamic> json) =>
-      _$SpotubeAudioSourceMatchObjectFromJson(json);
+  factory KelletubeAudioSourceMatchObject.fromJson(Map<String, dynamic> json) =>
+      _$KelletubeAudioSourceMatchObjectFromJson(json);
 }
 
 @freezed
-class SpotubeAudioSourceStreamObject with _$SpotubeAudioSourceStreamObject {
-  factory SpotubeAudioSourceStreamObject({
+class KelletubeAudioSourceStreamObject with _$KelletubeAudioSourceStreamObject {
+  factory KelletubeAudioSourceStreamObject({
     required String url,
     required String container,
-    required SpotubeMediaCompressionType type,
+    required KelletubeMediaCompressionType type,
     String? codec,
     double? bitrate,
     int? bitDepth,
     double? sampleRate,
-  }) = _SpotubeAudioSourceStreamObject;
+  }) = _KelletubeAudioSourceStreamObject;
 
-  factory SpotubeAudioSourceStreamObject.fromJson(Map<String, dynamic> json) =>
-      _$SpotubeAudioSourceStreamObjectFromJson(json);
+  factory KelletubeAudioSourceStreamObject.fromJson(Map<String, dynamic> json) =>
+      _$KelletubeAudioSourceStreamObjectFromJson(json);
 }

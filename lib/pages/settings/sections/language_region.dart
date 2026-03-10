@@ -1,16 +1,16 @@
 import 'package:collection/collection.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:shadcn_flutter/shadcn_flutter.dart';
-import 'package:spotube/collections/language_codes.dart';
-import 'package:spotube/collections/markets.dart';
-import 'package:spotube/collections/spotube_icons.dart';
-import 'package:spotube/models/metadata/market.dart';
-import 'package:spotube/modules/settings/section_card_with_heading.dart';
-import 'package:spotube/components/adaptive/adaptive_select_tile.dart';
-import 'package:spotube/extensions/constrains.dart';
-import 'package:spotube/extensions/context.dart';
-import 'package:spotube/l10n/l10n.dart';
-import 'package:spotube/provider/user_preferences/user_preferences_provider.dart';
+import 'package:kelletube/collections/language_codes.dart';
+import 'package:kelletube/collections/markets.dart';
+import 'package:kelletube/collections/kelletube_icons.dart';
+import 'package:kelletube/models/metadata/market.dart';
+import 'package:kelletube/modules/settings/section_card_with_heading.dart';
+import 'package:kelletube/components/adaptive/adaptive_select_tile.dart';
+import 'package:kelletube/extensions/constrains.dart';
+import 'package:kelletube/extensions/context.dart';
+import 'package:kelletube/l10n/l10n.dart';
+import 'package:kelletube/provider/user_preferences/user_preferences_provider.dart';
 
 final localWithName = L10n.all.map((e) {
   final isoCodeName =
@@ -40,7 +40,7 @@ class SettingsLanguageRegionSection extends HookConsumerWidget {
             preferencesNotifier.setLocale(locale);
           },
           title: Text(context.l10n.language),
-          secondary: const Icon(SpotubeIcons.language),
+          secondary: const Icon(KelletubeIcons.language),
           options: [
             SelectItemButton(
               value: const Locale("system", "system"),
@@ -52,7 +52,7 @@ class SettingsLanguageRegionSection extends HookConsumerWidget {
         ),
         AdaptiveSelectTile<Market>(
           breakLayout: mediaQuery.lgAndUp,
-          secondary: const Icon(SpotubeIcons.shoppingBag),
+          secondary: const Icon(KelletubeIcons.shoppingBag),
           title: Text(context.l10n.market_place_region),
           subtitle: Text(context.l10n.recommendation_country),
           value: preferences.market,

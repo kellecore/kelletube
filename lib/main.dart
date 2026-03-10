@@ -16,37 +16,37 @@ import 'package:local_notifier/local_notifier.dart';
 import 'package:media_kit/media_kit.dart';
 import 'package:metadata_god/metadata_god.dart';
 import 'package:smtc_windows/smtc_windows.dart';
-import 'package:spotube/collections/env.dart';
-import 'package:spotube/collections/http-override.dart';
-import 'package:spotube/collections/intents.dart';
-import 'package:spotube/collections/routes.dart';
-import 'package:spotube/hooks/configurators/use_close_behavior.dart';
-import 'package:spotube/hooks/configurators/use_deep_linking.dart';
-import 'package:spotube/hooks/configurators/use_disable_battery_optimizations.dart';
-import 'package:spotube/hooks/configurators/use_fix_window_stretching.dart';
-import 'package:spotube/hooks/configurators/use_get_storage_perms.dart';
-import 'package:spotube/hooks/configurators/use_has_touch.dart';
-import 'package:spotube/models/database/database.dart';
-import 'package:spotube/modules/settings/color_scheme_picker_dialog.dart';
-import 'package:spotube/provider/audio_player/audio_player_streams.dart';
-import 'package:spotube/provider/database/database.dart';
-import 'package:spotube/provider/glance/glance.dart';
-import 'package:spotube/provider/metadata_plugin/metadata_plugin_provider.dart';
-import 'package:spotube/provider/metadata_plugin/updater/update_checker.dart';
-import 'package:spotube/provider/server/bonsoir.dart';
-import 'package:spotube/provider/server/server.dart';
-import 'package:spotube/provider/tray_manager/tray_manager.dart';
-import 'package:spotube/l10n/l10n.dart';
-import 'package:spotube/provider/connect/clients.dart';
-import 'package:spotube/provider/user_preferences/user_preferences_provider.dart';
-import 'package:spotube/services/audio_player/audio_player.dart';
-import 'package:spotube/services/cli/cli.dart';
-import 'package:spotube/services/kv_store/encrypted_kv_store.dart';
-import 'package:spotube/services/kv_store/kv_store.dart';
-import 'package:spotube/services/logger/logger.dart';
-import 'package:spotube/services/wm_tools/wm_tools.dart';
-import 'package:spotube/utils/migrations/sandbox.dart';
-import 'package:spotube/utils/platform.dart';
+import 'package:kelletube/collections/env.dart';
+import 'package:kelletube/collections/http-override.dart';
+import 'package:kelletube/collections/intents.dart';
+import 'package:kelletube/collections/routes.dart';
+import 'package:kelletube/hooks/configurators/use_close_behavior.dart';
+import 'package:kelletube/hooks/configurators/use_deep_linking.dart';
+import 'package:kelletube/hooks/configurators/use_disable_battery_optimizations.dart';
+import 'package:kelletube/hooks/configurators/use_fix_window_stretching.dart';
+import 'package:kelletube/hooks/configurators/use_get_storage_perms.dart';
+import 'package:kelletube/hooks/configurators/use_has_touch.dart';
+import 'package:kelletube/models/database/database.dart';
+import 'package:kelletube/modules/settings/color_scheme_picker_dialog.dart';
+import 'package:kelletube/provider/audio_player/audio_player_streams.dart';
+import 'package:kelletube/provider/database/database.dart';
+import 'package:kelletube/provider/glance/glance.dart';
+import 'package:kelletube/provider/metadata_plugin/metadata_plugin_provider.dart';
+import 'package:kelletube/provider/metadata_plugin/updater/update_checker.dart';
+import 'package:kelletube/provider/server/bonsoir.dart';
+import 'package:kelletube/provider/server/server.dart';
+import 'package:kelletube/provider/tray_manager/tray_manager.dart';
+import 'package:kelletube/l10n/l10n.dart';
+import 'package:kelletube/provider/connect/clients.dart';
+import 'package:kelletube/provider/user_preferences/user_preferences_provider.dart';
+import 'package:kelletube/services/audio_player/audio_player.dart';
+import 'package:kelletube/services/cli/cli.dart';
+import 'package:kelletube/services/kv_store/encrypted_kv_store.dart';
+import 'package:kelletube/services/kv_store/kv_store.dart';
+import 'package:kelletube/services/logger/logger.dart';
+import 'package:kelletube/services/wm_tools/wm_tools.dart';
+import 'package:kelletube/utils/migrations/sandbox.dart';
+import 'package:kelletube/utils/platform.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:flutter_displaymode/flutter_displaymode.dart';
 import 'package:timezone/data/latest.dart' as tz;
@@ -114,12 +114,12 @@ Future<void> main(List<String> rawArgs) async {
     final database = AppDatabase();
 
     if (kIsDesktop) {
-      await localNotifier.setup(appName: "Spotube");
+      await localNotifier.setup(appName: "Kelletube");
       await WindowManagerTools.initialize();
     }
 
     if (kIsIOS) {
-      HomeWidget.setAppGroupId("group.spotube_home_player_widget");
+      HomeWidget.setAppGroupId("group.kelletube_home_player_widget");
     }
 
     runApp(
@@ -130,14 +130,14 @@ Future<void> main(List<String> rawArgs) async {
         observers: const [
           AppLoggerProviderObserver(),
         ],
-        child: const Spotube(),
+        child: const Kelletube(),
       ),
     );
   });
 }
 
-class Spotube extends HookConsumerWidget {
-  const Spotube({super.key});
+class Kelletube extends HookConsumerWidget {
+  const Kelletube({super.key});
 
   @override
   Widget build(BuildContext context, ref) {
@@ -191,7 +191,7 @@ class Spotube extends HookConsumerWidget {
       ],
       routerConfig: router.config(),
       debugShowCheckedModeBanner: false,
-      title: 'Spotube',
+      title: 'Kelletube',
       builder: (context, child) {
         child = ScrollConfiguration(
           behavior: ScrollConfiguration.of(context).copyWith(

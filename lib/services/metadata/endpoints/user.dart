@@ -1,6 +1,6 @@
 import 'package:hetu_script/hetu_script.dart';
 import 'package:hetu_script/values.dart';
-import 'package:spotube/models/metadata/metadata.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
 
 class MetadataPluginUserEndpoint {
   final Hetu hetu;
@@ -10,15 +10,15 @@ class MetadataPluginUserEndpoint {
       (hetu.fetch("metadataPlugin") as HTInstance).memberGet("user")
           as HTInstance;
 
-  Future<SpotubeUserObject> me() async {
+  Future<KelletubeUserObject> me() async {
     final raw = await hetuMetadataUser.invoke("me") as Map;
 
-    return SpotubeUserObject.fromJson(
+    return KelletubeUserObject.fromJson(
       raw.cast<String, dynamic>(),
     );
   }
 
-  Future<SpotubePaginationResponseObject<SpotubeFullTrackObject>> savedTracks({
+  Future<KelletubePaginationResponseObject<KelletubeFullTrackObject>> savedTracks({
     int? offset,
     int? limit,
   }) async {
@@ -30,14 +30,14 @@ class MetadataPluginUserEndpoint {
       }..removeWhere((key, value) => value == null),
     ) as Map;
 
-    return SpotubePaginationResponseObject<SpotubeFullTrackObject>.fromJson(
+    return KelletubePaginationResponseObject<KelletubeFullTrackObject>.fromJson(
       raw.cast<String, dynamic>(),
       (Map json) =>
-          SpotubeFullTrackObject.fromJson(json.cast<String, dynamic>()),
+          KelletubeFullTrackObject.fromJson(json.cast<String, dynamic>()),
     );
   }
 
-  Future<SpotubePaginationResponseObject<SpotubeSimplePlaylistObject>>
+  Future<KelletubePaginationResponseObject<KelletubeSimplePlaylistObject>>
       savedPlaylists({
     int? offset,
     int? limit,
@@ -50,15 +50,15 @@ class MetadataPluginUserEndpoint {
       }..removeWhere((key, value) => value == null),
     ) as Map;
 
-    return SpotubePaginationResponseObject<
-        SpotubeSimplePlaylistObject>.fromJson(
+    return KelletubePaginationResponseObject<
+        KelletubeSimplePlaylistObject>.fromJson(
       raw.cast<String, dynamic>(),
       (Map json) =>
-          SpotubeSimplePlaylistObject.fromJson(json.cast<String, dynamic>()),
+          KelletubeSimplePlaylistObject.fromJson(json.cast<String, dynamic>()),
     );
   }
 
-  Future<SpotubePaginationResponseObject<SpotubeSimpleAlbumObject>>
+  Future<KelletubePaginationResponseObject<KelletubeSimpleAlbumObject>>
       savedAlbums({
     int? offset,
     int? limit,
@@ -71,14 +71,14 @@ class MetadataPluginUserEndpoint {
       }..removeWhere((key, value) => value == null),
     ) as Map;
 
-    return SpotubePaginationResponseObject<SpotubeSimpleAlbumObject>.fromJson(
+    return KelletubePaginationResponseObject<KelletubeSimpleAlbumObject>.fromJson(
       raw.cast<String, dynamic>(),
       (Map json) =>
-          SpotubeSimpleAlbumObject.fromJson(json.cast<String, dynamic>()),
+          KelletubeSimpleAlbumObject.fromJson(json.cast<String, dynamic>()),
     );
   }
 
-  Future<SpotubePaginationResponseObject<SpotubeFullArtistObject>>
+  Future<KelletubePaginationResponseObject<KelletubeFullArtistObject>>
       savedArtists({
     int? offset,
     int? limit,
@@ -91,10 +91,10 @@ class MetadataPluginUserEndpoint {
       }..removeWhere((key, value) => value == null),
     ) as Map;
 
-    return SpotubePaginationResponseObject<SpotubeFullArtistObject>.fromJson(
+    return KelletubePaginationResponseObject<KelletubeFullArtistObject>.fromJson(
       raw.cast<String, dynamic>(),
       (Map json) =>
-          SpotubeFullArtistObject.fromJson(json.cast<String, dynamic>()),
+          KelletubeFullArtistObject.fromJson(json.cast<String, dynamic>()),
     );
   }
 

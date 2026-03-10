@@ -14,20 +14,20 @@ import 'package:flutter/widgets.dart';
 class $AssetsBrandingGen {
   const $AssetsBrandingGen();
 
-  /// File path: assets/branding/spotube-logo-light.png
-  AssetGenImage get spotubeLogoLight =>
-      const AssetGenImage('assets/branding/spotube-logo-light.png');
+  /// File path: assets/branding/kelletube-logo-light.png
+  AssetGenImage get kelletubeLogoLight =>
+      const AssetGenImage('assets/branding/kelletube-logo-light.png');
 
-  /// File path: assets/branding/spotube-logo.ico
-  String get spotubeLogoIco => 'assets/branding/spotube-logo.ico';
+  /// File path: assets/branding/kelletube-logo.ico
+  String get kelletubeLogoIco => 'assets/branding/kelletube-logo.ico';
 
-  /// File path: assets/branding/spotube-logo.png
-  AssetGenImage get spotubeLogoPng =>
-      const AssetGenImage('assets/branding/spotube-logo.png');
+  /// File path: assets/branding/kelletube-logo.png
+  AssetGenImage get kelletubeLogoPng =>
+      const AssetGenImage('assets/branding/kelletube-logo.png');
 
   /// List of all assets
   List<dynamic> get values =>
-      [spotubeLogoLight, spotubeLogoIco, spotubeLogoPng];
+      [kelletubeLogoLight, kelletubeLogoIco, kelletubeLogoPng];
 }
 
 class $AssetsImagesGen {
@@ -69,14 +69,14 @@ class $AssetsImagesGen {
 class $AssetsPluginsGen {
   const $AssetsPluginsGen();
 
-  /// Directory path: assets/plugins/spotube-plugin-musicbrainz-listenbrainz
-  $AssetsPluginsSpotubePluginMusicbrainzListenbrainzGen
-      get spotubePluginMusicbrainzListenbrainz =>
-          const $AssetsPluginsSpotubePluginMusicbrainzListenbrainzGen();
+  /// Directory path: assets/plugins/kelletube-plugin-musicbrainz-listenbrainz
+  $AssetsPluginsKelletubePluginMusicbrainzListenbrainzGen
+      get kelletubePluginMusicbrainzListenbrainz =>
+          const $AssetsPluginsKelletubePluginMusicbrainzListenbrainzGen();
 
-  /// Directory path: assets/plugins/spotube-plugin-youtube-audio
-  $AssetsPluginsSpotubePluginYoutubeAudioGen get spotubePluginYoutubeAudio =>
-      const $AssetsPluginsSpotubePluginYoutubeAudioGen();
+  /// Directory path: assets/plugins/kelletube-plugin-youtube-audio
+  $AssetsPluginsKelletubePluginYoutubeAudioGen get kelletubePluginYoutubeAudio =>
+      const $AssetsPluginsKelletubePluginYoutubeAudioGen();
 }
 
 class $AssetsImagesLogosGen {
@@ -98,23 +98,23 @@ class $AssetsImagesLogosGen {
   List<AssetGenImage> get values => [dabMusic, invidious, jiosaavn];
 }
 
-class $AssetsPluginsSpotubePluginMusicbrainzListenbrainzGen {
-  const $AssetsPluginsSpotubePluginMusicbrainzListenbrainzGen();
+class $AssetsPluginsKelletubePluginMusicbrainzListenbrainzGen {
+  const $AssetsPluginsKelletubePluginMusicbrainzListenbrainzGen();
 
-  /// File path: assets/plugins/spotube-plugin-musicbrainz-listenbrainz/plugin.smplug
+  /// File path: assets/plugins/kelletube-plugin-musicbrainz-listenbrainz/plugin.smplug
   String get plugin =>
-      'assets/plugins/spotube-plugin-musicbrainz-listenbrainz/plugin.smplug';
+      'assets/plugins/kelletube-plugin-musicbrainz-listenbrainz/plugin.smplug';
 
   /// List of all assets
   List<String> get values => [plugin];
 }
 
-class $AssetsPluginsSpotubePluginYoutubeAudioGen {
-  const $AssetsPluginsSpotubePluginYoutubeAudioGen();
+class $AssetsPluginsKelletubePluginYoutubeAudioGen {
+  const $AssetsPluginsKelletubePluginYoutubeAudioGen();
 
-  /// File path: assets/plugins/spotube-plugin-youtube-audio/plugin.smplug
+  /// File path: assets/plugins/kelletube-plugin-youtube-audio/plugin.smplug
   String get plugin =>
-      'assets/plugins/spotube-plugin-youtube-audio/plugin.smplug';
+      'assets/plugins/kelletube-plugin-youtube-audio/plugin.smplug';
 
   /// List of all assets
   List<String> get values => [plugin];

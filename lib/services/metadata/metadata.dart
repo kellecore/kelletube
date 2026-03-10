@@ -3,29 +3,29 @@ import 'dart:typed_data';
 import 'package:auto_route/auto_route.dart';
 import 'package:hetu_otp_util/hetu_otp_util.dart';
 import 'package:hetu_script/hetu_script.dart';
-import 'package:hetu_spotube_plugin/hetu_spotube_plugin.dart' as spotube_plugin;
-import 'package:hetu_spotube_plugin/hetu_spotube_plugin.dart'
+import 'package:hetu_kelletube_plugin/hetu_kelletube_plugin.dart' as kelletube_plugin;
+import 'package:hetu_kelletube_plugin/hetu_kelletube_plugin.dart'
     hide YouTubeEngine;
 import 'package:hetu_std/hetu_std.dart';
 import 'package:pub_semver/pub_semver.dart';
 import 'package:shadcn_flutter/shadcn_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:spotube/collections/routes.dart';
-import 'package:spotube/collections/routes.gr.dart';
-import 'package:spotube/components/titlebar/titlebar.dart';
-import 'package:spotube/models/metadata/metadata.dart';
-import 'package:spotube/services/metadata/apis/localstorage.dart';
-import 'package:spotube/services/metadata/endpoints/album.dart';
-import 'package:spotube/services/metadata/endpoints/artist.dart';
-import 'package:spotube/services/metadata/endpoints/audio_source.dart';
-import 'package:spotube/services/metadata/endpoints/auth.dart';
-import 'package:spotube/services/metadata/endpoints/browse.dart';
-import 'package:spotube/services/metadata/endpoints/playlist.dart';
-import 'package:spotube/services/metadata/endpoints/search.dart';
-import 'package:spotube/services/metadata/endpoints/track.dart';
-import 'package:spotube/services/metadata/endpoints/core.dart';
-import 'package:spotube/services/metadata/endpoints/user.dart';
-import 'package:spotube/services/youtube_engine/youtube_engine.dart';
+import 'package:kelletube/collections/routes.dart';
+import 'package:kelletube/collections/routes.gr.dart';
+import 'package:kelletube/components/titlebar/titlebar.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
+import 'package:kelletube/services/metadata/apis/localstorage.dart';
+import 'package:kelletube/services/metadata/endpoints/album.dart';
+import 'package:kelletube/services/metadata/endpoints/artist.dart';
+import 'package:kelletube/services/metadata/endpoints/audio_source.dart';
+import 'package:kelletube/services/metadata/endpoints/auth.dart';
+import 'package:kelletube/services/metadata/endpoints/browse.dart';
+import 'package:kelletube/services/metadata/endpoints/playlist.dart';
+import 'package:kelletube/services/metadata/endpoints/search.dart';
+import 'package:kelletube/services/metadata/endpoints/track.dart';
+import 'package:kelletube/services/metadata/endpoints/core.dart';
+import 'package:kelletube/services/metadata/endpoints/user.dart';
+import 'package:kelletube/services/youtube_engine/youtube_engine.dart';
 
 const defaultMetadataLimit = "20";
 
@@ -44,7 +44,7 @@ class MetadataPlugin {
     hetu.init();
 
     HetuStdLoader.loadBindings(hetu);
-    HetuSpotubePluginLoader.loadBindings(
+    HetuKelletubePluginLoader.loadBindings(
       hetu,
       localStorageImpl: SharedPreferencesLocalStorage(
         sharedPreferences,
@@ -82,7 +82,7 @@ class MetadataPlugin {
         );
       },
       createYoutubeEngine: () {
-        return spotube_plugin.YouTubeEngine(
+        return kelletube_plugin.YouTubeEngine(
           search: (query) async {
             final result = await youtubeEngine.searchVideos(query);
             return result
@@ -137,7 +137,7 @@ class MetadataPlugin {
 
     await HetuStdLoader.loadBytecodeFlutter(hetu);
     await HetuOtpUtilLoader.loadBytecodeFlutter(hetu);
-    await HetuSpotubePluginLoader.loadBytecodeFlutter(hetu);
+    await HetuKelletubePluginLoader.loadBytecodeFlutter(hetu);
 
     hetu.loadBytecode(bytes: byteCode, moduleName: "plugin");
     hetu.eval("""

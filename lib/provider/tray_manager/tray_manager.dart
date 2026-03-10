@@ -1,7 +1,7 @@
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:spotube/provider/tray_manager/tray_menu.dart';
-import 'package:spotube/provider/user_preferences/user_preferences_provider.dart';
-import 'package:spotube/utils/platform.dart';
+import 'package:kelletube/provider/tray_manager/tray_menu.dart';
+import 'package:kelletube/provider/user_preferences/user_preferences_provider.dart';
+import 'package:kelletube/utils/platform.dart';
 import 'package:tray_manager/tray_manager.dart';
 import 'package:window_manager/window_manager.dart';
 
@@ -22,10 +22,10 @@ class SystemTrayManager with TrayListener {
     if (enabled) {
       await trayManager.setIcon(
         kIsWindows
-            ? 'assets/branding/spotube-logo.ico'
+            ? 'assets/branding/kelletube-logo.ico'
             : kIsFlatpak
-                ? 'com.github.KRTirtho.Spotube'
-                : 'assets/branding/spotube-logo.png',
+                ? 'com.github.Kellecore.Kelletube'
+                : 'assets/branding/kelletube-logo.png',
       );
       trayManager.addListener(this);
     } else {

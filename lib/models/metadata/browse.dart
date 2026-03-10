@@ -1,20 +1,20 @@
 part of 'metadata.dart';
 
 @Freezed(genericArgumentFactories: true)
-class SpotubeBrowseSectionObject<T> with _$SpotubeBrowseSectionObject<T> {
-  factory SpotubeBrowseSectionObject({
+class KelletubeBrowseSectionObject<T> with _$KelletubeBrowseSectionObject<T> {
+  factory KelletubeBrowseSectionObject({
     required String id,
     required String title,
     required String externalUri,
     required bool browseMore,
     required List<T> items,
-  }) = _SpotubeBrowseSectionObject<T>;
+  }) = _KelletubeBrowseSectionObject<T>;
 
-  factory SpotubeBrowseSectionObject.fromJson(
+  factory KelletubeBrowseSectionObject.fromJson(
     Map<String, Object?> json,
     T Function(Map<String, dynamic> json) fromJsonT,
   ) =>
-      _$SpotubeBrowseSectionObjectFromJson<T>(
+      _$KelletubeBrowseSectionObjectFromJson<T>(
         json,
         (json) => fromJsonT(json as Map<String, dynamic>),
       );

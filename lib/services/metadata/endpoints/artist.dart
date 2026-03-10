@@ -1,6 +1,6 @@
 import 'package:hetu_script/hetu_script.dart';
 import 'package:hetu_script/values.dart';
-import 'package:spotube/models/metadata/metadata.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
 
 class MetadataPluginArtistEndpoint {
   final Hetu hetu;
@@ -10,16 +10,16 @@ class MetadataPluginArtistEndpoint {
       (hetu.fetch("metadataPlugin") as HTInstance).memberGet("artist")
           as HTInstance;
 
-  Future<SpotubeFullArtistObject> getArtist(String id) async {
+  Future<KelletubeFullArtistObject> getArtist(String id) async {
     final raw = await hetuMetadataArtist
         .invoke("getArtist", positionalArgs: [id]) as Map;
 
-    return SpotubeFullArtistObject.fromJson(
+    return KelletubeFullArtistObject.fromJson(
       raw.cast<String, dynamic>(),
     );
   }
 
-  Future<SpotubePaginationResponseObject<SpotubeFullTrackObject>> topTracks(
+  Future<KelletubePaginationResponseObject<KelletubeFullTrackObject>> topTracks(
     String id, {
     int? offset,
     int? limit,
@@ -33,15 +33,15 @@ class MetadataPluginArtistEndpoint {
       }..removeWhere((key, value) => value == null),
     ) as Map;
 
-    return SpotubePaginationResponseObject<SpotubeFullTrackObject>.fromJson(
+    return KelletubePaginationResponseObject<KelletubeFullTrackObject>.fromJson(
       raw.cast<String, dynamic>(),
-      (Map json) => SpotubeFullTrackObject.fromJson(
+      (Map json) => KelletubeFullTrackObject.fromJson(
         json.cast<String, dynamic>(),
       ),
     );
   }
 
-  Future<SpotubePaginationResponseObject<SpotubeSimpleAlbumObject>> albums(
+  Future<KelletubePaginationResponseObject<KelletubeSimpleAlbumObject>> albums(
     String id, {
     int? offset,
     int? limit,
@@ -55,9 +55,9 @@ class MetadataPluginArtistEndpoint {
       }..removeWhere((key, value) => value == null),
     ) as Map;
 
-    return SpotubePaginationResponseObject<SpotubeSimpleAlbumObject>.fromJson(
+    return KelletubePaginationResponseObject<KelletubeSimpleAlbumObject>.fromJson(
       raw.cast<String, dynamic>(),
-      (Map json) => SpotubeSimpleAlbumObject.fromJson(
+      (Map json) => KelletubeSimpleAlbumObject.fromJson(
         json.cast<String, dynamic>(),
       ),
     );
@@ -77,7 +77,7 @@ class MetadataPluginArtistEndpoint {
     );
   }
 
-  Future<SpotubePaginationResponseObject<SpotubeFullArtistObject>> related(
+  Future<KelletubePaginationResponseObject<KelletubeFullArtistObject>> related(
     String id, {
     int? offset,
     int? limit,
@@ -91,9 +91,9 @@ class MetadataPluginArtistEndpoint {
       }..removeWhere((key, value) => value == null),
     ) as Map;
 
-    return SpotubePaginationResponseObject<SpotubeFullArtistObject>.fromJson(
+    return KelletubePaginationResponseObject<KelletubeFullArtistObject>.fromJson(
       raw.cast<String, dynamic>(),
-      (Map json) => SpotubeFullArtistObject.fromJson(
+      (Map json) => KelletubeFullArtistObject.fromJson(
         json.cast<String, dynamic>(),
       ),
     );

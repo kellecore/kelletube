@@ -1,6 +1,6 @@
 import 'package:hetu_script/hetu_script.dart';
 import 'package:hetu_script/values.dart';
-import 'package:spotube/models/metadata/metadata.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
 
 class MetadataPluginAlbumEndpoint {
   final Hetu hetu;
@@ -10,16 +10,16 @@ class MetadataPluginAlbumEndpoint {
       (hetu.fetch("metadataPlugin") as HTInstance).memberGet("album")
           as HTInstance;
 
-  Future<SpotubeFullAlbumObject> getAlbum(String id) async {
+  Future<KelletubeFullAlbumObject> getAlbum(String id) async {
     final raw =
         await hetuMetadataAlbum.invoke("getAlbum", positionalArgs: [id]) as Map;
 
-    return SpotubeFullAlbumObject.fromJson(
+    return KelletubeFullAlbumObject.fromJson(
       raw.cast<String, dynamic>(),
     );
   }
 
-  Future<SpotubePaginationResponseObject<SpotubeFullTrackObject>> tracks(
+  Future<KelletubePaginationResponseObject<KelletubeFullTrackObject>> tracks(
     String id, {
     int? offset,
     int? limit,
@@ -33,14 +33,14 @@ class MetadataPluginAlbumEndpoint {
       }..removeWhere((key, value) => value == null),
     ) as Map;
 
-    return SpotubePaginationResponseObject<SpotubeFullTrackObject>.fromJson(
+    return KelletubePaginationResponseObject<KelletubeFullTrackObject>.fromJson(
       raw.cast<String, dynamic>(),
       (Map json) =>
-          SpotubeFullTrackObject.fromJson(json.cast<String, dynamic>()),
+          KelletubeFullTrackObject.fromJson(json.cast<String, dynamic>()),
     );
   }
 
-  Future<SpotubePaginationResponseObject<SpotubeSimpleAlbumObject>> releases({
+  Future<KelletubePaginationResponseObject<KelletubeSimpleAlbumObject>> releases({
     int? offset,
     int? limit,
   }) async {
@@ -52,10 +52,10 @@ class MetadataPluginAlbumEndpoint {
       }..removeWhere((key, value) => value == null),
     ) as Map;
 
-    return SpotubePaginationResponseObject<SpotubeSimpleAlbumObject>.fromJson(
+    return KelletubePaginationResponseObject<KelletubeSimpleAlbumObject>.fromJson(
       raw.cast<String, dynamic>(),
       (Map json) =>
-          SpotubeSimpleAlbumObject.fromJson(json.cast<String, dynamic>()),
+          KelletubeSimpleAlbumObject.fromJson(json.cast<String, dynamic>()),
     );
   }
 

@@ -1,10 +1,10 @@
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:shadcn_flutter/shadcn_flutter.dart';
 
-import 'package:spotube/components/horizontal_playbutton_card_view/horizontal_playbutton_card_view.dart';
-import 'package:spotube/extensions/context.dart';
-import 'package:spotube/pages/search/search.dart';
-import 'package:spotube/provider/metadata_plugin/search/all.dart';
+import 'package:kelletube/components/horizontal_playbutton_card_view/horizontal_playbutton_card_view.dart';
+import 'package:kelletube/extensions/context.dart';
+import 'package:kelletube/pages/search/search.dart';
+import 'package:kelletube/provider/metadata_plugin/search/all.dart';
 
 class SearchArtistsSection extends HookConsumerWidget {
   const SearchArtistsSection({

@@ -3,18 +3,18 @@ import 'package:auto_route/auto_route.dart';
 import 'package:shadcn_flutter/shadcn_flutter.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-import 'package:spotube/collections/assets.gen.dart';
-import 'package:spotube/collections/routes.gr.dart';
-import 'package:spotube/components/image/universal_image.dart';
-import 'package:spotube/components/links/artist_link.dart';
-import 'package:spotube/components/links/link_text.dart';
-import 'package:spotube/extensions/constrains.dart';
-import 'package:spotube/models/metadata/metadata.dart';
-import 'package:spotube/provider/audio_player/audio_player.dart';
+import 'package:kelletube/collections/assets.gen.dart';
+import 'package:kelletube/collections/routes.gr.dart';
+import 'package:kelletube/components/image/universal_image.dart';
+import 'package:kelletube/components/links/artist_link.dart';
+import 'package:kelletube/components/links/link_text.dart';
+import 'package:kelletube/extensions/constrains.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
+import 'package:kelletube/provider/audio_player/audio_player.dart';
 
 class PlayerTrackDetails extends HookConsumerWidget {
   final Color? color;
-  final SpotubeTrackObject? track;
+  final KelletubeTrackObject? track;
   const PlayerTrackDetails({super.key, this.color, this.track});
 
   @override

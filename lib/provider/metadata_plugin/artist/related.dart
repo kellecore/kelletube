@@ -1,12 +1,12 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:spotube/models/metadata/metadata.dart';
-import 'package:spotube/provider/metadata_plugin/metadata_plugin_provider.dart';
-import 'package:spotube/provider/metadata_plugin/utils/family_paginated.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
+import 'package:kelletube/provider/metadata_plugin/metadata_plugin_provider.dart';
+import 'package:kelletube/provider/metadata_plugin/utils/family_paginated.dart';
 
 class MetadataPluginArtistRelatedArtistsNotifier
-    extends FamilyPaginatedAsyncNotifier<SpotubeFullArtistObject, String> {
+    extends FamilyPaginatedAsyncNotifier<KelletubeFullArtistObject, String> {
   @override
-  Future<SpotubePaginationResponseObject<SpotubeFullArtistObject>> fetch(
+  Future<KelletubePaginationResponseObject<KelletubeFullArtistObject>> fetch(
     int offset,
     int limit,
   ) async {
@@ -26,7 +26,7 @@ class MetadataPluginArtistRelatedArtistsNotifier
 
 final metadataPluginArtistRelatedArtistsProvider = AsyncNotifierProviderFamily<
     MetadataPluginArtistRelatedArtistsNotifier,
-    SpotubePaginationResponseObject<SpotubeFullArtistObject>,
+    KelletubePaginationResponseObject<KelletubeFullArtistObject>,
     String>(
   () => MetadataPluginArtistRelatedArtistsNotifier(),
 );

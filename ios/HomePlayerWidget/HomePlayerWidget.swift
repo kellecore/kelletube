@@ -8,15 +8,15 @@
 import WidgetKit
 import SwiftUI
 
-private let widgetGroupId = "group.spotube_home_player_widget"
+private let widgetGroupId = "group.kelletube_home_player_widget"
 
 struct Provider: TimelineProvider {
     func placeholder(in context: Context) -> SimpleEntry {
-        SimpleEntry(date: Date(), emoji: "😀")
+        SimpleEntry(date: Date(), emoji: "ðŸ˜€")
     }
 
     func getSnapshot(in context: Context, completion: @escaping (SimpleEntry) -> ()) {
-        let entry = SimpleEntry(date: Date(), emoji: "😀")
+        let entry = SimpleEntry(date: Date(), emoji: "ðŸ˜€")
         completion(entry)
     }
 
@@ -27,7 +27,7 @@ struct Provider: TimelineProvider {
         let currentDate = Date()
         for hourOffset in 0 ..< 5 {
             let entryDate = Calendar.current.date(byAdding: .hour, value: hourOffset, to: currentDate)!
-            let entry = SimpleEntry(date: entryDate, emoji: "😀")
+            let entry = SimpleEntry(date: entryDate, emoji: "ðŸ˜€")
             entries.append(entry)
         }
 
@@ -81,6 +81,6 @@ struct HomePlayerWidget: Widget {
 #Preview(as: .systemSmall) {
     HomePlayerWidget()
 } timeline: {
-    SimpleEntry(date: .now, emoji: "😀")
-    SimpleEntry(date: .now, emoji: "🤩")
+    SimpleEntry(date: .now, emoji: "ðŸ˜€")
+    SimpleEntry(date: .now, emoji: "ðŸ¤©")
 }

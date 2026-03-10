@@ -4,11 +4,11 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:shadcn_flutter/shadcn_flutter.dart';
 import 'package:shadcn_flutter/shadcn_flutter_extension.dart';
 import 'package:skeletonizer/skeletonizer.dart';
-import 'package:spotube/collections/fake.dart';
-import 'package:spotube/models/metadata/metadata.dart';
-import 'package:spotube/modules/album/album_card.dart';
-import 'package:spotube/modules/artist/artist_card.dart';
-import 'package:spotube/modules/playlist/playlist_card.dart';
+import 'package:kelletube/collections/fake.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
+import 'package:kelletube/modules/album/album_card.dart';
+import 'package:kelletube/modules/artist/artist_card.dart';
+import 'package:kelletube/modules/playlist/playlist_card.dart';
 import 'package:very_good_infinite_list/very_good_infinite_list.dart';
 
 class HorizontalPlaybuttonCardView<T> extends HookWidget {
@@ -32,16 +32,16 @@ class HorizontalPlaybuttonCardView<T> extends HookWidget {
   }) : assert(
           items.every(
             (item) =>
-                item is SpotubeSimpleAlbumObject ||
-                item is SpotubeSimplePlaylistObject ||
-                item is SpotubeFullArtistObject,
+                item is KelletubeSimpleAlbumObject ||
+                item is KelletubeSimplePlaylistObject ||
+                item is KelletubeFullArtistObject,
           ),
         );
 
   @override
   Widget build(BuildContext context) {
     final scrollController = useScrollController();
-    final isArtist = items.every((s) => s is SpotubeFullArtistObject);
+    final isArtist = items.every((s) => s is KelletubeFullArtistObject);
     final scale = context.theme.scaling;
 
     return Padding(
@@ -105,12 +105,12 @@ class HorizontalPlaybuttonCardView<T> extends HookWidget {
                             final item = items[index];
 
                             return switch (item) {
-                              SpotubeSimplePlaylistObject() => PlaylistCard(
-                                  item as SpotubeSimplePlaylistObject),
-                              SpotubeSimpleAlbumObject() =>
-                                AlbumCard(item as SpotubeSimpleAlbumObject),
-                              SpotubeFullArtistObject() =>
-                                ArtistCard(item as SpotubeFullArtistObject),
+                              KelletubeSimplePlaylistObject() => PlaylistCard(
+                                  item as KelletubeSimplePlaylistObject),
+                              KelletubeSimpleAlbumObject() =>
+                                AlbumCard(item as KelletubeSimpleAlbumObject),
+                              KelletubeFullArtistObject() =>
+                                ArtistCard(item as KelletubeFullArtistObject),
                               _ => const SizedBox.shrink(),
                             };
                           }),

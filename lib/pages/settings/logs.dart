@@ -4,13 +4,13 @@ import 'package:flutter_undraw/flutter_undraw.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:shadcn_flutter/shadcn_flutter.dart';
 import 'package:shadcn_flutter/shadcn_flutter_extension.dart';
-import 'package:spotube/collections/spotube_icons.dart';
-import 'package:spotube/components/button/back_button.dart';
-import 'package:spotube/components/inter_scrollbar/inter_scrollbar.dart';
-import 'package:spotube/components/titlebar/titlebar.dart';
-import 'package:spotube/extensions/context.dart';
-import 'package:spotube/provider/logs/logs_provider.dart';
-import 'package:spotube/services/logger/logger.dart';
+import 'package:kelletube/collections/kelletube_icons.dart';
+import 'package:kelletube/components/button/back_button.dart';
+import 'package:kelletube/components/inter_scrollbar/inter_scrollbar.dart';
+import 'package:kelletube/components/titlebar/titlebar.dart';
+import 'package:kelletube/extensions/context.dart';
+import 'package:kelletube/provider/logs/logs_provider.dart';
+import 'package:kelletube/services/logger/logger.dart';
 import 'package:auto_route/auto_route.dart';
 
 @RoutePage()
@@ -34,7 +34,7 @@ class LogsPage extends HookConsumerWidget {
             leading: const [BackButton()],
             trailing: [
               IconButton.ghost(
-                icon: const Icon(SpotubeIcons.clipboard, size: 16),
+                icon: const Icon(KelletubeIcons.clipboard, size: 16),
                 onPressed: () async {
                   final logsSnapshot = await ref.read(logsProvider.future);
 
@@ -56,7 +56,7 @@ class LogsPage extends HookConsumerWidget {
               ),
               IconButton.ghost(
                 icon: const Icon(
-                  SpotubeIcons.trash,
+                  KelletubeIcons.trash,
                   size: 16,
                 ),
                 onPressed: () async {

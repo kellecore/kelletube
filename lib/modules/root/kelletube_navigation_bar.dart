@@ -7,17 +7,17 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:shadcn_flutter/shadcn_flutter.dart';
 import 'package:shadcn_flutter/shadcn_flutter_extension.dart';
 
-import 'package:spotube/collections/side_bar_tiles.dart';
-import 'package:spotube/extensions/constrains.dart';
-import 'package:spotube/extensions/context.dart';
-import 'package:spotube/models/database/database.dart';
-import 'package:spotube/provider/download_manager_provider.dart';
-import 'package:spotube/provider/user_preferences/user_preferences_provider.dart';
+import 'package:kelletube/collections/side_bar_tiles.dart';
+import 'package:kelletube/extensions/constrains.dart';
+import 'package:kelletube/extensions/context.dart';
+import 'package:kelletube/models/database/database.dart';
+import 'package:kelletube/provider/download_manager_provider.dart';
+import 'package:kelletube/provider/user_preferences/user_preferences_provider.dart';
 
 final navigationPanelHeight = StateProvider<double>((ref) => 50);
 
-class SpotubeNavigationBar extends HookConsumerWidget {
-  const SpotubeNavigationBar({
+class KelletubeNavigationBar extends HookConsumerWidget {
+  const KelletubeNavigationBar({
     super.key,
   });
 

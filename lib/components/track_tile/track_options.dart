@@ -2,17 +2,17 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:shadcn_flutter/shadcn_flutter.dart';
 
 import 'package:shadcn_flutter/shadcn_flutter_extension.dart';
-import 'package:spotube/collections/routes.dart';
-import 'package:spotube/collections/spotube_icons.dart';
-import 'package:spotube/components/ui/button_tile.dart';
-import 'package:spotube/extensions/constrains.dart';
-import 'package:spotube/extensions/context.dart';
-import 'package:spotube/models/metadata/metadata.dart';
-import 'package:spotube/provider/track_options/track_options_provider.dart';
+import 'package:kelletube/collections/routes.dart';
+import 'package:kelletube/collections/kelletube_icons.dart';
+import 'package:kelletube/components/ui/button_tile.dart';
+import 'package:kelletube/extensions/constrains.dart';
+import 'package:kelletube/extensions/context.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
+import 'package:kelletube/provider/track_options/track_options_provider.dart';
 
-/// [track] must be a [SpotubeFullTrackObject] or [SpotubeLocalTrackObject]
+/// [track] must be a [KelletubeFullTrackObject] or [KelletubeLocalTrackObject]
 class TrackOptions extends HookConsumerWidget {
-  final SpotubeTrackObject track;
+  final KelletubeTrackObject track;
   final bool userPlaylist;
   final String? playlistId;
   final Widget? icon;
@@ -26,8 +26,8 @@ class TrackOptions extends HookConsumerWidget {
     this.icon,
     this.onTapItem,
   }) : assert(
-          track is SpotubeFullTrackObject || track is SpotubeLocalTrackObject,
-          "Track must be a SpotubeFullTrackObject, SpotubeLocalTrackObject",
+          track is KelletubeFullTrackObject || track is KelletubeLocalTrackObject,
+          "Track must be a KelletubeFullTrackObject, KelletubeLocalTrackObject",
         );
 
   @override
@@ -44,7 +44,7 @@ class TrackOptions extends HookConsumerWidget {
       :isLiked,
       :downloadTask
     ) = ref.watch(trackOptionsStateProvider(track));
-    final isLocalTrack = track is SpotubeLocalTrackObject;
+    final isLocalTrack = track is KelletubeLocalTrackObject;
 
     return Column(
       mainAxisSize: MainAxisSize.min,
@@ -62,7 +62,7 @@ class TrackOptions extends HookConsumerWidget {
               );
               onTapItem?.call();
             },
-            leading: const Icon(SpotubeIcons.trash),
+            leading: const Icon(KelletubeIcons.trash),
             title: Text(context.l10n.delete),
           ),
         if (mediaQuery.smAndDown && !isLocalTrack)
@@ -76,7 +76,7 @@ class TrackOptions extends HookConsumerWidget {
               );
               onTapItem?.call();
             },
-            leading: const Icon(SpotubeIcons.album),
+            leading: const Icon(KelletubeIcons.album),
             title: Column(
               mainAxisSize: MainAxisSize.min,
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -100,7 +100,7 @@ class TrackOptions extends HookConsumerWidget {
               );
               onTapItem?.call();
             },
-            leading: const Icon(SpotubeIcons.queueAdd),
+            leading: const Icon(KelletubeIcons.queueAdd),
             title: Text(context.l10n.add_to_queue),
           ),
           ButtonTile(
@@ -113,7 +113,7 @@ class TrackOptions extends HookConsumerWidget {
               );
               onTapItem?.call();
             },
-            leading: const Icon(SpotubeIcons.lightning),
+            leading: const Icon(KelletubeIcons.lightning),
             title: Text(context.l10n.play_next),
           ),
         ] else
@@ -128,7 +128,7 @@ class TrackOptions extends HookConsumerWidget {
               onTapItem?.call();
             },
             enabled: !isActiveTrack,
-            leading: const Icon(SpotubeIcons.queueRemove),
+            leading: const Icon(KelletubeIcons.queueRemove),
             title: Text(context.l10n.remove_from_queue),
           ),
         if (isAuthenticated && !isLocalTrack)
@@ -144,10 +144,10 @@ class TrackOptions extends HookConsumerWidget {
             },
             leading: isLiked
                 ? const Icon(
-                    SpotubeIcons.heartFilled,
+                    KelletubeIcons.heartFilled,
                     color: Colors.pink,
                   )
-                : const Icon(SpotubeIcons.heart),
+                : const Icon(KelletubeIcons.heart),
             title: Text(
               isLiked
                   ? context.l10n.remove_from_favorites
@@ -165,7 +165,7 @@ class TrackOptions extends HookConsumerWidget {
               );
               onTapItem?.call();
             },
-            leading: const Icon(SpotubeIcons.radio),
+            leading: const Icon(KelletubeIcons.radio),
             title: Text(context.l10n.start_a_radio),
           ),
           ButtonTile(
@@ -178,7 +178,7 @@ class TrackOptions extends HookConsumerWidget {
               );
               onTapItem?.call();
             },
-            leading: const Icon(SpotubeIcons.playlistAdd),
+            leading: const Icon(KelletubeIcons.playlistAdd),
             title: Text(context.l10n.add_to_playlist),
           ),
         ],
@@ -193,7 +193,7 @@ class TrackOptions extends HookConsumerWidget {
               );
               onTapItem?.call();
             },
-            leading: const Icon(SpotubeIcons.removeFilled),
+            leading: const Icon(KelletubeIcons.removeFilled),
             title: Text(context.l10n.remove_from_playlist),
           ),
         if (!isLocalTrack)
@@ -222,7 +222,7 @@ class TrackOptions extends HookConsumerWidget {
                       );
                     },
                   )
-                : const Icon(SpotubeIcons.download),
+                : const Icon(KelletubeIcons.download),
             title: Text(context.l10n.download_track),
           ),
         if (!isLocalTrack)
@@ -237,7 +237,7 @@ class TrackOptions extends HookConsumerWidget {
               onTapItem?.call();
             },
             leading: Icon(
-              SpotubeIcons.playlistRemove,
+              KelletubeIcons.playlistRemove,
               color: isBlacklisted != true ? Colors.red[400] : null,
             ),
             title: Text(
@@ -260,7 +260,7 @@ class TrackOptions extends HookConsumerWidget {
               );
               onTapItem?.call();
             },
-            leading: const Icon(SpotubeIcons.share),
+            leading: const Icon(KelletubeIcons.share),
             title: Text(context.l10n.share),
           ),
         if (!isLocalTrack)
@@ -274,7 +274,7 @@ class TrackOptions extends HookConsumerWidget {
               );
               onTapItem?.call();
             },
-            leading: const Icon(SpotubeIcons.info),
+            leading: const Icon(KelletubeIcons.info),
             title: Text(context.l10n.details),
           ),
       ],

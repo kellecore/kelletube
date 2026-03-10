@@ -2,13 +2,13 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:shadcn_flutter/shadcn_flutter.dart';
 import 'package:shadcn_flutter/shadcn_flutter_extension.dart';
-import 'package:spotube/extensions/constrains.dart';
-import 'package:spotube/modules/stats/top/albums.dart';
-import 'package:spotube/modules/stats/top/artists.dart';
-import 'package:spotube/modules/stats/top/tracks.dart';
-import 'package:spotube/extensions/context.dart';
+import 'package:kelletube/extensions/constrains.dart';
+import 'package:kelletube/modules/stats/top/albums.dart';
+import 'package:kelletube/modules/stats/top/artists.dart';
+import 'package:kelletube/modules/stats/top/tracks.dart';
+import 'package:kelletube/extensions/context.dart';
 
-import 'package:spotube/provider/history/top.dart';
+import 'package:kelletube/provider/history/top.dart';
 
 class StatsPageTopSection extends HookConsumerWidget {
   const StatsPageTopSection({super.key});

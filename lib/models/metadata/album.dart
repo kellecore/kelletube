@@ -1,42 +1,42 @@
 part of 'metadata.dart';
 
-enum SpotubeAlbumType {
+enum KelletubeAlbumType {
   album,
   single,
   compilation,
 }
 
 @freezed
-class SpotubeFullAlbumObject with _$SpotubeFullAlbumObject {
-  factory SpotubeFullAlbumObject({
+class KelletubeFullAlbumObject with _$KelletubeFullAlbumObject {
+  factory KelletubeFullAlbumObject({
     required String id,
     required String name,
-    required List<SpotubeSimpleArtistObject> artists,
-    @Default([]) List<SpotubeImageObject> images,
+    required List<KelletubeSimpleArtistObject> artists,
+    @Default([]) List<KelletubeImageObject> images,
     required String releaseDate,
     required String externalUri,
     required int totalTracks,
-    required SpotubeAlbumType albumType,
+    required KelletubeAlbumType albumType,
     String? recordLabel,
     List<String>? genres,
-  }) = _SpotubeFullAlbumObject;
+  }) = _KelletubeFullAlbumObject;
 
-  factory SpotubeFullAlbumObject.fromJson(Map<String, dynamic> json) =>
-      _$SpotubeFullAlbumObjectFromJson(json);
+  factory KelletubeFullAlbumObject.fromJson(Map<String, dynamic> json) =>
+      _$KelletubeFullAlbumObjectFromJson(json);
 }
 
 @freezed
-class SpotubeSimpleAlbumObject with _$SpotubeSimpleAlbumObject {
-  factory SpotubeSimpleAlbumObject({
+class KelletubeSimpleAlbumObject with _$KelletubeSimpleAlbumObject {
+  factory KelletubeSimpleAlbumObject({
     required String id,
     required String name,
     required String externalUri,
-    required List<SpotubeSimpleArtistObject> artists,
-    @Default([]) List<SpotubeImageObject> images,
-    required SpotubeAlbumType albumType,
+    required List<KelletubeSimpleArtistObject> artists,
+    @Default([]) List<KelletubeImageObject> images,
+    required KelletubeAlbumType albumType,
     String? releaseDate,
-  }) = _SpotubeSimpleAlbumObject;
+  }) = _KelletubeSimpleAlbumObject;
 
-  factory SpotubeSimpleAlbumObject.fromJson(Map<String, dynamic> json) =>
-      _$SpotubeSimpleAlbumObjectFromJson(json);
+  factory KelletubeSimpleAlbumObject.fromJson(Map<String, dynamic> json) =>
+      _$KelletubeSimpleAlbumObjectFromJson(json);
 }

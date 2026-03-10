@@ -1,12 +1,12 @@
-name: spotube
+name: kelletube
 description: Open source extensible music streaming platform and app, based on BYOMM (Bring your own music metadata) concept
 
 publish_to: "none"
 
 version: 5.1.1+44
 
-homepage: https://spotube.krtirtho.dev
-repository: https://github.com/KRTirtho/spotube
+homepage: https://kelletube.krtirtho.dev
+repository: https://github.com/KRTirtho/kelletube
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
@@ -134,9 +134,9 @@ dependencies:
     git:
       url: https://github.com/hetu-community/hetu_otp_util.git
       ref: main
-  hetu_spotube_plugin:
+  hetu_kelletube_plugin:
     git:
-      url: https://github.com/KRTirtho/hetu_spotube_plugin.git
+      url: https://github.com/KRTirtho/hetu_kelletube_plugin.git
       ref: main
   get_it: ^8.0.3
   flutter_markdown_plus: ^1.0.3
@@ -217,11 +217,11 @@ flutter:
   assets:
     - assets/images/
     - assets/images/logos/
-    - assets/branding/spotube-logo.png
-    - assets/branding/spotube-logo-light.png
-    - assets/branding/spotube-logo.ico
-    - assets/plugins/spotube-plugin-musicbrainz-listenbrainz/plugin.smplug
-    - assets/plugins/spotube-plugin-youtube-audio/plugin.smplug
+    - assets/branding/kelletube-logo.png
+    - assets/branding/kelletube-logo-light.png
+    - assets/branding/kelletube-logo.ico
+    - assets/plugins/kelletube-plugin-musicbrainz-listenbrainz/plugin.smplug
+    - assets/plugins/kelletube-plugin-youtube-audio/plugin.smplug
     - LICENSE
     - packages/flutter_undraw/assets/undraw/access_denied.svg
     - packages/flutter_undraw/assets/undraw/fixing_bugs.svg
@@ -238,7 +238,7 @@ flutter:
     # hetu script bytecode
     - packages/hetu_std/assets/bytecode/std.out
     - packages/hetu_otp_util/assets/bytecode/otp_util.out
-    - packages/hetu_spotube_plugin/assets/bytecode/spotube_plugin.out
+    - packages/hetu_kelletube_plugin/assets/bytecode/kelletube_plugin.out
     # NewPipe binaries (desktop only)
     # - packages/flutter_new_pipe_extractor/assets/
   fonts:
@@ -273,10 +273,10 @@ flutter_gen:
 
 flutter_native_splash:
   background_image: assets/bengali-patterns-bg.jpg
-  image: assets/spotube-logo.png
+  image: assets/kelletube-logo.png
   branding: assets/branding.png
   android_12:
-    image: assets/spotube-logo_android12.png
+    image: assets/kelletube-logo_android12.png
     branding: assets/branding.png
     color: "#000000"
     icon_background_color: "#000000"

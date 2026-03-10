@@ -2,24 +2,24 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:shadcn_flutter/shadcn_flutter.dart';
-import 'package:spotube/collections/routes.gr.dart';
-import 'package:spotube/components/dialogs/select_device_dialog.dart';
-import 'package:spotube/components/playbutton_view/playbutton_card.dart';
-import 'package:spotube/components/playbutton_view/playbutton_tile.dart';
-import 'package:spotube/extensions/context.dart';
-import 'package:spotube/models/connect/connect.dart';
-import 'package:spotube/models/metadata/metadata.dart';
-import 'package:spotube/provider/audio_player/querying_track_info.dart';
-import 'package:spotube/provider/connect/connect.dart';
-import 'package:spotube/provider/history/history.dart';
-import 'package:spotube/provider/audio_player/audio_player.dart';
-import 'package:spotube/provider/metadata_plugin/library/tracks.dart';
-import 'package:spotube/provider/metadata_plugin/tracks/playlist.dart';
-import 'package:spotube/provider/metadata_plugin/core/user.dart';
-import 'package:spotube/services/audio_player/audio_player.dart';
+import 'package:kelletube/collections/routes.gr.dart';
+import 'package:kelletube/components/dialogs/select_device_dialog.dart';
+import 'package:kelletube/components/playbutton_view/playbutton_card.dart';
+import 'package:kelletube/components/playbutton_view/playbutton_tile.dart';
+import 'package:kelletube/extensions/context.dart';
+import 'package:kelletube/models/connect/connect.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
+import 'package:kelletube/provider/audio_player/querying_track_info.dart';
+import 'package:kelletube/provider/connect/connect.dart';
+import 'package:kelletube/provider/history/history.dart';
+import 'package:kelletube/provider/audio_player/audio_player.dart';
+import 'package:kelletube/provider/metadata_plugin/library/tracks.dart';
+import 'package:kelletube/provider/metadata_plugin/tracks/playlist.dart';
+import 'package:kelletube/provider/metadata_plugin/core/user.dart';
+import 'package:kelletube/services/audio_player/audio_player.dart';
 
 class PlaylistCard extends HookConsumerWidget {
-  final SpotubeSimplePlaylistObject playlist;
+  final KelletubeSimplePlaylistObject playlist;
   final bool _isTile;
 
   const PlaylistCard(

@@ -2,13 +2,13 @@
 
 # Varibles
 fname="$(basename $0)"
-installDir='/usr/share/spotube'
-desktopFile='/usr/share/applications/spotube.desktop'
-appdata='/usr/share/appdata/spotube.appdata.xml'
-icon='/usr/share/icons/spotube/spotube-logo.png'
-symlink='/usr/bin/spotube'
-temp='/tmp/spotube-installer'
-latestVer="$(wget -qO- "https://api.github.com/repos/KRTirtho/spotube/releases/latest" \ | grep -Po '"tag_name": "\K.*?(?=")')"
+installDir='/usr/share/kelletube'
+desktopFile='/usr/share/applications/kelletube.desktop'
+appdata='/usr/share/appdata/kelletube.appdata.xml'
+icon='/usr/share/icons/kelletube/kelletube-logo.png'
+symlink='/usr/bin/kelletube'
+temp='/tmp/kelletube-installer'
+latestVer="$(wget -qO- "https://api.github.com/repos/KRTirtho/kelletube/releases/latest" \ | grep -Po '"tag_name": "\K.*?(?=")')"
 
 # Root check - From CAAIS (https://codeberg.org/RaptaG/CAAIS), under GPL-3.0
 function rootCheck() {
@@ -23,9 +23,9 @@ function rootCheck() {
 function help(){
   echo "Usage: sudo ./${fname} [flags]"
   echo 'Flags:'
-  echo '  -i, --install <version>    Install any Spotube version (if not specified, the latest is installed).'
+  echo '  -i, --install <version>    Install any Kelletube version (if not specified, the latest is installed).'
   echo '  -h, --help                 This help menu'
-  echo '  -r, --remove               Removes Spotube from your system'
+  echo '  -r, --remove               Removes Kelletube from your system'
   exit 0
 }
 
@@ -55,17 +55,17 @@ function install_deps(){
     #    # JsonCpp
     #    wget https://github.com/open-source-parsers/jsoncpp/tarball/master -O jsoncpp.tar.gz
     #    tar -xf jsoncpp.tar.gz && cd open-source-parsers-jsoncpp-*
-        echo 'You have to install some dependancies manually in order for Spotube to work.'
+        echo 'You have to install some dependancies manually in order for Kelletube to work.'
         echo "The deps are the following: ${rpmDeps}"
     fi
 }
 
-function download_extract_spotube(){
-  local tarPath="/tmp/spotube-${ver}.tar.xz"
-  local donwloadURL="https://github.com/KRTirtho/spotube/releases/download/v${ver}/spotube-linux-${ver}-x86_64.tar.xz"
+function download_extract_kelletube(){
+  local tarPath="/tmp/kelletube-${ver}.tar.xz"
+  local donwloadURL="https://github.com/KRTirtho/kelletube/releases/download/v${ver}/kelletube-linux-${ver}-x86_64.tar.xz"
 
   if [ "${ver}" = "nightly" ]; then
-      downloadURL"=https://github.com/KRTirtho/spotube/releases/download/nightly/spotube-linux-nightly-x86_64.tar.xz"
+      downloadURL"=https://github.com/KRTirtho/kelletube/releases/download/nightly/kelletube-linux-nightly-x86_64.tar.xz"
   fi
 
   rm -rf ${temp}
@@ -75,7 +75,7 @@ function download_extract_spotube(){
   if [ -f ${tarPath} ]; then
     echo "Installation file detected. Skipping download..."
   else
-    echo "Downloading spotube-${ver}.tar.xz..."
+    echo "Downloading kelletube-${ver}.tar.xz..."
     wget -q ${downloadURL} -P ${tarPath}
   fi
 
@@ -96,42 +96,42 @@ function download_extract_spotube(){
   fi
 }
 
-function install_spotube(){
+function install_kelletube(){
     if [ -d ${installDir} ]; then
-        echo -n "Spotube is already installed. Do you want to reinstall it? [y/N] "
+        echo -n "Kelletube is already installed. Do you want to reinstall it? [y/N] "
         read reinstall
 
         case "${reinstall}" in
         [yY]*)
-            uninstall_spotube ;;
+            uninstall_kelletube ;;
         *)
             echo 'Aborting installation...'
             exit 1 ;;
         esac
     fi
 
-    # Install Spotube from temp dir
+    # Install Kelletube from temp dir
     mkdir -p ${installDir}
     mv ${temp}/data ${installDir}
     mv ${temp}/lib ${installDir}
-    mv ${temp}/spotube ${installDir}
-    mv ${temp}/spotube.desktop ${desktopDir}
-    mv ${temp}/com.github.KRTirtho.Spotube.appdata.xml ${appdata}
-    mkdir -p /usr/share/icons/spotube
-    mv ${temp}/spotube-logo.png ${icon}
-    ln -s /usr/share/spotube/spotube ${symlink}
+    mv ${temp}/kelletube ${installDir}
+    mv ${temp}/kelletube.desktop ${desktopDir}
+    mv ${temp}/com.github.Kellecore.Kelletube.appdata.xml ${appdata}
+    mkdir -p /usr/share/icons/kelletube
+    mv ${temp}/kelletube-logo.png ${icon}
+    ln -s /usr/share/kelletube/kelletube ${symlink}
 
     rm -rf ${temp}  # Remove temp dir
-    echo "Spotube ${ver} has been installed successfully!"
+    echo "Kelletube ${ver} has been installed successfully!"
 }
 
-function uninstall_spotube(){
-    echo -n "Are you sure you want to uninstall Spotube? [y/N] "
+function uninstall_kelletube(){
+    echo -n "Are you sure you want to uninstall Kelletube? [y/N] "
     read confirm
 
     case "${confirm}" in
     [yY]*)
-            echo 'Unstalling Spotube..'
+            echo 'Unstalling Kelletube..'
             rm -rf ${installDir} ${desktopDir} ${appdata} ${icon} ${symlink} ;;
     *)
             echo 'Aborting...'
@@ -149,12 +149,12 @@ case "$1" in
     
     rootCheck
     install_deps
-    download_extract_spotube
-    install_spotube
+    download_extract_kelletube
+    install_kelletube
     exit 0 ;;
 -r | --remove)
     rootCheck
-    uninstall_spotube
+    uninstall_kelletube
     exit 0 ;;
 -h | --help | "")
     help

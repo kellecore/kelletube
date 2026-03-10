@@ -1,34 +1,34 @@
 part of 'metadata.dart';
 
 @freezed
-class SpotubeFullPlaylistObject with _$SpotubeFullPlaylistObject {
-  factory SpotubeFullPlaylistObject({
+class KelletubeFullPlaylistObject with _$KelletubeFullPlaylistObject {
+  factory KelletubeFullPlaylistObject({
     required String id,
     required String name,
     required String description,
     required String externalUri,
-    required SpotubeUserObject owner,
-    @Default([]) List<SpotubeImageObject> images,
-    @Default([]) List<SpotubeUserObject> collaborators,
+    required KelletubeUserObject owner,
+    @Default([]) List<KelletubeImageObject> images,
+    @Default([]) List<KelletubeUserObject> collaborators,
     @Default(false) bool collaborative,
     @Default(false) bool public,
-  }) = _SpotubeFullPlaylistObject;
+  }) = _KelletubeFullPlaylistObject;
 
-  factory SpotubeFullPlaylistObject.fromJson(Map<String, dynamic> json) =>
-      _$SpotubeFullPlaylistObjectFromJson(json);
+  factory KelletubeFullPlaylistObject.fromJson(Map<String, dynamic> json) =>
+      _$KelletubeFullPlaylistObjectFromJson(json);
 }
 
 @freezed
-class SpotubeSimplePlaylistObject with _$SpotubeSimplePlaylistObject {
-  factory SpotubeSimplePlaylistObject({
+class KelletubeSimplePlaylistObject with _$KelletubeSimplePlaylistObject {
+  factory KelletubeSimplePlaylistObject({
     required String id,
     required String name,
     required String description,
     required String externalUri,
-    required SpotubeUserObject owner,
-    @Default([]) List<SpotubeImageObject> images,
-  }) = _SpotubeSimplePlaylistObject;
+    required KelletubeUserObject owner,
+    @Default([]) List<KelletubeImageObject> images,
+  }) = _KelletubeSimplePlaylistObject;
 
-  factory SpotubeSimplePlaylistObject.fromJson(Map<String, dynamic> json) =>
-      _$SpotubeSimplePlaylistObjectFromJson(json);
+  factory KelletubeSimplePlaylistObject.fromJson(Map<String, dynamic> json) =>
+      _$KelletubeSimplePlaylistObjectFromJson(json);
 }

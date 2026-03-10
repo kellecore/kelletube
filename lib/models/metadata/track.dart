@@ -1,58 +1,58 @@
 part of 'metadata.dart';
 
 @freezed
-class SpotubeTrackObject with _$SpotubeTrackObject {
-  factory SpotubeTrackObject.local({
+class KelletubeTrackObject with _$KelletubeTrackObject {
+  factory KelletubeTrackObject.local({
     required String id,
     required String name,
     required String externalUri,
-    @Default([]) List<SpotubeSimpleArtistObject> artists,
-    required SpotubeSimpleAlbumObject album,
+    @Default([]) List<KelletubeSimpleArtistObject> artists,
+    required KelletubeSimpleAlbumObject album,
     required int durationMs,
     required String path,
-  }) = SpotubeLocalTrackObject;
+  }) = KelletubeLocalTrackObject;
 
-  factory SpotubeTrackObject.full({
+  factory KelletubeTrackObject.full({
     required String id,
     required String name,
     required String externalUri,
-    @Default([]) List<SpotubeSimpleArtistObject> artists,
-    required SpotubeSimpleAlbumObject album,
+    @Default([]) List<KelletubeSimpleArtistObject> artists,
+    required KelletubeSimpleAlbumObject album,
     required int durationMs,
     required String isrc,
     required bool explicit,
-  }) = SpotubeFullTrackObject;
+  }) = KelletubeFullTrackObject;
 
-  factory SpotubeTrackObject.localTrackFromFile(
+  factory KelletubeTrackObject.localTrackFromFile(
     File file, {
     Metadata? metadata,
     String? art,
   }) {
-    return SpotubeLocalTrackObject(
+    return KelletubeLocalTrackObject(
       id: file.absolute.path,
       name: metadata?.title ?? basenameWithoutExtension(file.path),
       externalUri: "file://${file.absolute.path}",
       artists: metadata?.artist?.split(",").map((a) {
-            return SpotubeSimpleArtistObject(
+            return KelletubeSimpleArtistObject(
               id: a.trim(),
               name: a.trim(),
               externalUri: "file://${file.absolute.path}",
             );
           }).toList() ??
           [
-            SpotubeSimpleArtistObject(
+            KelletubeSimpleArtistObject(
               id: "unknown",
               name: "Unknown Artist",
               externalUri: "file://${file.absolute.path}",
             ),
           ],
-      album: SpotubeSimpleAlbumObject(
-        albumType: SpotubeAlbumType.album,
+      album: KelletubeSimpleAlbumObject(
+        albumType: KelletubeAlbumType.album,
         id: metadata?.album ?? "unknown",
         name: metadata?.album ?? "Unknown Album",
         externalUri: "file://${file.absolute.path}",
         artists: [
-          SpotubeSimpleArtistObject(
+          KelletubeSimpleArtistObject(
             id: metadata?.albumArtist ?? "unknown",
             name: metadata?.albumArtist ?? "Unknown Artist",
             externalUri: "file://${file.absolute.path}",
@@ -62,7 +62,7 @@ class SpotubeTrackObject with _$SpotubeTrackObject {
             metadata?.year != null ? "${metadata!.year}-01-01" : "1970-01-01",
         images: [
           if (art != null)
-            SpotubeImageObject(
+            KelletubeImageObject(
               url: art,
               width: 300,
               height: 300,
@@ -74,21 +74,21 @@ class SpotubeTrackObject with _$SpotubeTrackObject {
     );
   }
 
-  factory SpotubeTrackObject.fromJson(Map<String, dynamic> json) =>
-      _$SpotubeTrackObjectFromJson(
+  factory KelletubeTrackObject.fromJson(Map<String, dynamic> json) =>
+      _$KelletubeTrackObjectFromJson(
         json.containsKey("path")
             ? {...json, "runtimeType": "local"}
             : {...json, "runtimeType": "full"},
       );
 }
 
-extension AsMediaListSpotubeTrackObject on Iterable<SpotubeTrackObject> {
-  List<SpotubeMedia> asMediaList() {
-    return map((track) => SpotubeMedia(track)).toList();
+extension AsMediaListKelletubeTrackObject on Iterable<KelletubeTrackObject> {
+  List<KelletubeMedia> asMediaList() {
+    return map((track) => KelletubeMedia(track)).toList();
   }
 }
 
-extension ToMetadataSpotubeFullTrackObject on SpotubeFullTrackObject {
+extension ToMetadataKelletubeFullTrackObject on KelletubeFullTrackObject {
   Metadata toMetadata({
     required int fileLength,
     Uint8List? imageBytes,

@@ -3,18 +3,18 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:shadcn_flutter/shadcn_flutter.dart';
-import 'package:spotube/collections/routes.gr.dart';
-import 'package:spotube/collections/spotube_icons.dart';
-import 'package:spotube/models/database/database.dart';
-import 'package:spotube/modules/connect/connect_device.dart';
-import 'package:spotube/modules/home/sections/featured.dart';
-import 'package:spotube/modules/home/sections/sections.dart';
-import 'package:spotube/modules/home/sections/new_releases.dart';
-import 'package:spotube/modules/home/sections/recent.dart';
-import 'package:spotube/components/titlebar/titlebar.dart';
-import 'package:spotube/extensions/constrains.dart';
-import 'package:spotube/provider/user_preferences/user_preferences_provider.dart';
-import 'package:spotube/utils/platform.dart';
+import 'package:kelletube/collections/routes.gr.dart';
+import 'package:kelletube/collections/kelletube_icons.dart';
+import 'package:kelletube/models/database/database.dart';
+import 'package:kelletube/modules/connect/connect_device.dart';
+import 'package:kelletube/modules/home/sections/featured.dart';
+import 'package:kelletube/modules/home/sections/sections.dart';
+import 'package:kelletube/modules/home/sections/new_releases.dart';
+import 'package:kelletube/modules/home/sections/recent.dart';
+import 'package:kelletube/components/titlebar/titlebar.dart';
+import 'package:kelletube/extensions/constrains.dart';
+import 'package:kelletube/provider/user_preferences/user_preferences_provider.dart';
+import 'package:kelletube/utils/platform.dart';
 
 @RoutePage()
 class HomePage extends HookConsumerWidget {
@@ -48,7 +48,7 @@ class HomePage extends HookConsumerWidget {
                       letterSpacing: 1.8,
                       color: theme.colorScheme.foreground,
                     ),
-                    child: const Text("Spotube"),
+                    child: const Text("Kelletube"),
                   ),
                   backgroundColor: theme.colorScheme.background,
                   foregroundColor: theme.colorScheme.foreground,
@@ -56,7 +56,7 @@ class HomePage extends HookConsumerWidget {
                     const ConnectDeviceButton(),
                     const Gap(10),
                     IconButton.ghost(
-                      icon: const Icon(SpotubeIcons.settings, size: 20),
+                      icon: const Icon(KelletubeIcons.settings, size: 20),
                       onPressed: () {
                         context.navigateTo(const SettingsRoute());
                       },

@@ -4,34 +4,34 @@ import 'package:collection/collection.dart';
 import 'package:drift/drift.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:media_kit/media_kit.dart';
-import 'package:spotube/extensions/list.dart';
-import 'package:spotube/models/database/database.dart';
-import 'package:spotube/models/metadata/metadata.dart';
-import 'package:spotube/provider/audio_player/state.dart';
-import 'package:spotube/provider/blacklist_provider.dart';
-import 'package:spotube/provider/database/database.dart';
-import 'package:spotube/provider/discord_provider.dart';
-import 'package:spotube/provider/server/sourced_track_provider.dart';
-import 'package:spotube/services/audio_player/audio_player.dart';
-import 'package:spotube/services/logger/logger.dart';
+import 'package:kelletube/extensions/list.dart';
+import 'package:kelletube/models/database/database.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
+import 'package:kelletube/provider/audio_player/state.dart';
+import 'package:kelletube/provider/blacklist_provider.dart';
+import 'package:kelletube/provider/database/database.dart';
+import 'package:kelletube/provider/discord_provider.dart';
+import 'package:kelletube/provider/server/sourced_track_provider.dart';
+import 'package:kelletube/services/audio_player/audio_player.dart';
+import 'package:kelletube/services/logger/logger.dart';
 
 class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
   BlackListNotifier get _blacklist => ref.read(blacklistProvider.notifier);
 
-  void _assertAllowedTracks(Iterable<SpotubeTrackObject> tracks) {
+  void _assertAllowedTracks(Iterable<KelletubeTrackObject> tracks) {
     assert(
       tracks.every(
         (track) =>
-            track is SpotubeFullTrackObject || track is SpotubeLocalTrackObject,
+            track is KelletubeFullTrackObject || track is KelletubeLocalTrackObject,
       ),
-      'All tracks must be either SpotubeFullTrackObject or SpotubeLocalTrackObject',
+      'All tracks must be either KelletubeFullTrackObject or KelletubeLocalTrackObject',
     );
   }
 
-  void _assertAllowedTrack(SpotubeTrackObject tracks) {
+  void _assertAllowedTrack(KelletubeTrackObject tracks) {
     assert(
-      tracks is SpotubeFullTrackObject || tracks is SpotubeLocalTrackObject,
-      'Track must be either SpotubeFullTrackObject or SpotubeLocalTrackObject',
+      tracks is KelletubeFullTrackObject || tracks is KelletubeLocalTrackObject,
+      'Track must be either KelletubeFullTrackObject or KelletubeLocalTrackObject',
     );
   }
 
@@ -48,7 +48,7 @@ class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
               loopMode: audioPlayer.loopMode,
               shuffled: audioPlayer.isShuffled,
               collections: <String>[],
-              tracks: const Value(<SpotubeTrackObject>[]),
+              tracks: const Value(<KelletubeTrackObject>[]),
               currentIndex: const Value(0),
               id: const Value(0),
             ),
@@ -145,7 +145,7 @@ class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
       audioPlayer.playlistStream.listen((playlist) async {
         try {
           final tracks =
-              playlist.medias.map((e) => SpotubeMedia.media(e).track).toList();
+              playlist.medias.map((e) => KelletubeMedia.media(e).track).toList();
 
           state = state.copyWith(
             tracks: tracks,
@@ -218,7 +218,7 @@ class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
   }
 
   Future<void> addTracksAtFirst(
-    Iterable<SpotubeTrackObject> tracks, {
+    Iterable<KelletubeTrackObject> tracks, {
     bool allowDuplicates = false,
   }) async {
     _assertAllowedTracks(tracks);
@@ -243,7 +243,7 @@ class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
       final track = addableTracks.elementAt(i);
 
       await audioPlayer.addTrackAt(
-        SpotubeMedia(track),
+        KelletubeMedia(track),
         max(state.currentIndex, 0) + i + 1,
       );
     }
@@ -256,7 +256,7 @@ class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
     );
   }
 
-  Future<void> addTrack(SpotubeTrackObject track) async {
+  Future<void> addTrack(KelletubeTrackObject track) async {
     _assertAllowedTrack(track);
 
     if (_blacklist.contains(track)) return;
@@ -266,7 +266,7 @@ class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
       tracks: [...state.tracks, track],
     );
 
-    await audioPlayer.addTrack(SpotubeMedia(track));
+    await audioPlayer.addTrack(KelletubeMedia(track));
 
     await _updatePlayerState(
       AudioPlayerStateTableCompanion(
@@ -276,7 +276,7 @@ class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
     );
   }
 
-  Future<void> addTracks(Iterable<SpotubeTrackObject> tracks) async {
+  Future<void> addTracks(Iterable<KelletubeTrackObject> tracks) async {
     _assertAllowedTracks(tracks);
 
     tracks = _blacklist.filter(tracks).toList();
@@ -285,7 +285,7 @@ class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
     );
 
     for (final track in tracks) {
-      await audioPlayer.addTrack(SpotubeMedia(track));
+      await audioPlayer.addTrack(KelletubeMedia(track));
     }
 
     await _updatePlayerState(
@@ -340,18 +340,18 @@ class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
     );
   }
 
-  bool _compareTracks(SpotubeTrackObject a, SpotubeTrackObject b) {
+  bool _compareTracks(KelletubeTrackObject a, KelletubeTrackObject b) {
     if (a.runtimeType != b.runtimeType) {
       return false;
     }
 
-    return a is SpotubeLocalTrackObject && b is SpotubeLocalTrackObject
+    return a is KelletubeLocalTrackObject && b is KelletubeLocalTrackObject
         ? a.path == b.path
         : a.id == b.id;
   }
 
   Future<void> load(
-    List<SpotubeTrackObject> tracks, {
+    List<KelletubeTrackObject> tracks, {
     int initialIndex = 0,
     bool autoPlay = false,
   }) async {
@@ -366,10 +366,10 @@ class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
     // Giving the initial track a boost so MediaKit won't skip
     // because of timeout
     final intendedActiveTrack = medias.elementAt(initialIndex);
-    if (intendedActiveTrack.track is! SpotubeLocalTrackObject) {
+    if (intendedActiveTrack.track is! KelletubeLocalTrackObject) {
       ref.read(
         sourcedTrackProvider(
-          intendedActiveTrack.track as SpotubeFullTrackObject,
+          intendedActiveTrack.track as KelletubeFullTrackObject,
         ).future,
       );
     }
@@ -398,7 +398,7 @@ class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
   }
 
   Future<void> swapActiveSource() async {
-    if (state.tracks.isEmpty || state.activeTrack is! SpotubeFullTrackObject) {
+    if (state.tracks.isEmpty || state.activeTrack is! KelletubeFullTrackObject) {
       return;
     }
 
@@ -429,7 +429,7 @@ class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
     );
   }
 
-  Future<void> jumpToTrack(SpotubeTrackObject track) async {
+  Future<void> jumpToTrack(KelletubeTrackObject track) async {
     final index =
         state.tracks.toList().indexWhere((element) => element.id == track.id);
     if (index == -1) return;

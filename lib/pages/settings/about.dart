@@ -1,13 +1,13 @@
 import 'package:flutter/services.dart';
 import 'package:shadcn_flutter/shadcn_flutter.dart';
-import 'package:spotube/collections/assets.gen.dart';
-import 'package:spotube/collections/env.dart';
-import 'package:spotube/components/button/back_button.dart';
-import 'package:spotube/components/image/universal_image.dart';
-import 'package:spotube/components/links/hyper_link.dart';
-import 'package:spotube/components/titlebar/titlebar.dart';
-import 'package:spotube/extensions/context.dart';
-import 'package:spotube/hooks/controllers/use_package_info.dart';
+import 'package:kelletube/collections/assets.gen.dart';
+import 'package:kelletube/collections/env.dart';
+import 'package:kelletube/components/button/back_button.dart';
+import 'package:kelletube/components/image/universal_image.dart';
+import 'package:kelletube/components/links/hyper_link.dart';
+import 'package:kelletube/components/titlebar/titlebar.dart';
+import 'package:kelletube/extensions/context.dart';
+import 'package:kelletube/hooks/controllers/use_package_info.dart';
 
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -18,10 +18,10 @@ final _licenseProvider = FutureProvider<String>((ref) async {
 });
 
 @RoutePage()
-class AboutSpotubePage extends HookConsumerWidget {
+class AboutKelletubePage extends HookConsumerWidget {
   static const name = "about";
 
-  const AboutSpotubePage({super.key});
+  const AboutKelletubePage({super.key});
 
   @override
   Widget build(BuildContext context, ref) {
@@ -37,7 +37,7 @@ class AboutSpotubePage extends HookConsumerWidget {
         headers: [
           TitleBar(
             leading: const [BackButton()],
-            title: Text(context.l10n.about_spotube),
+            title: Text(context.l10n.about_kelletube),
           )
         ],
         child: SingleChildScrollView(
@@ -45,14 +45,14 @@ class AboutSpotubePage extends HookConsumerWidget {
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
             child: Column(
               children: [
-                Assets.branding.spotubeLogoPng.image(
+                Assets.branding.kelletubeLogoPng.image(
                   height: 200,
                   width: 200,
                 ),
                 Center(
                   child: Column(
                     children: [
-                      Text(context.l10n.spotube_description).semiBold().large(),
+                      Text(context.l10n.kelletube_description).semiBold().large(),
                       const SizedBox(height: 20),
                       Table(
                         columnWidths: const {
@@ -104,8 +104,8 @@ class AboutSpotubePage extends HookConsumerWidget {
                               colon,
                               TableCell(
                                 child: Hyperlink(
-                                  "spotube.krtirtho.dev",
-                                  "https://spotube.krtirtho.dev",
+                                  "kelletube.krtirtho.dev",
+                                  "https://kelletube.krtirtho.dev",
                                 ),
                               ),
                             ],
@@ -116,8 +116,8 @@ class AboutSpotubePage extends HookConsumerWidget {
                               colon,
                               const TableCell(
                                 child: Hyperlink(
-                                  "github.com/KRTirtho/spotube",
-                                  "https://github.com/KRTirtho/spotube",
+                                  "github.com/KRTirtho/kelletube",
+                                  "https://github.com/KRTirtho/kelletube",
                                 ),
                               ),
                             ],
@@ -129,7 +129,7 @@ class AboutSpotubePage extends HookConsumerWidget {
                               const TableCell(
                                 child: Hyperlink(
                                   "BSD-4-Clause",
-                                  "https://raw.githubusercontent.com/KRTirtho/spotube/master/LICENSE",
+                                  "https://raw.githubusercontent.com/KRTirtho/kelletube/master/LICENSE",
                                 ),
                               ),
                             ],

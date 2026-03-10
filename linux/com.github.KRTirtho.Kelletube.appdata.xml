@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>com.github.KRTirtho.Spotube</id>
-  <name>Spotube</name>
+  <id>com.github.Kellecore.Kelletube</id>
+  <name>Kelletube</name>
   <summary>
     Freedom of music
   </summary>
@@ -13,13 +13,13 @@
     <control>touch</control>
   </recommends>
   <developer_name>Kingkor Roy Tirtho</developer_name>
-  <url type="bugtracker">https://github.com/krtirtho/spotube/issues</url>
-  <url type="homepage">https://spotube.krtirtho.dev</url>
-  <url type="donation">https://opencollective.com/spotube</url>
+  <url type="bugtracker">https://github.com/krtirtho/kelletube/issues</url>
+  <url type="homepage">https://kelletube.krtirtho.dev</url>
+  <url type="donation">https://opencollective.com/kelletube</url>
   <description>
     <p>Open source music client that doesn't require Premium nor uses Electron! Available for
       both desktop &amp; mobile!</p>
-    <p>Following are the features that currently spotube offers:</p>
+    <p>Following are the features that currently kelletube offers:</p>
     <ul>
       <li>🚫 No ads, thanks to the use of public &amp; free music metadata providers and YT Music
         APIs¹</li>
@@ -37,12 +37,12 @@
   <screenshots>
     <screenshot type="default">
       <image type="source">
-        https://rawcdn.githack.com/KRTirtho/spotube/refs/heads/master/assets/branding/spotube-screenshot.png
+        https://rawcdn.githack.com/KRTirtho/kelletube/refs/heads/master/assets/branding/kelletube-screenshot.png
       </image>
-      <caption>Spotube screenshot</caption>
+      <caption>Kelletube screenshot</caption>
     </screenshot>
   </screenshots>
-  <launchable type="desktop-id">com.github.KRTirtho.Spotube.desktop</launchable>
+  <launchable type="desktop-id">com.github.Kellecore.Kelletube.desktop</launchable>
   <releases> %{{APPDATA_RELEASE}}% <release version="2.6.0" date="2022-12-09" />
     <release
       version="2.5.0" date="2022-10-13" />

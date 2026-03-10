@@ -5,12 +5,12 @@ import 'package:home_widget/home_widget.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:http/http.dart';
 import 'package:logger/logger.dart';
-import 'package:spotube/models/metadata/metadata.dart';
-import 'package:spotube/provider/audio_player/audio_player.dart';
-import 'package:spotube/provider/server/server.dart';
-import 'package:spotube/services/audio_player/audio_player.dart';
-import 'package:spotube/services/logger/logger.dart';
-import 'package:spotube/utils/platform.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
+import 'package:kelletube/provider/audio_player/audio_player.dart';
+import 'package:kelletube/provider/server/server.dart';
+import 'package:kelletube/services/audio_player/audio_player.dart';
+import 'package:kelletube/services/logger/logger.dart';
+import 'package:kelletube/utils/platform.dart';
 
 @pragma("vm:entry-point")
 Future<void> glanceBackgroundCallback(Uri? data) async {
@@ -57,7 +57,7 @@ Future<void> _updateWidget() async {
       await HomeWidget.updateWidget(
         androidName: 'HomePlayerWidgetReceiver',
         qualifiedAndroidName:
-            'oss.krtirtho.spotube.glance.HomePlayerWidgetReceiver',
+            'com.kellecore.kelletube.glance.HomePlayerWidgetReceiver',
       );
     }
     if (kIsIOS) {
@@ -71,7 +71,7 @@ Future<void> _updateWidget() async {
   }
 }
 
-Future<void> _sendActiveTrack(SpotubeTrackObject? track) async {
+Future<void> _sendActiveTrack(KelletubeTrackObject? track) async {
   if (track == null) {
     await _saveWidgetData("activeTrack", null);
     await _updateWidget();

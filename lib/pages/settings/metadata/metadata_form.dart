@@ -5,10 +5,10 @@ import 'package:form_builder_validators/form_builder_validators.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:shadcn_flutter/shadcn_flutter.dart';
 import 'package:shadcn_flutter/shadcn_flutter_extension.dart';
-import 'package:spotube/components/markdown/markdown.dart';
-import 'package:spotube/components/titlebar/titlebar.dart';
-import 'package:spotube/extensions/context.dart';
-import 'package:spotube/models/metadata/metadata.dart';
+import 'package:kelletube/components/markdown/markdown.dart';
+import 'package:kelletube/components/titlebar/titlebar.dart';
+import 'package:kelletube/extensions/context.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
 
 @RoutePage()
 class SettingsMetadataProviderFormPage extends HookConsumerWidget {

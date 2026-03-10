@@ -1,14 +1,14 @@
 part of 'metadata.dart';
 
 @freezed
-class SpotubeUserObject with _$SpotubeUserObject {
-  factory SpotubeUserObject({
+class KelletubeUserObject with _$KelletubeUserObject {
+  factory KelletubeUserObject({
     required final String id,
     required final String name,
-    @Default([]) final List<SpotubeImageObject> images,
+    @Default([]) final List<KelletubeImageObject> images,
     required final String externalUri,
-  }) = _SpotubeUserObject;
+  }) = _KelletubeUserObject;
 
-  factory SpotubeUserObject.fromJson(Map<String, dynamic> json) =>
-      _$SpotubeUserObjectFromJson(json);
+  factory KelletubeUserObject.fromJson(Map<String, dynamic> json) =>
+      _$KelletubeUserObjectFromJson(json);
 }

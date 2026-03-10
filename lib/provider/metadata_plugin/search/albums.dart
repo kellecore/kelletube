@@ -1,18 +1,18 @@
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:spotube/models/metadata/metadata.dart';
-import 'package:spotube/provider/metadata_plugin/metadata_plugin_provider.dart';
-import 'package:spotube/provider/metadata_plugin/utils/common.dart';
-import 'package:spotube/provider/metadata_plugin/utils/family_paginated.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
+import 'package:kelletube/provider/metadata_plugin/metadata_plugin_provider.dart';
+import 'package:kelletube/provider/metadata_plugin/utils/common.dart';
+import 'package:kelletube/provider/metadata_plugin/utils/family_paginated.dart';
 
 class MetadataPluginSearchAlbumsNotifier
-    extends AutoDisposeFamilyPaginatedAsyncNotifier<SpotubeSimpleAlbumObject,
+    extends AutoDisposeFamilyPaginatedAsyncNotifier<KelletubeSimpleAlbumObject,
         String> {
   MetadataPluginSearchAlbumsNotifier() : super();
 
   @override
   fetch(offset, limit) async {
     if (arg.isEmpty) {
-      return SpotubePaginationResponseObject<SpotubeSimpleAlbumObject>(
+      return KelletubePaginationResponseObject<KelletubeSimpleAlbumObject>(
         limit: limit,
         nextOffset: null,
         total: 0,
@@ -41,6 +41,6 @@ class MetadataPluginSearchAlbumsNotifier
 
 final metadataPluginSearchAlbumsProvider =
     AutoDisposeAsyncNotifierProviderFamily<MetadataPluginSearchAlbumsNotifier,
-        SpotubePaginationResponseObject<SpotubeSimpleAlbumObject>, String>(
+        KelletubePaginationResponseObject<KelletubeSimpleAlbumObject>, String>(
   () => MetadataPluginSearchAlbumsNotifier(),
 );

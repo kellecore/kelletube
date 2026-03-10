@@ -1,4 +1,4 @@
-package oss.krtirtho.spotube.glance.widgets
+package com.kellecore.kelletube.glance.widgets
 
 import android.content.Context
 import android.graphics.BitmapFactory

@@ -26,7 +26,7 @@ class WindowsBuildCommand extends Command with BuildCommandCommonSteps {
 
     final chocoFiles = [
       join(cwd.path, "choco-struct", "tools", "VERIFICATION.txt"),
-      join(cwd.path, "choco-struct", "spotube.nuspec"),
+      join(cwd.path, "choco-struct", "kelletube.nuspec"),
     ];
 
     for (final filePath in chocoFiles) {
@@ -69,11 +69,11 @@ class WindowsBuildCommand extends Command with BuildCommandCommonSteps {
         cwd.path,
         "dist",
         pubspec.version.toString(),
-        "spotube-${pubspec.version}-windows-setup.exe",
+        "kelletube-${pubspec.version}-windows-setup.exe",
       ),
     );
 
-    final exePath = join(cwd.path, "dist", "Spotube-windows-x86_64-setup.exe");
+    final exePath = join(cwd.path, "dist", "Kelletube-windows-x86_64-setup.exe");
 
     await ogExe.copy(exePath);
     await ogExe.delete();
@@ -102,13 +102,13 @@ class WindowsBuildCommand extends Command with BuildCommandCommonSteps {
     );
 
     final chocoNupkg = File(
-      join(cwd.path, "dist", "spotube.$versionWithoutBuildNumber.nupkg"),
+      join(cwd.path, "dist", "kelletube.$versionWithoutBuildNumber.nupkg"),
     );
 
     final distNupkgPath = join(
       cwd.path,
       "dist",
-      "Spotube-windows-x86_64.nupkg",
+      "Kelletube-windows-x86_64.nupkg",
     );
 
     await chocoNupkg.copy(distNupkgPath);

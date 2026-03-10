@@ -1,11 +1,11 @@
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:spotube/models/metadata/metadata.dart';
-import 'package:spotube/provider/metadata_plugin/metadata_plugin_provider.dart';
-import 'package:spotube/provider/metadata_plugin/utils/family_paginated.dart';
-import 'package:spotube/provider/metadata_plugin/utils/common.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
+import 'package:kelletube/provider/metadata_plugin/metadata_plugin_provider.dart';
+import 'package:kelletube/provider/metadata_plugin/utils/family_paginated.dart';
+import 'package:kelletube/provider/metadata_plugin/utils/common.dart';
 
 class MetadataPluginAlbumTracksNotifier
-    extends AutoDisposeFamilyPaginatedAsyncNotifier<SpotubeFullTrackObject,
+    extends AutoDisposeFamilyPaginatedAsyncNotifier<KelletubeFullTrackObject,
         String> {
   MetadataPluginAlbumTracksNotifier() : super();
 
@@ -31,6 +31,6 @@ class MetadataPluginAlbumTracksNotifier
 
 final metadataPluginAlbumTracksProvider =
     AutoDisposeAsyncNotifierProviderFamily<MetadataPluginAlbumTracksNotifier,
-        SpotubePaginationResponseObject<SpotubeFullTrackObject>, String>(
+        KelletubePaginationResponseObject<KelletubeFullTrackObject>, String>(
   () => MetadataPluginAlbumTracksNotifier(),
 );

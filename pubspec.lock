@@ -1184,13 +1184,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.4.2+1"
-  hetu_spotube_plugin:
+  hetu_kelletube_plugin:
     dependency: "direct main"
     description:
       path: "."
       ref: main
       resolved-ref: d85dd429241d464a8b5b0c2b3d870143eeba8b46
-      url: "https://github.com/KRTirtho/hetu_spotube_plugin.git"
+      url: "https://github.com/KRTirtho/hetu_kelletube_plugin.git"
     source: git
     version: "0.0.2"
   hetu_std:

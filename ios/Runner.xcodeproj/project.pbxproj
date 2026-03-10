@@ -1,4 +1,4 @@
-// !$*UTF8*$!
+UU !$*UTF8*$!
 {
 	archiveVersion = 1;
 	classes = {
@@ -6,53 +6,53 @@
 	objectVersion = 54;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		051977801F58E8DBB6712352 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E9EBDD27997A73A4D38EE1 /* Pods_Runner.framework */; };
-		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
-		17438EB903776D8D0E926C9B /* Pods_nightly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC36FC304DBD4E8A8C00694 /* Pods_nightly.framework */; };
-		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
-		46249B26D47C5DB81A4F972E /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E9EBDD27997A73A4D38EE1 /* Pods_Runner.framework */; };
-		4E86E0C42011EDB42C34AF9A /* Pods_stable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F91A319C771EEC978B238A /* Pods_stable.framework */; };
-		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
-		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
-		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
-		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
-		B536BD902B405DB1009B3CE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
-		B536BD912B405DB1009B3CE4 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
-		B536BD952B405DB1009B3CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
-		B536BD962B405DB1009B3CE4 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
-		B536BD972B405DB1009B3CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
-		B536BD982B405DB1009B3CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
-		B536BDAE2B405FDE009B3CE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
-		B536BDAF2B405FDE009B3CE4 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
-		B536BDB22B405FDE009B3CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
-		B536BDB32B405FDE009B3CE4 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
-		B536BDB42B405FDE009B3CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
-		B536BDB52B405FDE009B3CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
-		B536BDD02B4060B3009B3CE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
-		B536BDD12B4060B3009B3CE4 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
-		B536BDD42B4060B3009B3CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
-		B536BDD52B4060B3009B3CE4 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
-		B536BDD62B4060B3009B3CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
-		B536BDD72B4060B3009B3CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
-		C36A05AD330BBFAED75A62D5 /* Pods_dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4238A4985255EC9F93067739 /* Pods_dev.framework */; };
-		E612EC3B2D0F07A90022720C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E612EC3A2D0F07A90022720C /* WidgetKit.framework */; };
-		E612EC3D2D0F07A90022720C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E612EC3C2D0F07A90022720C /* SwiftUI.framework */; };
-		E612EC482D0F07AD0022720C /* HomePlayerWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E612EC392D0F07A90022720C /* HomePlayerWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-/* End PBXBuildFile section */
+U* Begin PBXBuildFile section *U
+		051977801F58E8DBB6712352 U* Pods_Runner.framework in Frameworks *U = {isa = PBXBuildFile; fileRef = F7E9EBDD27997A73A4D38EE1 U* Pods_Runner.framework *U; };
+		1498D2341E8E89220040F4C2 U* GeneratedPluginRegistrant.m in Sources *U = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 U* GeneratedPluginRegistrant.m *U; };
+		17438EB903776D8D0E926C9B U* Pods_nightly.framework in Frameworks *U = {isa = PBXBuildFile; fileRef = BAC36FC304DBD4E8A8C00694 U* Pods_nightly.framework *U; };
+		3B3967161E833CAA004F5970 U* AppFrameworkInfo.plist in Resources *U = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 U* AppFrameworkInfo.plist *U; };
+		46249B26D47C5DB81A4F972E U* Pods_Runner.framework in Frameworks *U = {isa = PBXBuildFile; fileRef = F7E9EBDD27997A73A4D38EE1 U* Pods_Runner.framework *U; };
+		4E86E0C42011EDB42C34AF9A U* Pods_stable.framework in Frameworks *U = {isa = PBXBuildFile; fileRef = B5F91A319C771EEC978B238A U* Pods_stable.framework *U; };
+		74858FAF1ED2DC5600515810 U* AppDelegate.swift in Sources *U = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 U* AppDelegate.swift *U; };
+		97C146FC1CF9000F007C117D U* Main.storyboard in Resources *U = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D U* Main.storyboard *U; };
+		97C146FE1CF9000F007C117D U* Assets.xcassets in Resources *U = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D U* Assets.xcassets *U; };
+		97C147011CF9000F007C117D U* LaunchScreen.storyboard in Resources *U = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D U* LaunchScreen.storyboard *U; };
+		B536BD902B405DB1009B3CE4 U* AppDelegate.swift in Sources *U = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 U* AppDelegate.swift *U; };
+		B536BD912B405DB1009B3CE4 U* GeneratedPluginRegistrant.m in Sources *U = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 U* GeneratedPluginRegistrant.m *U; };
+		B536BD952B405DB1009B3CE4 U* LaunchScreen.storyboard in Resources *U = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D U* LaunchScreen.storyboard *U; };
+		B536BD962B405DB1009B3CE4 U* AppFrameworkInfo.plist in Resources *U = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 U* AppFrameworkInfo.plist *U; };
+		B536BD972B405DB1009B3CE4 U* Assets.xcassets in Resources *U = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D U* Assets.xcassets *U; };
+		B536BD982B405DB1009B3CE4 U* Main.storyboard in Resources *U = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D U* Main.storyboard *U; };
+		B536BDAE2B405FDE009B3CE4 U* AppDelegate.swift in Sources *U = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 U* AppDelegate.swift *U; };
+		B536BDAF2B405FDE009B3CE4 U* GeneratedPluginRegistrant.m in Sources *U = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 U* GeneratedPluginRegistrant.m *U; };
+		B536BDB22B405FDE009B3CE4 U* LaunchScreen.storyboard in Resources *U = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D U* LaunchScreen.storyboard *U; };
+		B536BDB32B405FDE009B3CE4 U* AppFrameworkInfo.plist in Resources *U = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 U* AppFrameworkInfo.plist *U; };
+		B536BDB42B405FDE009B3CE4 U* Assets.xcassets in Resources *U = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D U* Assets.xcassets *U; };
+		B536BDB52B405FDE009B3CE4 U* Main.storyboard in Resources *U = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D U* Main.storyboard *U; };
+		B536BDD02B4060B3009B3CE4 U* AppDelegate.swift in Sources *U = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 U* AppDelegate.swift *U; };
+		B536BDD12B4060B3009B3CE4 U* GeneratedPluginRegistrant.m in Sources *U = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 U* GeneratedPluginRegistrant.m *U; };
+		B536BDD42B4060B3009B3CE4 U* LaunchScreen.storyboard in Resources *U = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D U* LaunchScreen.storyboard *U; };
+		B536BDD52B4060B3009B3CE4 U* AppFrameworkInfo.plist in Resources *U = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 U* AppFrameworkInfo.plist *U; };
+		B536BDD62B4060B3009B3CE4 U* Assets.xcassets in Resources *U = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D U* Assets.xcassets *U; };
+		B536BDD72B4060B3009B3CE4 U* Main.storyboard in Resources *U = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D U* Main.storyboard *U; };
+		C36A05AD330BBFAED75A62D5 U* Pods_dev.framework in Frameworks *U = {isa = PBXBuildFile; fileRef = 4238A4985255EC9F93067739 U* Pods_dev.framework *U; };
+		E612EC3B2D0F07A90022720C U* WidgetKit.framework in Frameworks *U = {isa = PBXBuildFile; fileRef = E612EC3A2D0F07A90022720C U* WidgetKit.framework *U; };
+		E612EC3D2D0F07A90022720C U* SwiftUI.framework in Frameworks *U = {isa = PBXBuildFile; fileRef = E612EC3C2D0F07A90022720C U* SwiftUI.framework *U; };
+		E612EC482D0F07AD0022720C U* HomePlayerWidgetExtension.appex in Embed Foundation Extensions *U = {isa = PBXBuildFile; fileRef = E612EC392D0F07A90022720C U* HomePlayerWidgetExtension.appex *U; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+U* End PBXBuildFile section *U
 
-/* Begin PBXContainerItemProxy section */
-		E612EC462D0F07AD0022720C /* PBXContainerItemProxy */ = {
+U* Begin PBXContainerItemProxy section *U
+		E612EC462D0F07AD0022720C U* PBXContainerItemProxy *U = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
+			containerPortal = 97C146E61CF9000F007C117D U* Project object *U;
 			proxyType = 1;
 			remoteGlobalIDString = E612EC382D0F07A80022720C;
 			remoteInfo = HomePlayerWidgetExtension;
 		};
-/* End PBXContainerItemProxy section */
+U* End PBXContainerItemProxy section *U
 
-/* Begin PBXCopyFilesBuildPhase section */
-		9705A1C41CF9048500538489 /* Embed Frameworks */ = {
+U* Begin PBXCopyFilesBuildPhase section *U
+		9705A1C41CF9048500538489 U* Embed Frameworks *U = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
@@ -62,7 +62,7 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B536BD992B405DB1009B3CE4 /* Embed Frameworks */ = {
+		B536BD992B405DB1009B3CE4 U* Embed Frameworks *U = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
@@ -72,7 +72,7 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B536BDB62B405FDE009B3CE4 /* Embed Frameworks */ = {
+		B536BDB62B405FDE009B3CE4 U* Embed Frameworks *U = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
@@ -82,7 +82,7 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B536BDD82B4060B3009B3CE4 /* Embed Frameworks */ = {
+		B536BDD82B4060B3009B3CE4 U* Embed Frameworks *U = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
@@ -92,236 +92,236 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E612EC492D0F07AD0022720C /* Embed Foundation Extensions */ = {
+		E612EC492D0F07AD0022720C U* Embed Foundation Extensions *U = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				E612EC482D0F07AD0022720C /* HomePlayerWidgetExtension.appex in Embed Foundation Extensions */,
+				E612EC482D0F07AD0022720C U* HomePlayerWidgetExtension.appex in Embed Foundation Extensions *U,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXCopyFilesBuildPhase section */
+U* End PBXCopyFilesBuildPhase section *U
 
-/* Begin PBXFileReference section */
-		04C104D3779B4D1635D939BF /* Pods-Runner.profile-nightly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile-nightly.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile-nightly.xcconfig"; sourceTree = "<group>"; };
-		0F8FB58820FF492BD3CF9315 /* Pods-nightly.debug-stable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.debug-stable.xcconfig"; path = "Target Support Files/Pods-nightly/Pods-nightly.debug-stable.xcconfig"; sourceTree = "<group>"; };
-		126B91CED32FAD3C40A67A23 /* Pods-dev.debug-stable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.debug-stable.xcconfig"; path = "Target Support Files/Pods-dev/Pods-dev.debug-stable.xcconfig"; sourceTree = "<group>"; };
-		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
-		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
-		171073CFF94F5751BC2B78DD /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
-		1C9810F8B3FD927ED8C94791 /* Pods-dev.profile-nightly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.profile-nightly.xcconfig"; path = "Target Support Files/Pods-dev/Pods-dev.profile-nightly.xcconfig"; sourceTree = "<group>"; };
-		21C0B1DEE0F0BFD3F3651F79 /* Pods-stable.debug-nightly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.debug-nightly.xcconfig"; path = "Target Support Files/Pods-stable/Pods-stable.debug-nightly.xcconfig"; sourceTree = "<group>"; };
-		261A31AC0DBA2D93BD1910D9 /* Pods-nightly.profile-nightly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.profile-nightly.xcconfig"; path = "Target Support Files/Pods-nightly/Pods-nightly.profile-nightly.xcconfig"; sourceTree = "<group>"; };
-		285DE2278D380EE2A6647CA9 /* Pods-nightly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.debug.xcconfig"; path = "Target Support Files/Pods-nightly/Pods-nightly.debug.xcconfig"; sourceTree = "<group>"; };
-		29304D1832AA30DE0C33E05C /* Pods-dev.profile-stable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.profile-stable.xcconfig"; path = "Target Support Files/Pods-dev/Pods-dev.profile-stable.xcconfig"; sourceTree = "<group>"; };
-		2DA87118BE2AF25875B7C376 /* Pods-stable.release-stable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.release-stable.xcconfig"; path = "Target Support Files/Pods-stable/Pods-stable.release-stable.xcconfig"; sourceTree = "<group>"; };
-		2F9AD76AF35FFC693C051CE1 /* Pods-dev.release-nightly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.release-nightly.xcconfig"; path = "Target Support Files/Pods-dev/Pods-dev.release-nightly.xcconfig"; sourceTree = "<group>"; };
-		39E15EE1745C9266FDB59558 /* Pods-stable.debug-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.debug-dev.xcconfig"; path = "Target Support Files/Pods-stable/Pods-stable.debug-dev.xcconfig"; sourceTree = "<group>"; };
-		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
-		3E262038FF3BDA3B8A7BDAC3 /* Pods-Runner.release-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release-dev.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release-dev.xcconfig"; sourceTree = "<group>"; };
-		3F754C793C1BC0E8B8FFB5B7 /* Pods-stable.profile-stable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.profile-stable.xcconfig"; path = "Target Support Files/Pods-stable/Pods-stable.profile-stable.xcconfig"; sourceTree = "<group>"; };
-		4238A4985255EC9F93067739 /* Pods_dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		46E04A5AA989356A32CD8E66 /* Pods-dev.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.profile.xcconfig"; path = "Target Support Files/Pods-dev/Pods-dev.profile.xcconfig"; sourceTree = "<group>"; };
-		48E7E801EAE1B520AA5F35DD /* Pods-dev.profile-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.profile-dev.xcconfig"; path = "Target Support Files/Pods-dev/Pods-dev.profile-dev.xcconfig"; sourceTree = "<group>"; };
-		4BDAF8FFADB62CA017755094 /* Pods-stable.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.profile.xcconfig"; path = "Target Support Files/Pods-stable/Pods-stable.profile.xcconfig"; sourceTree = "<group>"; };
-		5014E8BD9F7181E528538444 /* Pods-stable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.release.xcconfig"; path = "Target Support Files/Pods-stable/Pods-stable.release.xcconfig"; sourceTree = "<group>"; };
-		53AD516AAEB9A1331C99CBAE /* Pods-stable.profile-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.profile-dev.xcconfig"; path = "Target Support Files/Pods-stable/Pods-stable.profile-dev.xcconfig"; sourceTree = "<group>"; };
-		5A8B64E98ADDA28FB63AA32C /* Pods-Runner.release-nightly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release-nightly.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release-nightly.xcconfig"; sourceTree = "<group>"; };
-		636F4A85470D9E3B4CC8AFB8 /* Pods-nightly.profile-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.profile-dev.xcconfig"; path = "Target Support Files/Pods-nightly/Pods-nightly.profile-dev.xcconfig"; sourceTree = "<group>"; };
-		66F649AFA6E49EA44F469DA3 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
-		68BE49B58C0EBB578948D773 /* Pods-nightly.release-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.release-dev.xcconfig"; path = "Target Support Files/Pods-nightly/Pods-nightly.release-dev.xcconfig"; sourceTree = "<group>"; };
-		6AE8151F4499707FA23C8223 /* Pods-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.debug.xcconfig"; path = "Target Support Files/Pods-dev/Pods-dev.debug.xcconfig"; sourceTree = "<group>"; };
-		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
-		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77EFEBB27B276DD5F6B01B4B /* Pods-Runner.debug-nightly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug-nightly.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug-nightly.xcconfig"; sourceTree = "<group>"; };
-		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
-		864AC9150518DFBA85A46A15 /* Pods-stable.release-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.release-dev.xcconfig"; path = "Target Support Files/Pods-stable/Pods-stable.release-dev.xcconfig"; sourceTree = "<group>"; };
-		869E7B97AE866F2BCA2E5A6A /* Pods-Runner.release-stable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release-stable.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release-stable.xcconfig"; sourceTree = "<group>"; };
-		89CD409D60E1362C529707A4 /* Pods-nightly.release-nightly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.release-nightly.xcconfig"; path = "Target Support Files/Pods-nightly/Pods-nightly.release-nightly.xcconfig"; sourceTree = "<group>"; };
-		8AD587044EF2C6A6FA3059DC /* Pods-stable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.debug.xcconfig"; path = "Target Support Files/Pods-stable/Pods-stable.debug.xcconfig"; sourceTree = "<group>"; };
-		8B9DFB8E20C11066C3AB696A /* Pods-dev.debug-nightly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.debug-nightly.xcconfig"; path = "Target Support Files/Pods-dev/Pods-dev.debug-nightly.xcconfig"; sourceTree = "<group>"; };
-		8CF39CF9464623571B63D15B /* Pods-nightly.release-stable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.release-stable.xcconfig"; path = "Target Support Files/Pods-nightly/Pods-nightly.release-stable.xcconfig"; sourceTree = "<group>"; };
-		9232DBE472C8CEA1101843D9 /* Pods-nightly.profile-stable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.profile-stable.xcconfig"; path = "Target Support Files/Pods-nightly/Pods-nightly.profile-stable.xcconfig"; sourceTree = "<group>"; };
-		9740EEB21CF90195004384FC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Flutter/Debug.xcconfig; sourceTree = "<group>"; };
-		9740EEB31CF90195004384FC /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Generated.xcconfig; path = Flutter/Generated.xcconfig; sourceTree = "<group>"; };
-		97C146EE1CF9000F007C117D /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		97C146FB1CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9878519B106548FD75CA15C0 /* Pods-nightly.debug-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.debug-dev.xcconfig"; path = "Target Support Files/Pods-nightly/Pods-nightly.debug-dev.xcconfig"; sourceTree = "<group>"; };
-		A59B7A01EEC476AF3141B518 /* Pods-Runner.debug-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug-dev.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug-dev.xcconfig"; sourceTree = "<group>"; };
-		B38E6C7315D66215AFD8B218 /* Pods-stable.profile-nightly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.profile-nightly.xcconfig"; path = "Target Support Files/Pods-stable/Pods-stable.profile-nightly.xcconfig"; sourceTree = "<group>"; };
-		B536BDA02B405DB1009B3CE4 /* stable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stable.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B536BDA12B405DB1009B3CE4 /* stable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "stable-Info.plist"; path = "/Users/xiaobowen/Documents/GitHub/spotube/ios/stable-Info.plist"; sourceTree = "<absolute>"; };
-		B536BDBF2B405FDE009B3CE4 /* dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dev.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B536BDC02B405FDE009B3CE4 /* dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "dev-Info.plist"; path = "/Users/xiaobowen/Documents/GitHub/spotube/ios/dev-Info.plist"; sourceTree = "<absolute>"; };
-		B536BDE42B4060B3009B3CE4 /* nightly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nightly.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B536BDE52B4060B3009B3CE4 /* nightly-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "nightly-Info.plist"; path = "/Users/xiaobowen/Documents/GitHub/spotube/ios/nightly-Info.plist"; sourceTree = "<absolute>"; };
-		B5F91A319C771EEC978B238A /* Pods_stable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B95530D9046F7F9BA07D2ADD /* Pods-Runner.profile-stable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile-stable.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile-stable.xcconfig"; sourceTree = "<group>"; };
-		BAC36FC304DBD4E8A8C00694 /* Pods_nightly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nightly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDE1B62C8A5219CAA5D19583 /* Pods-nightly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.release.xcconfig"; path = "Target Support Files/Pods-nightly/Pods-nightly.release.xcconfig"; sourceTree = "<group>"; };
-		C3F494F4E243EAE21CEC5765 /* Pods-Runner.profile-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile-dev.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile-dev.xcconfig"; sourceTree = "<group>"; };
-		C63F01302EF00EAECE6BEA7C /* Pods-dev.release-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.release-dev.xcconfig"; path = "Target Support Files/Pods-dev/Pods-dev.release-dev.xcconfig"; sourceTree = "<group>"; };
-		CA0F4EAB0789E68A7C771A07 /* Pods-nightly.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.profile.xcconfig"; path = "Target Support Files/Pods-nightly/Pods-nightly.profile.xcconfig"; sourceTree = "<group>"; };
-		CE8646F5A4BCC46B0416DC84 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
-		D32BAE0F55672DD7669755B8 /* Pods-Runner.debug-stable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug-stable.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug-stable.xcconfig"; sourceTree = "<group>"; };
-		D9A69004587D01A7C68666CF /* Pods-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.release.xcconfig"; path = "Target Support Files/Pods-dev/Pods-dev.release.xcconfig"; sourceTree = "<group>"; };
-		E0EAB4380EE7C7EA7A350B6F /* Pods-stable.release-nightly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.release-nightly.xcconfig"; path = "Target Support Files/Pods-stable/Pods-stable.release-nightly.xcconfig"; sourceTree = "<group>"; };
-		E612EC392D0F07A90022720C /* HomePlayerWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HomePlayerWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		E612EC3A2D0F07A90022720C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
-		E612EC3C2D0F07A90022720C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		E6F17DB92D0F34E500BC2FA2 /* HomePlayerWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HomePlayerWidgetExtension.entitlements; sourceTree = "<group>"; };
-		E6F17DBA2D0F352C00BC2FA2 /* Runner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Runner.entitlements; sourceTree = "<group>"; };
-		E6F17DBB2D0F356700BC2FA2 /* stable.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = stable.entitlements; sourceTree = "<group>"; };
-		E6F17DBC2D0F357500BC2FA2 /* dev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dev.entitlements; sourceTree = "<group>"; };
-		E6F17DBD2D0F357F00BC2FA2 /* nightly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nightly.entitlements; sourceTree = "<group>"; };
-		E81F11471FD7D807286E33D6 /* Pods-dev.debug-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.debug-dev.xcconfig"; path = "Target Support Files/Pods-dev/Pods-dev.debug-dev.xcconfig"; sourceTree = "<group>"; };
-		EB7783C1029CEC13F4B05D36 /* Pods-nightly.debug-nightly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.debug-nightly.xcconfig"; path = "Target Support Files/Pods-nightly/Pods-nightly.debug-nightly.xcconfig"; sourceTree = "<group>"; };
-		EBBED0A8DE0D0E230CD03613 /* Pods-dev.release-stable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.release-stable.xcconfig"; path = "Target Support Files/Pods-dev/Pods-dev.release-stable.xcconfig"; sourceTree = "<group>"; };
-		F6F397A82E788E50B186ADC7 /* Pods-stable.debug-stable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.debug-stable.xcconfig"; path = "Target Support Files/Pods-stable/Pods-stable.debug-stable.xcconfig"; sourceTree = "<group>"; };
-		F7E9EBDD27997A73A4D38EE1 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+U* Begin PBXFileReference section *U
+		04C104D3779B4D1635D939BF U* Pods-Runner.profile-nightly.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile-nightly.xcconfig"; path = "Target Support FilesUPods-RunnerUPods-Runner.profile-nightly.xcconfig"; sourceTree = "<group>"; };
+		0F8FB58820FF492BD3CF9315 U* Pods-nightly.debug-stable.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.debug-stable.xcconfig"; path = "Target Support FilesUPods-nightlyUPods-nightly.debug-stable.xcconfig"; sourceTree = "<group>"; };
+		126B91CED32FAD3C40A67A23 U* Pods-dev.debug-stable.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.debug-stable.xcconfig"; path = "Target Support FilesUPods-devUPods-dev.debug-stable.xcconfig"; sourceTree = "<group>"; };
+		1498D2321E8E86230040F4C2 U* GeneratedPluginRegistrant.h *U = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
+		1498D2331E8E89220040F4C2 U* GeneratedPluginRegistrant.m *U = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		171073CFF94F5751BC2B78DD U* Pods-Runner.profile.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support FilesUPods-RunnerUPods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		1C9810F8B3FD927ED8C94791 U* Pods-dev.profile-nightly.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.profile-nightly.xcconfig"; path = "Target Support FilesUPods-devUPods-dev.profile-nightly.xcconfig"; sourceTree = "<group>"; };
+		21C0B1DEE0F0BFD3F3651F79 U* Pods-stable.debug-nightly.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.debug-nightly.xcconfig"; path = "Target Support FilesUPods-stableUPods-stable.debug-nightly.xcconfig"; sourceTree = "<group>"; };
+		261A31AC0DBA2D93BD1910D9 U* Pods-nightly.profile-nightly.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.profile-nightly.xcconfig"; path = "Target Support FilesUPods-nightlyUPods-nightly.profile-nightly.xcconfig"; sourceTree = "<group>"; };
+		285DE2278D380EE2A6647CA9 U* Pods-nightly.debug.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.debug.xcconfig"; path = "Target Support FilesUPods-nightlyUPods-nightly.debug.xcconfig"; sourceTree = "<group>"; };
+		29304D1832AA30DE0C33E05C U* Pods-dev.profile-stable.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.profile-stable.xcconfig"; path = "Target Support FilesUPods-devUPods-dev.profile-stable.xcconfig"; sourceTree = "<group>"; };
+		2DA87118BE2AF25875B7C376 U* Pods-stable.release-stable.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.release-stable.xcconfig"; path = "Target Support FilesUPods-stableUPods-stable.release-stable.xcconfig"; sourceTree = "<group>"; };
+		2F9AD76AF35FFC693C051CE1 U* Pods-dev.release-nightly.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.release-nightly.xcconfig"; path = "Target Support FilesUPods-devUPods-dev.release-nightly.xcconfig"; sourceTree = "<group>"; };
+		39E15EE1745C9266FDB59558 U* Pods-stable.debug-dev.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.debug-dev.xcconfig"; path = "Target Support FilesUPods-stableUPods-stable.debug-dev.xcconfig"; sourceTree = "<group>"; };
+		3B3967151E833CAA004F5970 U* AppFrameworkInfo.plist *U = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = FlutterUAppFrameworkInfo.plist; sourceTree = "<group>"; };
+		3E262038FF3BDA3B8A7BDAC3 U* Pods-Runner.release-dev.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release-dev.xcconfig"; path = "Target Support FilesUPods-RunnerUPods-Runner.release-dev.xcconfig"; sourceTree = "<group>"; };
+		3F754C793C1BC0E8B8FFB5B7 U* Pods-stable.profile-stable.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.profile-stable.xcconfig"; path = "Target Support FilesUPods-stableUPods-stable.profile-stable.xcconfig"; sourceTree = "<group>"; };
+		4238A4985255EC9F93067739 U* Pods_dev.framework *U = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E04A5AA989356A32CD8E66 U* Pods-dev.profile.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.profile.xcconfig"; path = "Target Support FilesUPods-devUPods-dev.profile.xcconfig"; sourceTree = "<group>"; };
+		48E7E801EAE1B520AA5F35DD U* Pods-dev.profile-dev.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.profile-dev.xcconfig"; path = "Target Support FilesUPods-devUPods-dev.profile-dev.xcconfig"; sourceTree = "<group>"; };
+		4BDAF8FFADB62CA017755094 U* Pods-stable.profile.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.profile.xcconfig"; path = "Target Support FilesUPods-stableUPods-stable.profile.xcconfig"; sourceTree = "<group>"; };
+		5014E8BD9F7181E528538444 U* Pods-stable.release.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.release.xcconfig"; path = "Target Support FilesUPods-stableUPods-stable.release.xcconfig"; sourceTree = "<group>"; };
+		53AD516AAEB9A1331C99CBAE U* Pods-stable.profile-dev.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.profile-dev.xcconfig"; path = "Target Support FilesUPods-stableUPods-stable.profile-dev.xcconfig"; sourceTree = "<group>"; };
+		5A8B64E98ADDA28FB63AA32C U* Pods-Runner.release-nightly.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release-nightly.xcconfig"; path = "Target Support FilesUPods-RunnerUPods-Runner.release-nightly.xcconfig"; sourceTree = "<group>"; };
+		636F4A85470D9E3B4CC8AFB8 U* Pods-nightly.profile-dev.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.profile-dev.xcconfig"; path = "Target Support FilesUPods-nightlyUPods-nightly.profile-dev.xcconfig"; sourceTree = "<group>"; };
+		66F649AFA6E49EA44F469DA3 U* Pods-Runner.debug.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support FilesUPods-RunnerUPods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		68BE49B58C0EBB578948D773 U* Pods-nightly.release-dev.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.release-dev.xcconfig"; path = "Target Support FilesUPods-nightlyUPods-nightly.release-dev.xcconfig"; sourceTree = "<group>"; };
+		6AE8151F4499707FA23C8223 U* Pods-dev.debug.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.debug.xcconfig"; path = "Target Support FilesUPods-devUPods-dev.debug.xcconfig"; sourceTree = "<group>"; };
+		74858FAD1ED2DC5600515810 U* Runner-Bridging-Header.h *U = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
+		74858FAE1ED2DC5600515810 U* AppDelegate.swift *U = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77EFEBB27B276DD5F6B01B4B U* Pods-Runner.debug-nightly.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug-nightly.xcconfig"; path = "Target Support FilesUPods-RunnerUPods-Runner.debug-nightly.xcconfig"; sourceTree = "<group>"; };
+		7AFA3C8E1D35360C0083082E U* Release.xcconfig *U = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = FlutterURelease.xcconfig; sourceTree = "<group>"; };
+		864AC9150518DFBA85A46A15 U* Pods-stable.release-dev.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.release-dev.xcconfig"; path = "Target Support FilesUPods-stableUPods-stable.release-dev.xcconfig"; sourceTree = "<group>"; };
+		869E7B97AE866F2BCA2E5A6A U* Pods-Runner.release-stable.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release-stable.xcconfig"; path = "Target Support FilesUPods-RunnerUPods-Runner.release-stable.xcconfig"; sourceTree = "<group>"; };
+		89CD409D60E1362C529707A4 U* Pods-nightly.release-nightly.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.release-nightly.xcconfig"; path = "Target Support FilesUPods-nightlyUPods-nightly.release-nightly.xcconfig"; sourceTree = "<group>"; };
+		8AD587044EF2C6A6FA3059DC U* Pods-stable.debug.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.debug.xcconfig"; path = "Target Support FilesUPods-stableUPods-stable.debug.xcconfig"; sourceTree = "<group>"; };
+		8B9DFB8E20C11066C3AB696A U* Pods-dev.debug-nightly.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.debug-nightly.xcconfig"; path = "Target Support FilesUPods-devUPods-dev.debug-nightly.xcconfig"; sourceTree = "<group>"; };
+		8CF39CF9464623571B63D15B U* Pods-nightly.release-stable.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.release-stable.xcconfig"; path = "Target Support FilesUPods-nightlyUPods-nightly.release-stable.xcconfig"; sourceTree = "<group>"; };
+		9232DBE472C8CEA1101843D9 U* Pods-nightly.profile-stable.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.profile-stable.xcconfig"; path = "Target Support FilesUPods-nightlyUPods-nightly.profile-stable.xcconfig"; sourceTree = "<group>"; };
+		9740EEB21CF90195004384FC U* Debug.xcconfig *U = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = FlutterUDebug.xcconfig; sourceTree = "<group>"; };
+		9740EEB31CF90195004384FC U* Generated.xcconfig *U = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Generated.xcconfig; path = FlutterUGenerated.xcconfig; sourceTree = "<group>"; };
+		97C146EE1CF9000F007C117D U* Runner.app *U = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97C146FB1CF9000F007C117D U* Base *U = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lprojUMain.storyboard; sourceTree = "<group>"; };
+		97C146FD1CF9000F007C117D U* Assets.xcassets *U = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97C147001CF9000F007C117D U* Base *U = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lprojULaunchScreen.storyboard; sourceTree = "<group>"; };
+		97C147021CF9000F007C117D U* Info.plist *U = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9878519B106548FD75CA15C0 U* Pods-nightly.debug-dev.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.debug-dev.xcconfig"; path = "Target Support FilesUPods-nightlyUPods-nightly.debug-dev.xcconfig"; sourceTree = "<group>"; };
+		A59B7A01EEC476AF3141B518 U* Pods-Runner.debug-dev.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug-dev.xcconfig"; path = "Target Support FilesUPods-RunnerUPods-Runner.debug-dev.xcconfig"; sourceTree = "<group>"; };
+		B38E6C7315D66215AFD8B218 U* Pods-stable.profile-nightly.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.profile-nightly.xcconfig"; path = "Target Support FilesUPods-stableUPods-stable.profile-nightly.xcconfig"; sourceTree = "<group>"; };
+		B536BDA02B405DB1009B3CE4 U* stable.app *U = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B536BDA12B405DB1009B3CE4 U* stable-Info.plist *U = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "stable-Info.plist"; path = "UUsersUxiaobowenUDocumentsUGitHubUspotubeUiosUstable-Info.plist"; sourceTree = "<absolute>"; };
+		B536BDBF2B405FDE009B3CE4 U* dev.app *U = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B536BDC02B405FDE009B3CE4 U* dev-Info.plist *U = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "dev-Info.plist"; path = "UUsersUxiaobowenUDocumentsUGitHubUspotubeUiosUdev-Info.plist"; sourceTree = "<absolute>"; };
+		B536BDE42B4060B3009B3CE4 U* nightly.app *U = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nightly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B536BDE52B4060B3009B3CE4 U* nightly-Info.plist *U = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "nightly-Info.plist"; path = "UUsersUxiaobowenUDocumentsUGitHubUspotubeUiosUnightly-Info.plist"; sourceTree = "<absolute>"; };
+		B5F91A319C771EEC978B238A U* Pods_stable.framework *U = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95530D9046F7F9BA07D2ADD U* Pods-Runner.profile-stable.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile-stable.xcconfig"; path = "Target Support FilesUPods-RunnerUPods-Runner.profile-stable.xcconfig"; sourceTree = "<group>"; };
+		BAC36FC304DBD4E8A8C00694 U* Pods_nightly.framework *U = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nightly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE1B62C8A5219CAA5D19583 U* Pods-nightly.release.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.release.xcconfig"; path = "Target Support FilesUPods-nightlyUPods-nightly.release.xcconfig"; sourceTree = "<group>"; };
+		C3F494F4E243EAE21CEC5765 U* Pods-Runner.profile-dev.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile-dev.xcconfig"; path = "Target Support FilesUPods-RunnerUPods-Runner.profile-dev.xcconfig"; sourceTree = "<group>"; };
+		C63F01302EF00EAECE6BEA7C U* Pods-dev.release-dev.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.release-dev.xcconfig"; path = "Target Support FilesUPods-devUPods-dev.release-dev.xcconfig"; sourceTree = "<group>"; };
+		CA0F4EAB0789E68A7C771A07 U* Pods-nightly.profile.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.profile.xcconfig"; path = "Target Support FilesUPods-nightlyUPods-nightly.profile.xcconfig"; sourceTree = "<group>"; };
+		CE8646F5A4BCC46B0416DC84 U* Pods-Runner.release.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support FilesUPods-RunnerUPods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		D32BAE0F55672DD7669755B8 U* Pods-Runner.debug-stable.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug-stable.xcconfig"; path = "Target Support FilesUPods-RunnerUPods-Runner.debug-stable.xcconfig"; sourceTree = "<group>"; };
+		D9A69004587D01A7C68666CF U* Pods-dev.release.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.release.xcconfig"; path = "Target Support FilesUPods-devUPods-dev.release.xcconfig"; sourceTree = "<group>"; };
+		E0EAB4380EE7C7EA7A350B6F U* Pods-stable.release-nightly.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.release-nightly.xcconfig"; path = "Target Support FilesUPods-stableUPods-stable.release-nightly.xcconfig"; sourceTree = "<group>"; };
+		E612EC392D0F07A90022720C U* HomePlayerWidgetExtension.appex *U = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HomePlayerWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E612EC3A2D0F07A90022720C U* WidgetKit.framework *U = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = SystemULibraryUFrameworksUWidgetKit.framework; sourceTree = SDKROOT; };
+		E612EC3C2D0F07A90022720C U* SwiftUI.framework *U = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = SystemULibraryUFrameworksUSwiftUI.framework; sourceTree = SDKROOT; };
+		E6F17DB92D0F34E500BC2FA2 U* HomePlayerWidgetExtension.entitlements *U = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HomePlayerWidgetExtension.entitlements; sourceTree = "<group>"; };
+		E6F17DBA2D0F352C00BC2FA2 U* Runner.entitlements *U = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Runner.entitlements; sourceTree = "<group>"; };
+		E6F17DBB2D0F356700BC2FA2 U* stable.entitlements *U = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = stable.entitlements; sourceTree = "<group>"; };
+		E6F17DBC2D0F357500BC2FA2 U* dev.entitlements *U = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dev.entitlements; sourceTree = "<group>"; };
+		E6F17DBD2D0F357F00BC2FA2 U* nightly.entitlements *U = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nightly.entitlements; sourceTree = "<group>"; };
+		E81F11471FD7D807286E33D6 U* Pods-dev.debug-dev.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.debug-dev.xcconfig"; path = "Target Support FilesUPods-devUPods-dev.debug-dev.xcconfig"; sourceTree = "<group>"; };
+		EB7783C1029CEC13F4B05D36 U* Pods-nightly.debug-nightly.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nightly.debug-nightly.xcconfig"; path = "Target Support FilesUPods-nightlyUPods-nightly.debug-nightly.xcconfig"; sourceTree = "<group>"; };
+		EBBED0A8DE0D0E230CD03613 U* Pods-dev.release-stable.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.release-stable.xcconfig"; path = "Target Support FilesUPods-devUPods-dev.release-stable.xcconfig"; sourceTree = "<group>"; };
+		F6F397A82E788E50B186ADC7 U* Pods-stable.debug-stable.xcconfig *U = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stable.debug-stable.xcconfig"; path = "Target Support FilesUPods-stableUPods-stable.debug-stable.xcconfig"; sourceTree = "<group>"; };
+		F7E9EBDD27997A73A4D38EE1 U* Pods_Runner.framework *U = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+U* End PBXFileReference section *U
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		E612EC562D0F07AD0022720C /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+U* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section *U
+		E612EC562D0F07AD0022720C U* PBXFileSystemSynchronizedBuildFileExceptionSet *U = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = E612EC382D0F07A80022720C /* HomePlayerWidgetExtension */;
+			target = E612EC382D0F07A80022720C U* HomePlayerWidgetExtension *U;
 		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+U* End PBXFileSystemSynchronizedBuildFileExceptionSet section *U
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		E612EC3E2D0F07A90022720C /* HomePlayerWidget */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E612EC562D0F07AD0022720C /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = HomePlayerWidget; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
+U* Begin PBXFileSystemSynchronizedRootGroup section *U
+		E612EC3E2D0F07A90022720C U* HomePlayerWidget *U = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E612EC562D0F07AD0022720C U* PBXFileSystemSynchronizedBuildFileExceptionSet *U, ); explicitFileTypes = {}; explicitFolders = (); path = HomePlayerWidget; sourceTree = "<group>"; };
+U* End PBXFileSystemSynchronizedRootGroup section *U
 
-/* Begin PBXFrameworksBuildPhase section */
-		97C146EB1CF9000F007C117D /* Frameworks */ = {
+U* Begin PBXFrameworksBuildPhase section *U
+		97C146EB1CF9000F007C117D U* Frameworks *U = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46249B26D47C5DB81A4F972E /* Pods_Runner.framework in Frameworks */,
-				051977801F58E8DBB6712352 /* Pods_Runner.framework in Frameworks */,
+				46249B26D47C5DB81A4F972E U* Pods_Runner.framework in Frameworks *U,
+				051977801F58E8DBB6712352 U* Pods_Runner.framework in Frameworks *U,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B536BD922B405DB1009B3CE4 /* Frameworks */ = {
+		B536BD922B405DB1009B3CE4 U* Frameworks *U = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E86E0C42011EDB42C34AF9A /* Pods_stable.framework in Frameworks */,
+				4E86E0C42011EDB42C34AF9A U* Pods_stable.framework in Frameworks *U,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B536BDB02B405FDE009B3CE4 /* Frameworks */ = {
+		B536BDB02B405FDE009B3CE4 U* Frameworks *U = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C36A05AD330BBFAED75A62D5 /* Pods_dev.framework in Frameworks */,
+				C36A05AD330BBFAED75A62D5 U* Pods_dev.framework in Frameworks *U,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B536BDD22B4060B3009B3CE4 /* Frameworks */ = {
+		B536BDD22B4060B3009B3CE4 U* Frameworks *U = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17438EB903776D8D0E926C9B /* Pods_nightly.framework in Frameworks */,
+				17438EB903776D8D0E926C9B U* Pods_nightly.framework in Frameworks *U,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E612EC362D0F07A80022720C /* Frameworks */ = {
+		E612EC362D0F07A80022720C U* Frameworks *U = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E612EC3D2D0F07A90022720C /* SwiftUI.framework in Frameworks */,
-				E612EC3B2D0F07A90022720C /* WidgetKit.framework in Frameworks */,
+				E612EC3D2D0F07A90022720C U* SwiftUI.framework in Frameworks *U,
+				E612EC3B2D0F07A90022720C U* WidgetKit.framework in Frameworks *U,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXFrameworksBuildPhase section */
+U* End PBXFrameworksBuildPhase section *U
 
-/* Begin PBXGroup section */
-		0E0B839C4E103F896209E822 /* Frameworks */ = {
+U* Begin PBXGroup section *U
+		0E0B839C4E103F896209E822 U* Frameworks *U = {
 			isa = PBXGroup;
 			children = (
-				F7E9EBDD27997A73A4D38EE1 /* Pods_Runner.framework */,
-				4238A4985255EC9F93067739 /* Pods_dev.framework */,
-				BAC36FC304DBD4E8A8C00694 /* Pods_nightly.framework */,
-				B5F91A319C771EEC978B238A /* Pods_stable.framework */,
-				E612EC3A2D0F07A90022720C /* WidgetKit.framework */,
-				E612EC3C2D0F07A90022720C /* SwiftUI.framework */,
+				F7E9EBDD27997A73A4D38EE1 U* Pods_Runner.framework *U,
+				4238A4985255EC9F93067739 U* Pods_dev.framework *U,
+				BAC36FC304DBD4E8A8C00694 U* Pods_nightly.framework *U,
+				B5F91A319C771EEC978B238A U* Pods_stable.framework *U,
+				E612EC3A2D0F07A90022720C U* WidgetKit.framework *U,
+				E612EC3C2D0F07A90022720C U* SwiftUI.framework *U,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		67CBFE209DF24C94A9837AD5 /* Pods */ = {
+		67CBFE209DF24C94A9837AD5 U* Pods *U = {
 			isa = PBXGroup;
 			children = (
-				66F649AFA6E49EA44F469DA3 /* Pods-Runner.debug.xcconfig */,
-				CE8646F5A4BCC46B0416DC84 /* Pods-Runner.release.xcconfig */,
-				171073CFF94F5751BC2B78DD /* Pods-Runner.profile.xcconfig */,
-				D32BAE0F55672DD7669755B8 /* Pods-Runner.debug-stable.xcconfig */,
-				869E7B97AE866F2BCA2E5A6A /* Pods-Runner.release-stable.xcconfig */,
-				B95530D9046F7F9BA07D2ADD /* Pods-Runner.profile-stable.xcconfig */,
-				A59B7A01EEC476AF3141B518 /* Pods-Runner.debug-dev.xcconfig */,
-				3E262038FF3BDA3B8A7BDAC3 /* Pods-Runner.release-dev.xcconfig */,
-				C3F494F4E243EAE21CEC5765 /* Pods-Runner.profile-dev.xcconfig */,
-				77EFEBB27B276DD5F6B01B4B /* Pods-Runner.debug-nightly.xcconfig */,
-				5A8B64E98ADDA28FB63AA32C /* Pods-Runner.release-nightly.xcconfig */,
-				04C104D3779B4D1635D939BF /* Pods-Runner.profile-nightly.xcconfig */,
-				6AE8151F4499707FA23C8223 /* Pods-dev.debug.xcconfig */,
-				8B9DFB8E20C11066C3AB696A /* Pods-dev.debug-nightly.xcconfig */,
-				E81F11471FD7D807286E33D6 /* Pods-dev.debug-dev.xcconfig */,
-				126B91CED32FAD3C40A67A23 /* Pods-dev.debug-stable.xcconfig */,
-				D9A69004587D01A7C68666CF /* Pods-dev.release.xcconfig */,
-				2F9AD76AF35FFC693C051CE1 /* Pods-dev.release-nightly.xcconfig */,
-				C63F01302EF00EAECE6BEA7C /* Pods-dev.release-dev.xcconfig */,
-				EBBED0A8DE0D0E230CD03613 /* Pods-dev.release-stable.xcconfig */,
-				46E04A5AA989356A32CD8E66 /* Pods-dev.profile.xcconfig */,
-				1C9810F8B3FD927ED8C94791 /* Pods-dev.profile-nightly.xcconfig */,
-				48E7E801EAE1B520AA5F35DD /* Pods-dev.profile-dev.xcconfig */,
-				29304D1832AA30DE0C33E05C /* Pods-dev.profile-stable.xcconfig */,
-				285DE2278D380EE2A6647CA9 /* Pods-nightly.debug.xcconfig */,
-				EB7783C1029CEC13F4B05D36 /* Pods-nightly.debug-nightly.xcconfig */,
-				9878519B106548FD75CA15C0 /* Pods-nightly.debug-dev.xcconfig */,
-				0F8FB58820FF492BD3CF9315 /* Pods-nightly.debug-stable.xcconfig */,
-				BDE1B62C8A5219CAA5D19583 /* Pods-nightly.release.xcconfig */,
-				89CD409D60E1362C529707A4 /* Pods-nightly.release-nightly.xcconfig */,
-				68BE49B58C0EBB578948D773 /* Pods-nightly.release-dev.xcconfig */,
-				8CF39CF9464623571B63D15B /* Pods-nightly.release-stable.xcconfig */,
-				CA0F4EAB0789E68A7C771A07 /* Pods-nightly.profile.xcconfig */,
-				261A31AC0DBA2D93BD1910D9 /* Pods-nightly.profile-nightly.xcconfig */,
-				636F4A85470D9E3B4CC8AFB8 /* Pods-nightly.profile-dev.xcconfig */,
-				9232DBE472C8CEA1101843D9 /* Pods-nightly.profile-stable.xcconfig */,
-				8AD587044EF2C6A6FA3059DC /* Pods-stable.debug.xcconfig */,
-				21C0B1DEE0F0BFD3F3651F79 /* Pods-stable.debug-nightly.xcconfig */,
-				39E15EE1745C9266FDB59558 /* Pods-stable.debug-dev.xcconfig */,
-				F6F397A82E788E50B186ADC7 /* Pods-stable.debug-stable.xcconfig */,
-				5014E8BD9F7181E528538444 /* Pods-stable.release.xcconfig */,
-				E0EAB4380EE7C7EA7A350B6F /* Pods-stable.release-nightly.xcconfig */,
-				864AC9150518DFBA85A46A15 /* Pods-stable.release-dev.xcconfig */,
-				2DA87118BE2AF25875B7C376 /* Pods-stable.release-stable.xcconfig */,
-				4BDAF8FFADB62CA017755094 /* Pods-stable.profile.xcconfig */,
-				B38E6C7315D66215AFD8B218 /* Pods-stable.profile-nightly.xcconfig */,
-				53AD516AAEB9A1331C99CBAE /* Pods-stable.profile-dev.xcconfig */,
-				3F754C793C1BC0E8B8FFB5B7 /* Pods-stable.profile-stable.xcconfig */,
+				66F649AFA6E49EA44F469DA3 U* Pods-Runner.debug.xcconfig *U,
+				CE8646F5A4BCC46B0416DC84 U* Pods-Runner.release.xcconfig *U,
+				171073CFF94F5751BC2B78DD U* Pods-Runner.profile.xcconfig *U,
+				D32BAE0F55672DD7669755B8 U* Pods-Runner.debug-stable.xcconfig *U,
+				869E7B97AE866F2BCA2E5A6A U* Pods-Runner.release-stable.xcconfig *U,
+				B95530D9046F7F9BA07D2ADD U* Pods-Runner.profile-stable.xcconfig *U,
+				A59B7A01EEC476AF3141B518 U* Pods-Runner.debug-dev.xcconfig *U,
+				3E262038FF3BDA3B8A7BDAC3 U* Pods-Runner.release-dev.xcconfig *U,
+				C3F494F4E243EAE21CEC5765 U* Pods-Runner.profile-dev.xcconfig *U,
+				77EFEBB27B276DD5F6B01B4B U* Pods-Runner.debug-nightly.xcconfig *U,
+				5A8B64E98ADDA28FB63AA32C U* Pods-Runner.release-nightly.xcconfig *U,
+				04C104D3779B4D1635D939BF U* Pods-Runner.profile-nightly.xcconfig *U,
+				6AE8151F4499707FA23C8223 U* Pods-dev.debug.xcconfig *U,
+				8B9DFB8E20C11066C3AB696A U* Pods-dev.debug-nightly.xcconfig *U,
+				E81F11471FD7D807286E33D6 U* Pods-dev.debug-dev.xcconfig *U,
+				126B91CED32FAD3C40A67A23 U* Pods-dev.debug-stable.xcconfig *U,
+				D9A69004587D01A7C68666CF U* Pods-dev.release.xcconfig *U,
+				2F9AD76AF35FFC693C051CE1 U* Pods-dev.release-nightly.xcconfig *U,
+				C63F01302EF00EAECE6BEA7C U* Pods-dev.release-dev.xcconfig *U,
+				EBBED0A8DE0D0E230CD03613 U* Pods-dev.release-stable.xcconfig *U,
+				46E04A5AA989356A32CD8E66 U* Pods-dev.profile.xcconfig *U,
+				1C9810F8B3FD927ED8C94791 U* Pods-dev.profile-nightly.xcconfig *U,
+				48E7E801EAE1B520AA5F35DD U* Pods-dev.profile-dev.xcconfig *U,
+				29304D1832AA30DE0C33E05C U* Pods-dev.profile-stable.xcconfig *U,
+				285DE2278D380EE2A6647CA9 U* Pods-nightly.debug.xcconfig *U,
+				EB7783C1029CEC13F4B05D36 U* Pods-nightly.debug-nightly.xcconfig *U,
+				9878519B106548FD75CA15C0 U* Pods-nightly.debug-dev.xcconfig *U,
+				0F8FB58820FF492BD3CF9315 U* Pods-nightly.debug-stable.xcconfig *U,
+				BDE1B62C8A5219CAA5D19583 U* Pods-nightly.release.xcconfig *U,
+				89CD409D60E1362C529707A4 U* Pods-nightly.release-nightly.xcconfig *U,
+				68BE49B58C0EBB578948D773 U* Pods-nightly.release-dev.xcconfig *U,
+				8CF39CF9464623571B63D15B U* Pods-nightly.release-stable.xcconfig *U,
+				CA0F4EAB0789E68A7C771A07 U* Pods-nightly.profile.xcconfig *U,
+				261A31AC0DBA2D93BD1910D9 U* Pods-nightly.profile-nightly.xcconfig *U,
+				636F4A85470D9E3B4CC8AFB8 U* Pods-nightly.profile-dev.xcconfig *U,
+				9232DBE472C8CEA1101843D9 U* Pods-nightly.profile-stable.xcconfig *U,
+				8AD587044EF2C6A6FA3059DC U* Pods-stable.debug.xcconfig *U,
+				21C0B1DEE0F0BFD3F3651F79 U* Pods-stable.debug-nightly.xcconfig *U,
+				39E15EE1745C9266FDB59558 U* Pods-stable.debug-dev.xcconfig *U,
+				F6F397A82E788E50B186ADC7 U* Pods-stable.debug-stable.xcconfig *U,
+				5014E8BD9F7181E528538444 U* Pods-stable.release.xcconfig *U,
+				E0EAB4380EE7C7EA7A350B6F U* Pods-stable.release-nightly.xcconfig *U,
+				864AC9150518DFBA85A46A15 U* Pods-stable.release-dev.xcconfig *U,
+				2DA87118BE2AF25875B7C376 U* Pods-stable.release-stable.xcconfig *U,
+				4BDAF8FFADB62CA017755094 U* Pods-stable.profile.xcconfig *U,
+				B38E6C7315D66215AFD8B218 U* Pods-stable.profile-nightly.xcconfig *U,
+				53AD516AAEB9A1331C99CBAE U* Pods-stable.profile-dev.xcconfig *U,
+				3F754C793C1BC0E8B8FFB5B7 U* Pods-stable.profile-stable.xcconfig *U,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		9740EEB11CF90186004384FC /* Flutter */ = {
+		9740EEB11CF90186004384FC U* Flutter *U = {
 			isa = PBXGroup;
 			children = (
-				3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */,
-				9740EEB21CF90195004384FC /* Debug.xcconfig */,
-				7AFA3C8E1D35360C0083082E /* Release.xcconfig */,
-				9740EEB31CF90195004384FC /* Generated.xcconfig */,
+				3B3967151E833CAA004F5970 U* AppFrameworkInfo.plist *U,
+				9740EEB21CF90195004384FC U* Debug.xcconfig *U,
+				7AFA3C8E1D35360C0083082E U* Release.xcconfig *U,
+				9740EEB31CF90195004384FC U* Generated.xcconfig *U,
 			);
 			name = Flutter;
 			sourceTree = "<group>";
@@ -329,92 +329,92 @@
 		97C146E51CF9000F007C117D = {
 			isa = PBXGroup;
 			children = (
-				E6F17DBD2D0F357F00BC2FA2 /* nightly.entitlements */,
-				E6F17DBC2D0F357500BC2FA2 /* dev.entitlements */,
-				E6F17DBB2D0F356700BC2FA2 /* stable.entitlements */,
-				E6F17DB92D0F34E500BC2FA2 /* HomePlayerWidgetExtension.entitlements */,
-				9740EEB11CF90186004384FC /* Flutter */,
-				97C146F01CF9000F007C117D /* Runner */,
-				E612EC3E2D0F07A90022720C /* HomePlayerWidget */,
-				97C146EF1CF9000F007C117D /* Products */,
-				67CBFE209DF24C94A9837AD5 /* Pods */,
-				0E0B839C4E103F896209E822 /* Frameworks */,
-				B536BDA12B405DB1009B3CE4 /* stable-Info.plist */,
-				B536BDC02B405FDE009B3CE4 /* dev-Info.plist */,
-				B536BDE52B4060B3009B3CE4 /* nightly-Info.plist */,
+				E6F17DBD2D0F357F00BC2FA2 U* nightly.entitlements *U,
+				E6F17DBC2D0F357500BC2FA2 U* dev.entitlements *U,
+				E6F17DBB2D0F356700BC2FA2 U* stable.entitlements *U,
+				E6F17DB92D0F34E500BC2FA2 U* HomePlayerWidgetExtension.entitlements *U,
+				9740EEB11CF90186004384FC U* Flutter *U,
+				97C146F01CF9000F007C117D U* Runner *U,
+				E612EC3E2D0F07A90022720C U* HomePlayerWidget *U,
+				97C146EF1CF9000F007C117D U* Products *U,
+				67CBFE209DF24C94A9837AD5 U* Pods *U,
+				0E0B839C4E103F896209E822 U* Frameworks *U,
+				B536BDA12B405DB1009B3CE4 U* stable-Info.plist *U,
+				B536BDC02B405FDE009B3CE4 U* dev-Info.plist *U,
+				B536BDE52B4060B3009B3CE4 U* nightly-Info.plist *U,
 			);
 			sourceTree = "<group>";
 		};
-		97C146EF1CF9000F007C117D /* Products */ = {
+		97C146EF1CF9000F007C117D U* Products *U = {
 			isa = PBXGroup;
 			children = (
-				97C146EE1CF9000F007C117D /* Runner.app */,
-				B536BDA02B405DB1009B3CE4 /* stable.app */,
-				B536BDBF2B405FDE009B3CE4 /* dev.app */,
-				B536BDE42B4060B3009B3CE4 /* nightly.app */,
-				E612EC392D0F07A90022720C /* HomePlayerWidgetExtension.appex */,
+				97C146EE1CF9000F007C117D U* Runner.app *U,
+				B536BDA02B405DB1009B3CE4 U* stable.app *U,
+				B536BDBF2B405FDE009B3CE4 U* dev.app *U,
+				B536BDE42B4060B3009B3CE4 U* nightly.app *U,
+				E612EC392D0F07A90022720C U* HomePlayerWidgetExtension.appex *U,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		97C146F01CF9000F007C117D /* Runner */ = {
+		97C146F01CF9000F007C117D U* Runner *U = {
 			isa = PBXGroup;
 			children = (
-				E6F17DBA2D0F352C00BC2FA2 /* Runner.entitlements */,
-				97C146FA1CF9000F007C117D /* Main.storyboard */,
-				97C146FD1CF9000F007C117D /* Assets.xcassets */,
-				97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */,
-				97C147021CF9000F007C117D /* Info.plist */,
-				1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */,
-				1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */,
-				74858FAE1ED2DC5600515810 /* AppDelegate.swift */,
-				74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */,
+				E6F17DBA2D0F352C00BC2FA2 U* Runner.entitlements *U,
+				97C146FA1CF9000F007C117D U* Main.storyboard *U,
+				97C146FD1CF9000F007C117D U* Assets.xcassets *U,
+				97C146FF1CF9000F007C117D U* LaunchScreen.storyboard *U,
+				97C147021CF9000F007C117D U* Info.plist *U,
+				1498D2321E8E86230040F4C2 U* GeneratedPluginRegistrant.h *U,
+				1498D2331E8E89220040F4C2 U* GeneratedPluginRegistrant.m *U,
+				74858FAE1ED2DC5600515810 U* AppDelegate.swift *U,
+				74858FAD1ED2DC5600515810 U* Runner-Bridging-Header.h *U,
 			);
 			path = Runner;
 			sourceTree = "<group>";
 		};
-/* End PBXGroup section */
+U* End PBXGroup section *U
 
-/* Begin PBXNativeTarget section */
-		97C146ED1CF9000F007C117D /* Runner */ = {
+U* Begin PBXNativeTarget section *U
+		97C146ED1CF9000F007C117D U* Runner *U = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Runner" */;
+			buildConfigurationList = 97C147051CF9000F007C117D U* Build configuration list for PBXNativeTarget "Runner" *U;
 			buildPhases = (
-				2AF6C7D149EE8481703D5255 /* [CP] Check Pods Manifest.lock */,
-				9740EEB61CF901F6004384FC /* Run Script */,
-				97C146EA1CF9000F007C117D /* Sources */,
-				97C146EB1CF9000F007C117D /* Frameworks */,
-				97C146EC1CF9000F007C117D /* Resources */,
-				9705A1C41CF9048500538489 /* Embed Frameworks */,
-				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
-				6E9FEF583EA597C8B76255B2 /* [CP] Embed Pods Frameworks */,
-				46F6EB27C31C41D86428A28B /* [CP] Copy Pods Resources */,
-				E612EC492D0F07AD0022720C /* Embed Foundation Extensions */,
-				E63F9CBC2D10709D00CD9E72 /* ShellScript */,
+				2AF6C7D149EE8481703D5255 U* [CP] Check Pods Manifest.lock *U,
+				9740EEB61CF901F6004384FC U* Run Script *U,
+				97C146EA1CF9000F007C117D U* Sources *U,
+				97C146EB1CF9000F007C117D U* Frameworks *U,
+				97C146EC1CF9000F007C117D U* Resources *U,
+				9705A1C41CF9048500538489 U* Embed Frameworks *U,
+				3B06AD1E1E4923F5004D2608 U* Thin Binary *U,
+				6E9FEF583EA597C8B76255B2 U* [CP] Embed Pods Frameworks *U,
+				46F6EB27C31C41D86428A28B U* [CP] Copy Pods Resources *U,
+				E612EC492D0F07AD0022720C U* Embed Foundation Extensions *U,
+				E63F9CBC2D10709D00CD9E72 U* ShellScript *U,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E612EC472D0F07AD0022720C /* PBXTargetDependency */,
+				E612EC472D0F07AD0022720C U* PBXTargetDependency *U,
 			);
 			name = Runner;
 			productName = Runner;
-			productReference = 97C146EE1CF9000F007C117D /* Runner.app */;
+			productReference = 97C146EE1CF9000F007C117D U* Runner.app *U;
 			productType = "com.apple.product-type.application";
 		};
-		B536BD8C2B405DB1009B3CE4 /* stable */ = {
+		B536BD8C2B405DB1009B3CE4 U* stable *U = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B536BD9C2B405DB1009B3CE4 /* Build configuration list for PBXNativeTarget "stable" */;
+			buildConfigurationList = B536BD9C2B405DB1009B3CE4 U* Build configuration list for PBXNativeTarget "stable" *U;
 			buildPhases = (
-				F0C8BA10A27CA77E18F842E7 /* [CP] Check Pods Manifest.lock */,
-				B536BD8E2B405DB1009B3CE4 /* Run Script */,
-				B536BD8F2B405DB1009B3CE4 /* Sources */,
-				B536BD922B405DB1009B3CE4 /* Frameworks */,
-				B536BD942B405DB1009B3CE4 /* Resources */,
-				B536BD992B405DB1009B3CE4 /* Embed Frameworks */,
-				B536BD9A2B405DB1009B3CE4 /* Thin Binary */,
-				A6D446F111DE4C4A202BE7F7 /* [CP] Embed Pods Frameworks */,
-				2DEF3CF18D30E819C0FF4BCE /* [CP] Copy Pods Resources */,
+				F0C8BA10A27CA77E18F842E7 U* [CP] Check Pods Manifest.lock *U,
+				B536BD8E2B405DB1009B3CE4 U* Run Script *U,
+				B536BD8F2B405DB1009B3CE4 U* Sources *U,
+				B536BD922B405DB1009B3CE4 U* Frameworks *U,
+				B536BD942B405DB1009B3CE4 U* Resources *U,
+				B536BD992B405DB1009B3CE4 U* Embed Frameworks *U,
+				B536BD9A2B405DB1009B3CE4 U* Thin Binary *U,
+				A6D446F111DE4C4A202BE7F7 U* [CP] Embed Pods Frameworks *U,
+				2DEF3CF18D30E819C0FF4BCE U* [CP] Copy Pods Resources *U,
 			);
 			buildRules = (
 			);
@@ -422,22 +422,22 @@
 			);
 			name = stable;
 			productName = Runner;
-			productReference = B536BDA02B405DB1009B3CE4 /* stable.app */;
+			productReference = B536BDA02B405DB1009B3CE4 U* stable.app *U;
 			productType = "com.apple.product-type.application";
 		};
-		B536BDAB2B405FDE009B3CE4 /* dev */ = {
+		B536BDAB2B405FDE009B3CE4 U* dev *U = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B536BDB82B405FDE009B3CE4 /* Build configuration list for PBXNativeTarget "dev" */;
+			buildConfigurationList = B536BDB82B405FDE009B3CE4 U* Build configuration list for PBXNativeTarget "dev" *U;
 			buildPhases = (
-				6228176255365EAC646F2745 /* [CP] Check Pods Manifest.lock */,
-				B536BDAC2B405FDE009B3CE4 /* Run Script */,
-				B536BDAD2B405FDE009B3CE4 /* Sources */,
-				B536BDB02B405FDE009B3CE4 /* Frameworks */,
-				B536BDB12B405FDE009B3CE4 /* Resources */,
-				B536BDB62B405FDE009B3CE4 /* Embed Frameworks */,
-				B536BDB72B405FDE009B3CE4 /* Thin Binary */,
-				244D41CE80E4BC0FFD63F8C6 /* [CP] Embed Pods Frameworks */,
-				4DD66E9E53D92195290872BE /* [CP] Copy Pods Resources */,
+				6228176255365EAC646F2745 U* [CP] Check Pods Manifest.lock *U,
+				B536BDAC2B405FDE009B3CE4 U* Run Script *U,
+				B536BDAD2B405FDE009B3CE4 U* Sources *U,
+				B536BDB02B405FDE009B3CE4 U* Frameworks *U,
+				B536BDB12B405FDE009B3CE4 U* Resources *U,
+				B536BDB62B405FDE009B3CE4 U* Embed Frameworks *U,
+				B536BDB72B405FDE009B3CE4 U* Thin Binary *U,
+				244D41CE80E4BC0FFD63F8C6 U* [CP] Embed Pods Frameworks *U,
+				4DD66E9E53D92195290872BE U* [CP] Copy Pods Resources *U,
 			);
 			buildRules = (
 			);
@@ -445,22 +445,22 @@
 			);
 			name = dev;
 			productName = Runner;
-			productReference = B536BDBF2B405FDE009B3CE4 /* dev.app */;
+			productReference = B536BDBF2B405FDE009B3CE4 U* dev.app *U;
 			productType = "com.apple.product-type.application";
 		};
-		B536BDCD2B4060B3009B3CE4 /* nightly */ = {
+		B536BDCD2B4060B3009B3CE4 U* nightly *U = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B536BDDA2B4060B3009B3CE4 /* Build configuration list for PBXNativeTarget "nightly" */;
+			buildConfigurationList = B536BDDA2B4060B3009B3CE4 U* Build configuration list for PBXNativeTarget "nightly" *U;
 			buildPhases = (
-				5CD4405E93760FBD048E36E2 /* [CP] Check Pods Manifest.lock */,
-				B536BDCE2B4060B3009B3CE4 /* Run Script */,
-				B536BDCF2B4060B3009B3CE4 /* Sources */,
-				B536BDD22B4060B3009B3CE4 /* Frameworks */,
-				B536BDD32B4060B3009B3CE4 /* Resources */,
-				B536BDD82B4060B3009B3CE4 /* Embed Frameworks */,
-				B536BDD92B4060B3009B3CE4 /* Thin Binary */,
-				D566C841A84D807A607F6DE5 /* [CP] Embed Pods Frameworks */,
-				5C9D945D6569D9C3AC420285 /* [CP] Copy Pods Resources */,
+				5CD4405E93760FBD048E36E2 U* [CP] Check Pods Manifest.lock *U,
+				B536BDCE2B4060B3009B3CE4 U* Run Script *U,
+				B536BDCF2B4060B3009B3CE4 U* Sources *U,
+				B536BDD22B4060B3009B3CE4 U* Frameworks *U,
+				B536BDD32B4060B3009B3CE4 U* Resources *U,
+				B536BDD82B4060B3009B3CE4 U* Embed Frameworks *U,
+				B536BDD92B4060B3009B3CE4 U* Thin Binary *U,
+				D566C841A84D807A607F6DE5 U* [CP] Embed Pods Frameworks *U,
+				5C9D945D6569D9C3AC420285 U* [CP] Copy Pods Resources *U,
 			);
 			buildRules = (
 			);
@@ -468,35 +468,35 @@
 			);
 			name = nightly;
 			productName = Runner;
-			productReference = B536BDE42B4060B3009B3CE4 /* nightly.app */;
+			productReference = B536BDE42B4060B3009B3CE4 U* nightly.app *U;
 			productType = "com.apple.product-type.application";
 		};
-		E612EC382D0F07A80022720C /* HomePlayerWidgetExtension */ = {
+		E612EC382D0F07A80022720C U* HomePlayerWidgetExtension *U = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E612EC572D0F07AD0022720C /* Build configuration list for PBXNativeTarget "HomePlayerWidgetExtension" */;
+			buildConfigurationList = E612EC572D0F07AD0022720C U* Build configuration list for PBXNativeTarget "HomePlayerWidgetExtension" *U;
 			buildPhases = (
-				E612EC352D0F07A80022720C /* Sources */,
-				E612EC362D0F07A80022720C /* Frameworks */,
-				E612EC372D0F07A80022720C /* Resources */,
+				E612EC352D0F07A80022720C U* Sources *U,
+				E612EC362D0F07A80022720C U* Frameworks *U,
+				E612EC372D0F07A80022720C U* Resources *U,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E612EC3E2D0F07A90022720C /* HomePlayerWidget */,
+				E612EC3E2D0F07A90022720C U* HomePlayerWidget *U,
 			);
 			name = HomePlayerWidgetExtension;
 			packageProductDependencies = (
 			);
 			productName = HomePlayerWidgetExtension;
-			productReference = E612EC392D0F07A90022720C /* HomePlayerWidgetExtension.appex */;
+			productReference = E612EC392D0F07A90022720C U* HomePlayerWidgetExtension.appex *U;
 			productType = "com.apple.product-type.app-extension";
 		};
-/* End PBXNativeTarget section */
+U* End PBXNativeTarget section *U
 
-/* Begin PBXProject section */
-		97C146E61CF9000F007C117D /* Project object */ = {
+U* Begin PBXProject section *U
+		97C146E61CF9000F007C117D U* Project object *U = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1620;
@@ -512,7 +512,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 97C146E91CF9000F007C117D /* Build configuration list for PBXProject "Runner" */;
+			buildConfigurationList = 97C146E91CF9000F007C117D U* Build configuration list for PBXProject "Runner" *U;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -521,92 +521,92 @@
 				Base,
 			);
 			mainGroup = 97C146E51CF9000F007C117D;
-			productRefGroup = 97C146EF1CF9000F007C117D /* Products */;
+			productRefGroup = 97C146EF1CF9000F007C117D U* Products *U;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				97C146ED1CF9000F007C117D /* Runner */,
-				B536BD8C2B405DB1009B3CE4 /* stable */,
-				B536BDAB2B405FDE009B3CE4 /* dev */,
-				B536BDCD2B4060B3009B3CE4 /* nightly */,
-				E612EC382D0F07A80022720C /* HomePlayerWidgetExtension */,
+				97C146ED1CF9000F007C117D U* Runner *U,
+				B536BD8C2B405DB1009B3CE4 U* stable *U,
+				B536BDAB2B405FDE009B3CE4 U* dev *U,
+				B536BDCD2B4060B3009B3CE4 U* nightly *U,
+				E612EC382D0F07A80022720C U* HomePlayerWidgetExtension *U,
 			);
 		};
-/* End PBXProject section */
+U* End PBXProject section *U
 
-/* Begin PBXResourcesBuildPhase section */
-		97C146EC1CF9000F007C117D /* Resources */ = {
+U* Begin PBXResourcesBuildPhase section *U
+		97C146EC1CF9000F007C117D U* Resources *U = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
-				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
-				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
-				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
+				97C147011CF9000F007C117D U* LaunchScreen.storyboard in Resources *U,
+				3B3967161E833CAA004F5970 U* AppFrameworkInfo.plist in Resources *U,
+				97C146FE1CF9000F007C117D U* Assets.xcassets in Resources *U,
+				97C146FC1CF9000F007C117D U* Main.storyboard in Resources *U,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B536BD942B405DB1009B3CE4 /* Resources */ = {
+		B536BD942B405DB1009B3CE4 U* Resources *U = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B536BD952B405DB1009B3CE4 /* LaunchScreen.storyboard in Resources */,
-				B536BD962B405DB1009B3CE4 /* AppFrameworkInfo.plist in Resources */,
-				B536BD972B405DB1009B3CE4 /* Assets.xcassets in Resources */,
-				B536BD982B405DB1009B3CE4 /* Main.storyboard in Resources */,
+				B536BD952B405DB1009B3CE4 U* LaunchScreen.storyboard in Resources *U,
+				B536BD962B405DB1009B3CE4 U* AppFrameworkInfo.plist in Resources *U,
+				B536BD972B405DB1009B3CE4 U* Assets.xcassets in Resources *U,
+				B536BD982B405DB1009B3CE4 U* Main.storyboard in Resources *U,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B536BDB12B405FDE009B3CE4 /* Resources */ = {
+		B536BDB12B405FDE009B3CE4 U* Resources *U = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B536BDB22B405FDE009B3CE4 /* LaunchScreen.storyboard in Resources */,
-				B536BDB32B405FDE009B3CE4 /* AppFrameworkInfo.plist in Resources */,
-				B536BDB42B405FDE009B3CE4 /* Assets.xcassets in Resources */,
-				B536BDB52B405FDE009B3CE4 /* Main.storyboard in Resources */,
+				B536BDB22B405FDE009B3CE4 U* LaunchScreen.storyboard in Resources *U,
+				B536BDB32B405FDE009B3CE4 U* AppFrameworkInfo.plist in Resources *U,
+				B536BDB42B405FDE009B3CE4 U* Assets.xcassets in Resources *U,
+				B536BDB52B405FDE009B3CE4 U* Main.storyboard in Resources *U,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B536BDD32B4060B3009B3CE4 /* Resources */ = {
+		B536BDD32B4060B3009B3CE4 U* Resources *U = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B536BDD42B4060B3009B3CE4 /* LaunchScreen.storyboard in Resources */,
-				B536BDD52B4060B3009B3CE4 /* AppFrameworkInfo.plist in Resources */,
-				B536BDD62B4060B3009B3CE4 /* Assets.xcassets in Resources */,
-				B536BDD72B4060B3009B3CE4 /* Main.storyboard in Resources */,
+				B536BDD42B4060B3009B3CE4 U* LaunchScreen.storyboard in Resources *U,
+				B536BDD52B4060B3009B3CE4 U* AppFrameworkInfo.plist in Resources *U,
+				B536BDD62B4060B3009B3CE4 U* Assets.xcassets in Resources *U,
+				B536BDD72B4060B3009B3CE4 U* Main.storyboard in Resources *U,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E612EC372D0F07A80022720C /* Resources */ = {
+		E612EC372D0F07A80022720C U* Resources *U = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+U* End PBXResourcesBuildPhase section *U
 
-/* Begin PBXShellScriptBuildPhase section */
-		244D41CE80E4BC0FFD63F8C6 /* [CP] Embed Pods Frameworks */ = {
+U* Begin PBXShellScriptBuildPhase section *U
+		244D41CE80E4BC0FFD63F8C6 U* [CP] Embed Pods Frameworks *U = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dev/Pods-dev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}UTarget Support FilesUPods-devUPods-dev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dev/Pods-dev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}UTarget Support FilesUPods-devUPods-dev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dev/Pods-dev-frameworks.sh\"\n";
+			shellPath = UbinUsh;
+			shellScript = "\"${PODS_ROOT}UTarget Support FilesUPods-devUPods-dev-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2AF6C7D149EE8481703D5255 /* [CP] Check Pods Manifest.lock */ = {
+		2AF6C7D149EE8481703D5255 U* [CP] Check Pods Manifest.lock *U = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -614,105 +614,105 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_PODFILE_DIR_PATH}UPodfile.lock",
+				"${PODS_ROOT}UManifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Runner-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)UPods-Runner-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellPath = UbinUsh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}UPodfile.lock\" \"${PODS_ROOT}UManifest.lock\" > UdevUnull\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2DEF3CF18D30E819C0FF4BCE /* [CP] Copy Pods Resources */ = {
+		2DEF3CF18D30E819C0FF4BCE U* [CP] Copy Pods Resources *U = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-stable/Pods-stable-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}UTarget Support FilesUPods-stableUPods-stable-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-stable/Pods-stable-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}UTarget Support FilesUPods-stableUPods-stable-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stable/Pods-stable-resources.sh\"\n";
+			shellPath = UbinUsh;
+			shellScript = "\"${PODS_ROOT}UTarget Support FilesUPods-stableUPods-stable-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3B06AD1E1E4923F5004D2608 /* Thin Binary */ = {
+		3B06AD1E1E4923F5004D2608 U* Thin Binary *U = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}",
+				"${TARGET_BUILD_DIR}U${INFOPLIST_PATH}",
 			);
 			name = "Thin Binary";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin";
+			shellPath = UbinUsh;
+			shellScript = "UbinUsh \"$FLUTTER_ROOTUpackagesUflutter_toolsUbinUxcode_backend.sh\" embed_and_thin";
 		};
-		46F6EB27C31C41D86428A28B /* [CP] Copy Pods Resources */ = {
+		46F6EB27C31C41D86428A28B U* [CP] Copy Pods Resources *U = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}UTarget Support FilesUPods-RunnerUPods-Runner-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}UTarget Support FilesUPods-RunnerUPods-Runner-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources.sh\"\n";
+			shellPath = UbinUsh;
+			shellScript = "\"${PODS_ROOT}UTarget Support FilesUPods-RunnerUPods-Runner-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4DD66E9E53D92195290872BE /* [CP] Copy Pods Resources */ = {
+		4DD66E9E53D92195290872BE U* [CP] Copy Pods Resources *U = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dev/Pods-dev-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}UTarget Support FilesUPods-devUPods-dev-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dev/Pods-dev-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}UTarget Support FilesUPods-devUPods-dev-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dev/Pods-dev-resources.sh\"\n";
+			shellPath = UbinUsh;
+			shellScript = "\"${PODS_ROOT}UTarget Support FilesUPods-devUPods-dev-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5C9D945D6569D9C3AC420285 /* [CP] Copy Pods Resources */ = {
+		5C9D945D6569D9C3AC420285 U* [CP] Copy Pods Resources *U = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nightly/Pods-nightly-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}UTarget Support FilesUPods-nightlyUPods-nightly-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nightly/Pods-nightly-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}UTarget Support FilesUPods-nightlyUPods-nightly-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nightly/Pods-nightly-resources.sh\"\n";
+			shellPath = UbinUsh;
+			shellScript = "\"${PODS_ROOT}UTarget Support FilesUPods-nightlyUPods-nightly-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5CD4405E93760FBD048E36E2 /* [CP] Check Pods Manifest.lock */ = {
+		5CD4405E93760FBD048E36E2 U* [CP] Check Pods Manifest.lock *U = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -720,21 +720,21 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_PODFILE_DIR_PATH}UPodfile.lock",
+				"${PODS_ROOT}UManifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-nightly-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)UPods-nightly-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellPath = UbinUsh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}UPodfile.lock\" \"${PODS_ROOT}UManifest.lock\" > UdevUnull\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6228176255365EAC646F2745 /* [CP] Check Pods Manifest.lock */ = {
+		6228176255365EAC646F2745 U* [CP] Check Pods Manifest.lock *U = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -742,38 +742,38 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_PODFILE_DIR_PATH}UPodfile.lock",
+				"${PODS_ROOT}UManifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-dev-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)UPods-dev-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellPath = UbinUsh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}UPodfile.lock\" \"${PODS_ROOT}UManifest.lock\" > UdevUnull\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6E9FEF583EA597C8B76255B2 /* [CP] Embed Pods Frameworks */ = {
+		6E9FEF583EA597C8B76255B2 U* [CP] Embed Pods Frameworks *U = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}UTarget Support FilesUPods-RunnerUPods-Runner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}UTarget Support FilesUPods-RunnerUPods-Runner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh\"\n";
+			shellPath = UbinUsh;
+			shellScript = "\"${PODS_ROOT}UTarget Support FilesUPods-RunnerUPods-Runner-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9740EEB61CF901F6004384FC /* Run Script */ = {
+		9740EEB61CF901F6004384FC U* Run Script *U = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -785,27 +785,27 @@
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n";
+			shellPath = UbinUsh;
+			shellScript = "UbinUsh \"$FLUTTER_ROOTUpackagesUflutter_toolsUbinUxcode_backend.sh\" build\n";
 		};
-		A6D446F111DE4C4A202BE7F7 /* [CP] Embed Pods Frameworks */ = {
+		A6D446F111DE4C4A202BE7F7 U* [CP] Embed Pods Frameworks *U = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-stable/Pods-stable-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}UTarget Support FilesUPods-stableUPods-stable-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-stable/Pods-stable-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}UTarget Support FilesUPods-stableUPods-stable-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stable/Pods-stable-frameworks.sh\"\n";
+			shellPath = UbinUsh;
+			shellScript = "\"${PODS_ROOT}UTarget Support FilesUPods-stableUPods-stable-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B536BD8E2B405DB1009B3CE4 /* Run Script */ = {
+		B536BD8E2B405DB1009B3CE4 U* Run Script *U = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -817,26 +817,26 @@
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build";
+			shellPath = UbinUsh;
+			shellScript = "UbinUsh \"$FLUTTER_ROOTUpackagesUflutter_toolsUbinUxcode_backend.sh\" build";
 		};
-		B536BD9A2B405DB1009B3CE4 /* Thin Binary */ = {
+		B536BD9A2B405DB1009B3CE4 U* Thin Binary *U = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}",
+				"${TARGET_BUILD_DIR}U${INFOPLIST_PATH}",
 			);
 			name = "Thin Binary";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin";
+			shellPath = UbinUsh;
+			shellScript = "UbinUsh \"$FLUTTER_ROOTUpackagesUflutter_toolsUbinUxcode_backend.sh\" embed_and_thin";
 		};
-		B536BDAC2B405FDE009B3CE4 /* Run Script */ = {
+		B536BDAC2B405FDE009B3CE4 U* Run Script *U = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -848,26 +848,26 @@
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build";
+			shellPath = UbinUsh;
+			shellScript = "UbinUsh \"$FLUTTER_ROOTUpackagesUflutter_toolsUbinUxcode_backend.sh\" build";
 		};
-		B536BDB72B405FDE009B3CE4 /* Thin Binary */ = {
+		B536BDB72B405FDE009B3CE4 U* Thin Binary *U = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}",
+				"${TARGET_BUILD_DIR}U${INFOPLIST_PATH}",
 			);
 			name = "Thin Binary";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin";
+			shellPath = UbinUsh;
+			shellScript = "UbinUsh \"$FLUTTER_ROOTUpackagesUflutter_toolsUbinUxcode_backend.sh\" embed_and_thin";
 		};
-		B536BDCE2B4060B3009B3CE4 /* Run Script */ = {
+		B536BDCE2B4060B3009B3CE4 U* Run Script *U = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -879,43 +879,43 @@
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build";
+			shellPath = UbinUsh;
+			shellScript = "UbinUsh \"$FLUTTER_ROOTUpackagesUflutter_toolsUbinUxcode_backend.sh\" build";
 		};
-		B536BDD92B4060B3009B3CE4 /* Thin Binary */ = {
+		B536BDD92B4060B3009B3CE4 U* Thin Binary *U = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}",
+				"${TARGET_BUILD_DIR}U${INFOPLIST_PATH}",
 			);
 			name = "Thin Binary";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin";
+			shellPath = UbinUsh;
+			shellScript = "UbinUsh \"$FLUTTER_ROOTUpackagesUflutter_toolsUbinUxcode_backend.sh\" embed_and_thin";
 		};
-		D566C841A84D807A607F6DE5 /* [CP] Embed Pods Frameworks */ = {
+		D566C841A84D807A607F6DE5 U* [CP] Embed Pods Frameworks *U = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nightly/Pods-nightly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}UTarget Support FilesUPods-nightlyUPods-nightly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nightly/Pods-nightly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}UTarget Support FilesUPods-nightlyUPods-nightly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nightly/Pods-nightly-frameworks.sh\"\n";
+			shellPath = UbinUsh;
+			shellScript = "\"${PODS_ROOT}UTarget Support FilesUPods-nightlyUPods-nightly-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E63F9CBC2D10709D00CD9E72 /* ShellScript */ = {
+		E63F9CBC2D10709D00CD9E72 U* ShellScript *U = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -929,10 +929,10 @@
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a sgeneratedPath=\"$SRCROOT/Flutter/Generated.xcconfig\"\n\n# Read and trim versionNumber and buildNumber\nversionNumber=$(grep FLUTTER_BUILD_NAME \"$generatedPath\" | cut -d '=' -f2 | xargs)\nbuildNumber=$(grep FLUTTER_BUILD_NUMBER \"$generatedPath\" | cut -d '=' -f2 | xargs)\n\ninfoPlistPath=\"$SRCROOT/HomePlayerWidget/Info.plist\"\n\n# Check and add CFBundleVersion if it does not exist\n/usr/libexec/PlistBuddy -c \"Print :CFBundleVersion\" \"$infoPlistPath\" 2>/dev/null\nif [ $? != 0 ]; then\n    /usr/libexec/PlistBuddy -c \"Add :CFBundleVersion string $buildNumber\" \"$infoPlistPath\"\nelse\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$infoPlistPath\"\nfi\n\n# Check and add CFBundleShortVersionString if it does not exist\n/usr/libexec/PlistBuddy -c \"Print :CFBundleShortVersionString\" \"$infoPlistPath\" 2>/dev/null\nif [ $? != 0 ]; then\n    /usr/libexec/PlistBuddy -c \"Add :CFBundleShortVersionString string $versionNumber\" \"$infoPlistPath\"\nelse\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $versionNumber\" \"$infoPlistPath\"\nfi\n\ncript file from your workspace to insert its path.\n";
+			shellPath = UbinUsh;
+			shellScript = "# Type a script or drag a sgeneratedPath=\"$SRCROOTUFlutterUGenerated.xcconfig\"\n\n# Read and trim versionNumber and buildNumber\nversionNumber=$(grep FLUTTER_BUILD_NAME \"$generatedPath\" | cut -d '=' -f2 | xargs)\nbuildNumber=$(grep FLUTTER_BUILD_NUMBER \"$generatedPath\" | cut -d '=' -f2 | xargs)\n\ninfoPlistPath=\"$SRCROOTUHomePlayerWidgetUInfo.plist\"\n\n# Check and add CFBundleVersion if it does not exist\nUusrUlibexecUPlistBuddy -c \"Print :CFBundleVersion\" \"$infoPlistPath\" 2>UdevUnull\nif [ $? != 0 ]; then\n    UusrUlibexecUPlistBuddy -c \"Add :CFBundleVersion string $buildNumber\" \"$infoPlistPath\"\nelse\n    UusrUlibexecUPlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$infoPlistPath\"\nfi\n\n# Check and add CFBundleShortVersionString if it does not exist\nUusrUlibexecUPlistBuddy -c \"Print :CFBundleShortVersionString\" \"$infoPlistPath\" 2>UdevUnull\nif [ $? != 0 ]; then\n    UusrUlibexecUPlistBuddy -c \"Add :CFBundleShortVersionString string $versionNumber\" \"$infoPlistPath\"\nelse\n    UusrUlibexecUPlistBuddy -c \"Set :CFBundleShortVersionString $versionNumber\" \"$infoPlistPath\"\nfi\n\ncript file from your workspace to insert its path.\n";
 		};
-		F0C8BA10A27CA77E18F842E7 /* [CP] Check Pods Manifest.lock */ = {
+		F0C8BA10A27CA77E18F842E7 U* [CP] Check Pods Manifest.lock *U = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -940,97 +940,97 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_PODFILE_DIR_PATH}UPodfile.lock",
+				"${PODS_ROOT}UManifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-stable-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)UPods-stable-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellPath = UbinUsh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}UPodfile.lock\" \"${PODS_ROOT}UManifest.lock\" > UdevUnull\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-/* End PBXShellScriptBuildPhase section */
+U* End PBXShellScriptBuildPhase section *U
 
-/* Begin PBXSourcesBuildPhase section */
-		97C146EA1CF9000F007C117D /* Sources */ = {
+U* Begin PBXSourcesBuildPhase section *U
+		97C146EA1CF9000F007C117D U* Sources *U = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
-				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
+				74858FAF1ED2DC5600515810 U* AppDelegate.swift in Sources *U,
+				1498D2341E8E89220040F4C2 U* GeneratedPluginRegistrant.m in Sources *U,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B536BD8F2B405DB1009B3CE4 /* Sources */ = {
+		B536BD8F2B405DB1009B3CE4 U* Sources *U = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B536BD902B405DB1009B3CE4 /* AppDelegate.swift in Sources */,
-				B536BD912B405DB1009B3CE4 /* GeneratedPluginRegistrant.m in Sources */,
+				B536BD902B405DB1009B3CE4 U* AppDelegate.swift in Sources *U,
+				B536BD912B405DB1009B3CE4 U* GeneratedPluginRegistrant.m in Sources *U,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B536BDAD2B405FDE009B3CE4 /* Sources */ = {
+		B536BDAD2B405FDE009B3CE4 U* Sources *U = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B536BDAE2B405FDE009B3CE4 /* AppDelegate.swift in Sources */,
-				B536BDAF2B405FDE009B3CE4 /* GeneratedPluginRegistrant.m in Sources */,
+				B536BDAE2B405FDE009B3CE4 U* AppDelegate.swift in Sources *U,
+				B536BDAF2B405FDE009B3CE4 U* GeneratedPluginRegistrant.m in Sources *U,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B536BDCF2B4060B3009B3CE4 /* Sources */ = {
+		B536BDCF2B4060B3009B3CE4 U* Sources *U = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B536BDD02B4060B3009B3CE4 /* AppDelegate.swift in Sources */,
-				B536BDD12B4060B3009B3CE4 /* GeneratedPluginRegistrant.m in Sources */,
+				B536BDD02B4060B3009B3CE4 U* AppDelegate.swift in Sources *U,
+				B536BDD12B4060B3009B3CE4 U* GeneratedPluginRegistrant.m in Sources *U,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E612EC352D0F07A80022720C /* Sources */ = {
+		E612EC352D0F07A80022720C U* Sources *U = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXSourcesBuildPhase section */
+U* End PBXSourcesBuildPhase section *U
 
-/* Begin PBXTargetDependency section */
-		E612EC472D0F07AD0022720C /* PBXTargetDependency */ = {
+U* Begin PBXTargetDependency section *U
+		E612EC472D0F07AD0022720C U* PBXTargetDependency *U = {
 			isa = PBXTargetDependency;
-			target = E612EC382D0F07A80022720C /* HomePlayerWidgetExtension */;
-			targetProxy = E612EC462D0F07AD0022720C /* PBXContainerItemProxy */;
+			target = E612EC382D0F07A80022720C U* HomePlayerWidgetExtension *U;
+			targetProxy = E612EC462D0F07AD0022720C U* PBXContainerItemProxy *U;
 		};
-/* End PBXTargetDependency section */
+U* End PBXTargetDependency section *U
 
-/* Begin PBXVariantGroup section */
-		97C146FA1CF9000F007C117D /* Main.storyboard */ = {
+U* Begin PBXVariantGroup section *U
+		97C146FA1CF9000F007C117D U* Main.storyboard *U = {
 			isa = PBXVariantGroup;
 			children = (
-				97C146FB1CF9000F007C117D /* Base */,
+				97C146FB1CF9000F007C117D U* Base *U,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */ = {
+		97C146FF1CF9000F007C117D U* LaunchScreen.storyboard *U = {
 			isa = PBXVariantGroup;
 			children = (
-				97C147001CF9000F007C117D /* Base */,
+				97C147001CF9000F007C117D U* Base *U,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-/* End PBXVariantGroup section */
+U* End PBXVariantGroup section *U
 
-/* Begin XCBuildConfiguration section */
-		249021D3217E4FDB00AE95B9 /* Profile */ = {
+U* Begin XCBuildConfiguration section *U
+		249021D3217E4FDB00AE95B9 U* Profile *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1080,30 +1080,30 @@
 			};
 			name = Profile;
 		};
-		249021D4217E4FDB00AE95B9 /* Profile */ = {
+		249021D4217E4FDB00AE95B9 U* Profile *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RunnerURunner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 88NVGSJ5N3;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_FILE = RunnerUInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Profile;
 		};
-		97C147031CF9000F007C117D /* Debug */ = {
+		97C147031CF9000F007C117D U* Debug *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1158,7 +1158,7 @@
 			};
 			name = Debug;
 		};
-		97C147041CF9000F007C117D /* Release */ = {
+		97C147041CF9000F007C117D U* Release *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1210,56 +1210,56 @@
 			};
 			name = Release;
 		};
-		97C147061CF9000F007C117D /* Debug */ = {
+		97C147061CF9000F007C117D U* Debug *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			baseConfigurationReference = 9740EEB21CF90195004384FC U* Debug.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RunnerURunner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 88NVGSJ5N3;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_FILE = RunnerUInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
-		97C147071CF9000F007C117D /* Release */ = {
+		97C147071CF9000F007C117D U* Release *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RunnerURunner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 88NVGSJ5N3;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_FILE = RunnerUInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
-		B536BD9D2B405DB1009B3CE4 /* Debug */ = {
+		B536BD9D2B405DB1009B3CE4 U* Debug *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			baseConfigurationReference = 9740EEB21CF90195004384FC U* Debug.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1270,20 +1270,20 @@
 				INFOPLIST_FILE = "stable-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.stable;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.stable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
-		B536BD9E2B405DB1009B3CE4 /* Release */ = {
+		B536BD9E2B405DB1009B3CE4 U* Release *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1294,19 +1294,19 @@
 				INFOPLIST_FILE = "stable-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.stable;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.stable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
-		B536BD9F2B405DB1009B3CE4 /* Profile */ = {
+		B536BD9F2B405DB1009B3CE4 U* Profile *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1317,17 +1317,17 @@
 				INFOPLIST_FILE = "stable-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.stable;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.stable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Profile;
 		};
-		B536BDA22B405E06009B3CE4 /* Debug-stable */ = {
+		B536BDA22B405E06009B3CE4 U* Debug-stable *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1382,33 +1382,33 @@
 			};
 			name = "Debug-stable";
 		};
-		B536BDA32B405E06009B3CE4 /* Debug-stable */ = {
+		B536BDA32B405E06009B3CE4 U* Debug-stable *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			baseConfigurationReference = 9740EEB21CF90195004384FC U* Debug.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RunnerURunner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 88NVGSJ5N3;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_FILE = RunnerUInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Debug-stable";
 		};
-		B536BDA42B405E06009B3CE4 /* Debug-stable */ = {
+		B536BDA42B405E06009B3CE4 U* Debug-stable *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			baseConfigurationReference = 9740EEB21CF90195004384FC U* Debug.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1419,18 +1419,18 @@
 				INFOPLIST_FILE = "stable-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.stable;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.stable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Debug-stable";
 		};
-		B536BDA52B405E19009B3CE4 /* Release-stable */ = {
+		B536BDA52B405E19009B3CE4 U* Release-stable *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1482,32 +1482,32 @@
 			};
 			name = "Release-stable";
 		};
-		B536BDA62B405E19009B3CE4 /* Release-stable */ = {
+		B536BDA62B405E19009B3CE4 U* Release-stable *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RunnerURunner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 88NVGSJ5N3;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_FILE = RunnerUInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Release-stable";
 		};
-		B536BDA72B405E19009B3CE4 /* Release-stable */ = {
+		B536BDA72B405E19009B3CE4 U* Release-stable *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1518,17 +1518,17 @@
 				INFOPLIST_FILE = "stable-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.stable;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.stable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Release-stable";
 		};
-		B536BDA82B405E1F009B3CE4 /* Profile-stable */ = {
+		B536BDA82B405E1F009B3CE4 U* Profile-stable *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1578,32 +1578,32 @@
 			};
 			name = "Profile-stable";
 		};
-		B536BDA92B405E1F009B3CE4 /* Profile-stable */ = {
+		B536BDA92B405E1F009B3CE4 U* Profile-stable *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RunnerURunner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 88NVGSJ5N3;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_FILE = RunnerUInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Profile-stable";
 		};
-		B536BDAA2B405E1F009B3CE4 /* Profile-stable */ = {
+		B536BDAA2B405E1F009B3CE4 U* Profile-stable *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1614,19 +1614,19 @@
 				INFOPLIST_FILE = "stable-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.stable;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.stable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Profile-stable";
 		};
-		B536BDB92B405FDE009B3CE4 /* Debug */ = {
+		B536BDB92B405FDE009B3CE4 U* Debug *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			baseConfigurationReference = 9740EEB21CF90195004384FC U* Debug.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1637,20 +1637,20 @@
 				INFOPLIST_FILE = "dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
-		B536BDBA2B405FDE009B3CE4 /* Debug-stable */ = {
+		B536BDBA2B405FDE009B3CE4 U* Debug-stable *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			baseConfigurationReference = 9740EEB21CF90195004384FC U* Debug.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1661,20 +1661,20 @@
 				INFOPLIST_FILE = "dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Debug-stable";
 		};
-		B536BDBB2B405FDE009B3CE4 /* Release */ = {
+		B536BDBB2B405FDE009B3CE4 U* Release *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1685,19 +1685,19 @@
 				INFOPLIST_FILE = "dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
-		B536BDBC2B405FDE009B3CE4 /* Release-stable */ = {
+		B536BDBC2B405FDE009B3CE4 U* Release-stable *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1708,19 +1708,19 @@
 				INFOPLIST_FILE = "dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Release-stable";
 		};
-		B536BDBD2B405FDE009B3CE4 /* Profile */ = {
+		B536BDBD2B405FDE009B3CE4 U* Profile *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1731,19 +1731,19 @@
 				INFOPLIST_FILE = "dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Profile;
 		};
-		B536BDBE2B405FDE009B3CE4 /* Profile-stable */ = {
+		B536BDBE2B405FDE009B3CE4 U* Profile-stable *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1754,17 +1754,17 @@
 				INFOPLIST_FILE = "dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Profile-stable";
 		};
-		B536BDC12B406014009B3CE4 /* Debug-dev */ = {
+		B536BDC12B406014009B3CE4 U* Debug-dev *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1819,33 +1819,33 @@
 			};
 			name = "Debug-dev";
 		};
-		B536BDC22B406014009B3CE4 /* Debug-dev */ = {
+		B536BDC22B406014009B3CE4 U* Debug-dev *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			baseConfigurationReference = 9740EEB21CF90195004384FC U* Debug.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RunnerURunner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 88NVGSJ5N3;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_FILE = RunnerUInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Debug-dev";
 		};
-		B536BDC32B406014009B3CE4 /* Debug-dev */ = {
+		B536BDC32B406014009B3CE4 U* Debug-dev *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			baseConfigurationReference = 9740EEB21CF90195004384FC U* Debug.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1856,20 +1856,20 @@
 				INFOPLIST_FILE = "stable-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.stable;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.stable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Debug-dev";
 		};
-		B536BDC42B406014009B3CE4 /* Debug-dev */ = {
+		B536BDC42B406014009B3CE4 U* Debug-dev *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			baseConfigurationReference = 9740EEB21CF90195004384FC U* Debug.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1880,18 +1880,18 @@
 				INFOPLIST_FILE = "dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Debug-dev";
 		};
-		B536BDC52B40601C009B3CE4 /* Release-dev */ = {
+		B536BDC52B40601C009B3CE4 U* Release-dev *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1943,32 +1943,32 @@
 			};
 			name = "Release-dev";
 		};
-		B536BDC62B40601C009B3CE4 /* Release-dev */ = {
+		B536BDC62B40601C009B3CE4 U* Release-dev *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RunnerURunner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 88NVGSJ5N3;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_FILE = RunnerUInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Release-dev";
 		};
-		B536BDC72B40601C009B3CE4 /* Release-dev */ = {
+		B536BDC72B40601C009B3CE4 U* Release-dev *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1979,19 +1979,19 @@
 				INFOPLIST_FILE = "stable-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.stable;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.stable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Release-dev";
 		};
-		B536BDC82B40601C009B3CE4 /* Release-dev */ = {
+		B536BDC82B40601C009B3CE4 U* Release-dev *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2002,17 +2002,17 @@
 				INFOPLIST_FILE = "dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Release-dev";
 		};
-		B536BDC92B406021009B3CE4 /* Profile-dev */ = {
+		B536BDC92B406021009B3CE4 U* Profile-dev *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2062,32 +2062,32 @@
 			};
 			name = "Profile-dev";
 		};
-		B536BDCA2B406021009B3CE4 /* Profile-dev */ = {
+		B536BDCA2B406021009B3CE4 U* Profile-dev *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RunnerURunner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 88NVGSJ5N3;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_FILE = RunnerUInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Profile-dev";
 		};
-		B536BDCB2B406021009B3CE4 /* Profile-dev */ = {
+		B536BDCB2B406021009B3CE4 U* Profile-dev *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2098,19 +2098,19 @@
 				INFOPLIST_FILE = "stable-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.stable;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.stable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Profile-dev";
 		};
-		B536BDCC2B406021009B3CE4 /* Profile-dev */ = {
+		B536BDCC2B406021009B3CE4 U* Profile-dev *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2121,19 +2121,19 @@
 				INFOPLIST_FILE = "dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Profile-dev";
 		};
-		B536BDDB2B4060B3009B3CE4 /* Debug */ = {
+		B536BDDB2B4060B3009B3CE4 U* Debug *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			baseConfigurationReference = 9740EEB21CF90195004384FC U* Debug.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2144,20 +2144,20 @@
 				INFOPLIST_FILE = "nightly-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.nightly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.nightly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
-		B536BDDC2B4060B3009B3CE4 /* Debug-dev */ = {
+		B536BDDC2B4060B3009B3CE4 U* Debug-dev *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			baseConfigurationReference = 9740EEB21CF90195004384FC U* Debug.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2168,20 +2168,20 @@
 				INFOPLIST_FILE = "nightly-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.nightly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.nightly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Debug-dev";
 		};
-		B536BDDD2B4060B3009B3CE4 /* Debug-stable */ = {
+		B536BDDD2B4060B3009B3CE4 U* Debug-stable *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			baseConfigurationReference = 9740EEB21CF90195004384FC U* Debug.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2192,20 +2192,20 @@
 				INFOPLIST_FILE = "nightly-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.nightly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.nightly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Debug-stable";
 		};
-		B536BDDE2B4060B3009B3CE4 /* Release */ = {
+		B536BDDE2B4060B3009B3CE4 U* Release *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2216,19 +2216,19 @@
 				INFOPLIST_FILE = "nightly-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.nightly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.nightly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
-		B536BDDF2B4060B3009B3CE4 /* Release-dev */ = {
+		B536BDDF2B4060B3009B3CE4 U* Release-dev *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2239,19 +2239,19 @@
 				INFOPLIST_FILE = "nightly-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.nightly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.nightly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Release-dev";
 		};
-		B536BDE02B4060B3009B3CE4 /* Release-stable */ = {
+		B536BDE02B4060B3009B3CE4 U* Release-stable *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2262,19 +2262,19 @@
 				INFOPLIST_FILE = "nightly-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.nightly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.nightly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Release-stable";
 		};
-		B536BDE12B4060B3009B3CE4 /* Profile */ = {
+		B536BDE12B4060B3009B3CE4 U* Profile *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2285,19 +2285,19 @@
 				INFOPLIST_FILE = "nightly-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.nightly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.nightly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Profile;
 		};
-		B536BDE22B4060B3009B3CE4 /* Profile-dev */ = {
+		B536BDE22B4060B3009B3CE4 U* Profile-dev *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2308,19 +2308,19 @@
 				INFOPLIST_FILE = "nightly-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.nightly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.nightly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Profile-dev";
 		};
-		B536BDE32B4060B3009B3CE4 /* Profile-stable */ = {
+		B536BDE32B4060B3009B3CE4 U* Profile-stable *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2331,17 +2331,17 @@
 				INFOPLIST_FILE = "nightly-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.nightly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.nightly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Profile-stable";
 		};
-		B536BDE62B4060FE009B3CE4 /* Debug-nightly */ = {
+		B536BDE62B4060FE009B3CE4 U* Debug-nightly *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2396,33 +2396,33 @@
 			};
 			name = "Debug-nightly";
 		};
-		B536BDE72B4060FE009B3CE4 /* Debug-nightly */ = {
+		B536BDE72B4060FE009B3CE4 U* Debug-nightly *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			baseConfigurationReference = 9740EEB21CF90195004384FC U* Debug.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RunnerURunner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 88NVGSJ5N3;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_FILE = RunnerUInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Debug-nightly";
 		};
-		B536BDE82B4060FE009B3CE4 /* Debug-nightly */ = {
+		B536BDE82B4060FE009B3CE4 U* Debug-nightly *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			baseConfigurationReference = 9740EEB21CF90195004384FC U* Debug.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2433,20 +2433,20 @@
 				INFOPLIST_FILE = "stable-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.stable;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.stable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Debug-nightly";
 		};
-		B536BDE92B4060FE009B3CE4 /* Debug-nightly */ = {
+		B536BDE92B4060FE009B3CE4 U* Debug-nightly *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			baseConfigurationReference = 9740EEB21CF90195004384FC U* Debug.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2457,20 +2457,20 @@
 				INFOPLIST_FILE = "dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Debug-nightly";
 		};
-		B536BDEA2B4060FE009B3CE4 /* Debug-nightly */ = {
+		B536BDEA2B4060FE009B3CE4 U* Debug-nightly *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			baseConfigurationReference = 9740EEB21CF90195004384FC U* Debug.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2481,18 +2481,18 @@
 				INFOPLIST_FILE = "nightly-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.nightly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.nightly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Debug-nightly";
 		};
-		B536BDEB2B406105009B3CE4 /* Release-nightly */ = {
+		B536BDEB2B406105009B3CE4 U* Release-nightly *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2544,32 +2544,32 @@
 			};
 			name = "Release-nightly";
 		};
-		B536BDEC2B406105009B3CE4 /* Release-nightly */ = {
+		B536BDEC2B406105009B3CE4 U* Release-nightly *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RunnerURunner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 88NVGSJ5N3;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_FILE = RunnerUInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Release-nightly";
 		};
-		B536BDED2B406105009B3CE4 /* Release-nightly */ = {
+		B536BDED2B406105009B3CE4 U* Release-nightly *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2580,19 +2580,19 @@
 				INFOPLIST_FILE = "stable-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.stable;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.stable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Release-nightly";
 		};
-		B536BDEE2B406105009B3CE4 /* Release-nightly */ = {
+		B536BDEE2B406105009B3CE4 U* Release-nightly *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2603,19 +2603,19 @@
 				INFOPLIST_FILE = "dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Release-nightly";
 		};
-		B536BDEF2B406105009B3CE4 /* Release-nightly */ = {
+		B536BDEF2B406105009B3CE4 U* Release-nightly *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2626,17 +2626,17 @@
 				INFOPLIST_FILE = "nightly-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.nightly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.nightly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Release-nightly";
 		};
-		B536BDF02B40610B009B3CE4 /* Profile-nightly */ = {
+		B536BDF02B40610B009B3CE4 U* Profile-nightly *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2686,32 +2686,32 @@
 			};
 			name = "Profile-nightly";
 		};
-		B536BDF12B40610B009B3CE4 /* Profile-nightly */ = {
+		B536BDF12B40610B009B3CE4 U* Profile-nightly *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RunnerURunner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 88NVGSJ5N3;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_FILE = RunnerUInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Profile-nightly";
 		};
-		B536BDF22B40610B009B3CE4 /* Profile-nightly */ = {
+		B536BDF22B40610B009B3CE4 U* Profile-nightly *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2722,19 +2722,19 @@
 				INFOPLIST_FILE = "stable-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.stable;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.stable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Profile-nightly";
 		};
-		B536BDF32B40610B009B3CE4 /* Profile-nightly */ = {
+		B536BDF32B40610B009B3CE4 U* Profile-nightly *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2745,19 +2745,19 @@
 				INFOPLIST_FILE = "dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Profile-nightly";
 		};
-		B536BDF42B40610B009B3CE4 /* Profile-nightly */ = {
+		B536BDF42B40610B009B3CE4 U* Profile-nightly *U = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E U* Release.xcconfig *U;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2768,17 +2768,17 @@
 				INFOPLIST_FILE = "nightly-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_pathUFrameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.nightly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.nightly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnerURunner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = "Profile-nightly";
 		};
-		E612EC4A2D0F07AD0022720C /* Debug */ = {
+		E612EC4A2D0F07AD0022720C U* Debug *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = AppIcon;
@@ -2797,20 +2797,20 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomePlayerWidget/Info.plist;
+				INFOPLIST_FILE = HomePlayerWidgetUInfo.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HomePlayerWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
+					"@executable_pathUFrameworks",
+					"@executable_pathU..U..UFrameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.HomePlayerWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.HomePlayerWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
@@ -2821,7 +2821,7 @@
 			};
 			name = Debug;
 		};
-		E612EC4B2D0F07AD0022720C /* Debug-nightly */ = {
+		E612EC4B2D0F07AD0022720C U* Debug-nightly *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = AppIcon;
@@ -2840,20 +2840,20 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomePlayerWidget/Info.plist;
+				INFOPLIST_FILE = HomePlayerWidgetUInfo.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HomePlayerWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
+					"@executable_pathUFrameworks",
+					"@executable_pathU..U..UFrameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.HomePlayerWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.HomePlayerWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
@@ -2864,7 +2864,7 @@
 			};
 			name = "Debug-nightly";
 		};
-		E612EC4C2D0F07AD0022720C /* Debug-dev */ = {
+		E612EC4C2D0F07AD0022720C U* Debug-dev *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = AppIcon;
@@ -2883,20 +2883,20 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomePlayerWidget/Info.plist;
+				INFOPLIST_FILE = HomePlayerWidgetUInfo.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HomePlayerWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
+					"@executable_pathUFrameworks",
+					"@executable_pathU..U..UFrameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.HomePlayerWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.HomePlayerWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
@@ -2907,7 +2907,7 @@
 			};
 			name = "Debug-dev";
 		};
-		E612EC4D2D0F07AD0022720C /* Debug-stable */ = {
+		E612EC4D2D0F07AD0022720C U* Debug-stable *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = AppIcon;
@@ -2926,20 +2926,20 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomePlayerWidget/Info.plist;
+				INFOPLIST_FILE = HomePlayerWidgetUInfo.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HomePlayerWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
+					"@executable_pathUFrameworks",
+					"@executable_pathU..U..UFrameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.HomePlayerWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.HomePlayerWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
@@ -2950,7 +2950,7 @@
 			};
 			name = "Debug-stable";
 		};
-		E612EC4E2D0F07AD0022720C /* Release */ = {
+		E612EC4E2D0F07AD0022720C U* Release *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = AppIcon;
@@ -2969,19 +2969,19 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomePlayerWidget/Info.plist;
+				INFOPLIST_FILE = HomePlayerWidgetUInfo.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HomePlayerWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
+					"@executable_pathUFrameworks",
+					"@executable_pathU..U..UFrameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.HomePlayerWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.HomePlayerWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2990,7 +2990,7 @@
 			};
 			name = Release;
 		};
-		E612EC4F2D0F07AD0022720C /* Release-nightly */ = {
+		E612EC4F2D0F07AD0022720C U* Release-nightly *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = AppIcon;
@@ -3009,19 +3009,19 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomePlayerWidget/Info.plist;
+				INFOPLIST_FILE = HomePlayerWidgetUInfo.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HomePlayerWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
+					"@executable_pathUFrameworks",
+					"@executable_pathU..U..UFrameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.HomePlayerWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.HomePlayerWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -3030,7 +3030,7 @@
 			};
 			name = "Release-nightly";
 		};
-		E612EC502D0F07AD0022720C /* Release-dev */ = {
+		E612EC502D0F07AD0022720C U* Release-dev *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = AppIcon;
@@ -3049,19 +3049,19 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomePlayerWidget/Info.plist;
+				INFOPLIST_FILE = HomePlayerWidgetUInfo.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HomePlayerWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
+					"@executable_pathUFrameworks",
+					"@executable_pathU..U..UFrameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.HomePlayerWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.HomePlayerWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -3070,7 +3070,7 @@
 			};
 			name = "Release-dev";
 		};
-		E612EC512D0F07AD0022720C /* Release-stable */ = {
+		E612EC512D0F07AD0022720C U* Release-stable *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = AppIcon;
@@ -3089,19 +3089,19 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomePlayerWidget/Info.plist;
+				INFOPLIST_FILE = HomePlayerWidgetUInfo.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HomePlayerWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
+					"@executable_pathUFrameworks",
+					"@executable_pathU..U..UFrameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.HomePlayerWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.HomePlayerWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -3110,7 +3110,7 @@
 			};
 			name = "Release-stable";
 		};
-		E612EC522D0F07AD0022720C /* Profile */ = {
+		E612EC522D0F07AD0022720C U* Profile *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = AppIcon;
@@ -3129,19 +3129,19 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomePlayerWidget/Info.plist;
+				INFOPLIST_FILE = HomePlayerWidgetUInfo.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HomePlayerWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
+					"@executable_pathUFrameworks",
+					"@executable_pathU..U..UFrameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.HomePlayerWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.HomePlayerWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -3150,7 +3150,7 @@
 			};
 			name = Profile;
 		};
-		E612EC532D0F07AD0022720C /* Profile-nightly */ = {
+		E612EC532D0F07AD0022720C U* Profile-nightly *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = AppIcon;
@@ -3169,19 +3169,19 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomePlayerWidget/Info.plist;
+				INFOPLIST_FILE = HomePlayerWidgetUInfo.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HomePlayerWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
+					"@executable_pathUFrameworks",
+					"@executable_pathU..U..UFrameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.HomePlayerWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.HomePlayerWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -3190,7 +3190,7 @@
 			};
 			name = "Profile-nightly";
 		};
-		E612EC542D0F07AD0022720C /* Profile-dev */ = {
+		E612EC542D0F07AD0022720C U* Profile-dev *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = AppIcon;
@@ -3209,19 +3209,19 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomePlayerWidget/Info.plist;
+				INFOPLIST_FILE = HomePlayerWidgetUInfo.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HomePlayerWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
+					"@executable_pathUFrameworks",
+					"@executable_pathU..U..UFrameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.HomePlayerWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.HomePlayerWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -3230,7 +3230,7 @@
 			};
 			name = "Profile-dev";
 		};
-		E612EC552D0F07AD0022720C /* Profile-stable */ = {
+		E612EC552D0F07AD0022720C U* Profile-stable *U = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = AppIcon;
@@ -3249,19 +3249,19 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomePlayerWidget/Info.plist;
+				INFOPLIST_FILE = HomePlayerWidgetUInfo.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HomePlayerWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
+					"@executable_pathUFrameworks",
+					"@executable_pathU..U..UFrameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube.HomePlayerWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellecore.kelletube.HomePlayerWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -3270,124 +3270,124 @@
 			};
 			name = "Profile-stable";
 		};
-/* End XCBuildConfiguration section */
+U* End XCBuildConfiguration section *U
 
-/* Begin XCConfigurationList section */
-		97C146E91CF9000F007C117D /* Build configuration list for PBXProject "Runner" */ = {
+U* Begin XCConfigurationList section *U
+		97C146E91CF9000F007C117D U* Build configuration list for PBXProject "Runner" *U = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97C147031CF9000F007C117D /* Debug */,
-				B536BDE62B4060FE009B3CE4 /* Debug-nightly */,
-				B536BDC12B406014009B3CE4 /* Debug-dev */,
-				B536BDA22B405E06009B3CE4 /* Debug-stable */,
-				97C147041CF9000F007C117D /* Release */,
-				B536BDEB2B406105009B3CE4 /* Release-nightly */,
-				B536BDC52B40601C009B3CE4 /* Release-dev */,
-				B536BDA52B405E19009B3CE4 /* Release-stable */,
-				249021D3217E4FDB00AE95B9 /* Profile */,
-				B536BDF02B40610B009B3CE4 /* Profile-nightly */,
-				B536BDC92B406021009B3CE4 /* Profile-dev */,
-				B536BDA82B405E1F009B3CE4 /* Profile-stable */,
+				97C147031CF9000F007C117D U* Debug *U,
+				B536BDE62B4060FE009B3CE4 U* Debug-nightly *U,
+				B536BDC12B406014009B3CE4 U* Debug-dev *U,
+				B536BDA22B405E06009B3CE4 U* Debug-stable *U,
+				97C147041CF9000F007C117D U* Release *U,
+				B536BDEB2B406105009B3CE4 U* Release-nightly *U,
+				B536BDC52B40601C009B3CE4 U* Release-dev *U,
+				B536BDA52B405E19009B3CE4 U* Release-stable *U,
+				249021D3217E4FDB00AE95B9 U* Profile *U,
+				B536BDF02B40610B009B3CE4 U* Profile-nightly *U,
+				B536BDC92B406021009B3CE4 U* Profile-dev *U,
+				B536BDA82B405E1F009B3CE4 U* Profile-stable *U,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Runner" */ = {
+		97C147051CF9000F007C117D U* Build configuration list for PBXNativeTarget "Runner" *U = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97C147061CF9000F007C117D /* Debug */,
-				B536BDE72B4060FE009B3CE4 /* Debug-nightly */,
-				B536BDC22B406014009B3CE4 /* Debug-dev */,
-				B536BDA32B405E06009B3CE4 /* Debug-stable */,
-				97C147071CF9000F007C117D /* Release */,
-				B536BDEC2B406105009B3CE4 /* Release-nightly */,
-				B536BDC62B40601C009B3CE4 /* Release-dev */,
-				B536BDA62B405E19009B3CE4 /* Release-stable */,
-				249021D4217E4FDB00AE95B9 /* Profile */,
-				B536BDF12B40610B009B3CE4 /* Profile-nightly */,
-				B536BDCA2B406021009B3CE4 /* Profile-dev */,
-				B536BDA92B405E1F009B3CE4 /* Profile-stable */,
+				97C147061CF9000F007C117D U* Debug *U,
+				B536BDE72B4060FE009B3CE4 U* Debug-nightly *U,
+				B536BDC22B406014009B3CE4 U* Debug-dev *U,
+				B536BDA32B405E06009B3CE4 U* Debug-stable *U,
+				97C147071CF9000F007C117D U* Release *U,
+				B536BDEC2B406105009B3CE4 U* Release-nightly *U,
+				B536BDC62B40601C009B3CE4 U* Release-dev *U,
+				B536BDA62B405E19009B3CE4 U* Release-stable *U,
+				249021D4217E4FDB00AE95B9 U* Profile *U,
+				B536BDF12B40610B009B3CE4 U* Profile-nightly *U,
+				B536BDCA2B406021009B3CE4 U* Profile-dev *U,
+				B536BDA92B405E1F009B3CE4 U* Profile-stable *U,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B536BD9C2B405DB1009B3CE4 /* Build configuration list for PBXNativeTarget "stable" */ = {
+		B536BD9C2B405DB1009B3CE4 U* Build configuration list for PBXNativeTarget "stable" *U = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B536BD9D2B405DB1009B3CE4 /* Debug */,
-				B536BDE82B4060FE009B3CE4 /* Debug-nightly */,
-				B536BDC32B406014009B3CE4 /* Debug-dev */,
-				B536BDA42B405E06009B3CE4 /* Debug-stable */,
-				B536BD9E2B405DB1009B3CE4 /* Release */,
-				B536BDED2B406105009B3CE4 /* Release-nightly */,
-				B536BDC72B40601C009B3CE4 /* Release-dev */,
-				B536BDA72B405E19009B3CE4 /* Release-stable */,
-				B536BD9F2B405DB1009B3CE4 /* Profile */,
-				B536BDF22B40610B009B3CE4 /* Profile-nightly */,
-				B536BDCB2B406021009B3CE4 /* Profile-dev */,
-				B536BDAA2B405E1F009B3CE4 /* Profile-stable */,
+				B536BD9D2B405DB1009B3CE4 U* Debug *U,
+				B536BDE82B4060FE009B3CE4 U* Debug-nightly *U,
+				B536BDC32B406014009B3CE4 U* Debug-dev *U,
+				B536BDA42B405E06009B3CE4 U* Debug-stable *U,
+				B536BD9E2B405DB1009B3CE4 U* Release *U,
+				B536BDED2B406105009B3CE4 U* Release-nightly *U,
+				B536BDC72B40601C009B3CE4 U* Release-dev *U,
+				B536BDA72B405E19009B3CE4 U* Release-stable *U,
+				B536BD9F2B405DB1009B3CE4 U* Profile *U,
+				B536BDF22B40610B009B3CE4 U* Profile-nightly *U,
+				B536BDCB2B406021009B3CE4 U* Profile-dev *U,
+				B536BDAA2B405E1F009B3CE4 U* Profile-stable *U,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B536BDB82B405FDE009B3CE4 /* Build configuration list for PBXNativeTarget "dev" */ = {
+		B536BDB82B405FDE009B3CE4 U* Build configuration list for PBXNativeTarget "dev" *U = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B536BDB92B405FDE009B3CE4 /* Debug */,
-				B536BDE92B4060FE009B3CE4 /* Debug-nightly */,
-				B536BDC42B406014009B3CE4 /* Debug-dev */,
-				B536BDBA2B405FDE009B3CE4 /* Debug-stable */,
-				B536BDBB2B405FDE009B3CE4 /* Release */,
-				B536BDEE2B406105009B3CE4 /* Release-nightly */,
-				B536BDC82B40601C009B3CE4 /* Release-dev */,
-				B536BDBC2B405FDE009B3CE4 /* Release-stable */,
-				B536BDBD2B405FDE009B3CE4 /* Profile */,
-				B536BDF32B40610B009B3CE4 /* Profile-nightly */,
-				B536BDCC2B406021009B3CE4 /* Profile-dev */,
-				B536BDBE2B405FDE009B3CE4 /* Profile-stable */,
+				B536BDB92B405FDE009B3CE4 U* Debug *U,
+				B536BDE92B4060FE009B3CE4 U* Debug-nightly *U,
+				B536BDC42B406014009B3CE4 U* Debug-dev *U,
+				B536BDBA2B405FDE009B3CE4 U* Debug-stable *U,
+				B536BDBB2B405FDE009B3CE4 U* Release *U,
+				B536BDEE2B406105009B3CE4 U* Release-nightly *U,
+				B536BDC82B40601C009B3CE4 U* Release-dev *U,
+				B536BDBC2B405FDE009B3CE4 U* Release-stable *U,
+				B536BDBD2B405FDE009B3CE4 U* Profile *U,
+				B536BDF32B40610B009B3CE4 U* Profile-nightly *U,
+				B536BDCC2B406021009B3CE4 U* Profile-dev *U,
+				B536BDBE2B405FDE009B3CE4 U* Profile-stable *U,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B536BDDA2B4060B3009B3CE4 /* Build configuration list for PBXNativeTarget "nightly" */ = {
+		B536BDDA2B4060B3009B3CE4 U* Build configuration list for PBXNativeTarget "nightly" *U = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B536BDDB2B4060B3009B3CE4 /* Debug */,
-				B536BDEA2B4060FE009B3CE4 /* Debug-nightly */,
-				B536BDDC2B4060B3009B3CE4 /* Debug-dev */,
-				B536BDDD2B4060B3009B3CE4 /* Debug-stable */,
-				B536BDDE2B4060B3009B3CE4 /* Release */,
-				B536BDEF2B406105009B3CE4 /* Release-nightly */,
-				B536BDDF2B4060B3009B3CE4 /* Release-dev */,
-				B536BDE02B4060B3009B3CE4 /* Release-stable */,
-				B536BDE12B4060B3009B3CE4 /* Profile */,
-				B536BDF42B40610B009B3CE4 /* Profile-nightly */,
-				B536BDE22B4060B3009B3CE4 /* Profile-dev */,
-				B536BDE32B4060B3009B3CE4 /* Profile-stable */,
+				B536BDDB2B4060B3009B3CE4 U* Debug *U,
+				B536BDEA2B4060FE009B3CE4 U* Debug-nightly *U,
+				B536BDDC2B4060B3009B3CE4 U* Debug-dev *U,
+				B536BDDD2B4060B3009B3CE4 U* Debug-stable *U,
+				B536BDDE2B4060B3009B3CE4 U* Release *U,
+				B536BDEF2B406105009B3CE4 U* Release-nightly *U,
+				B536BDDF2B4060B3009B3CE4 U* Release-dev *U,
+				B536BDE02B4060B3009B3CE4 U* Release-stable *U,
+				B536BDE12B4060B3009B3CE4 U* Profile *U,
+				B536BDF42B40610B009B3CE4 U* Profile-nightly *U,
+				B536BDE22B4060B3009B3CE4 U* Profile-dev *U,
+				B536BDE32B4060B3009B3CE4 U* Profile-stable *U,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E612EC572D0F07AD0022720C /* Build configuration list for PBXNativeTarget "HomePlayerWidgetExtension" */ = {
+		E612EC572D0F07AD0022720C U* Build configuration list for PBXNativeTarget "HomePlayerWidgetExtension" *U = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E612EC4A2D0F07AD0022720C /* Debug */,
-				E612EC4B2D0F07AD0022720C /* Debug-nightly */,
-				E612EC4C2D0F07AD0022720C /* Debug-dev */,
-				E612EC4D2D0F07AD0022720C /* Debug-stable */,
-				E612EC4E2D0F07AD0022720C /* Release */,
-				E612EC4F2D0F07AD0022720C /* Release-nightly */,
-				E612EC502D0F07AD0022720C /* Release-dev */,
-				E612EC512D0F07AD0022720C /* Release-stable */,
-				E612EC522D0F07AD0022720C /* Profile */,
-				E612EC532D0F07AD0022720C /* Profile-nightly */,
-				E612EC542D0F07AD0022720C /* Profile-dev */,
-				E612EC552D0F07AD0022720C /* Profile-stable */,
+				E612EC4A2D0F07AD0022720C U* Debug *U,
+				E612EC4B2D0F07AD0022720C U* Debug-nightly *U,
+				E612EC4C2D0F07AD0022720C U* Debug-dev *U,
+				E612EC4D2D0F07AD0022720C U* Debug-stable *U,
+				E612EC4E2D0F07AD0022720C U* Release *U,
+				E612EC4F2D0F07AD0022720C U* Release-nightly *U,
+				E612EC502D0F07AD0022720C U* Release-dev *U,
+				E612EC512D0F07AD0022720C U* Release-stable *U,
+				E612EC522D0F07AD0022720C U* Profile *U,
+				E612EC532D0F07AD0022720C U* Profile-nightly *U,
+				E612EC542D0F07AD0022720C U* Profile-dev *U,
+				E612EC552D0F07AD0022720C U* Profile-stable *U,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-/* End XCConfigurationList section */
+U* End XCConfigurationList section *U
 	};
-	rootObject = 97C146E61CF9000F007C117D /* Project object */;
+	rootObject = 97C146E61CF9000F007C117D U* Project object *U;
 }

@@ -1,15 +1,15 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:spotube/models/metadata/metadata.dart';
+import 'package:kelletube/models/metadata/metadata.dart';
 
 part 'track_sources.g.dart';
 
 @JsonSerializable()
 class BasicSourcedTrack {
-  final SpotubeFullTrackObject query;
-  final SpotubeAudioSourceMatchObject info;
+  final KelletubeFullTrackObject query;
+  final KelletubeAudioSourceMatchObject info;
   final String source;
-  final List<SpotubeAudioSourceStreamObject> sources;
-  final List<SpotubeAudioSourceMatchObject> siblings;
+  final List<KelletubeAudioSourceStreamObject> sources;
+  final List<KelletubeAudioSourceMatchObject> siblings;
   BasicSourcedTrack({
     required this.query,
     required this.source,

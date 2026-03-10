@@ -4,13 +4,13 @@ import 'package:flutter/material.dart' show ListTile;
 
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:shadcn_flutter/shadcn_flutter.dart' hide ButtonStyle;
-import 'package:spotube/collections/env.dart';
-import 'package:spotube/collections/routes.gr.dart';
-import 'package:spotube/collections/spotube_icons.dart';
-import 'package:spotube/modules/settings/section_card_with_heading.dart';
-import 'package:spotube/components/adaptive/adaptive_list_tile.dart';
-import 'package:spotube/extensions/context.dart';
-import 'package:spotube/provider/user_preferences/user_preferences_provider.dart';
+import 'package:kelletube/collections/env.dart';
+import 'package:kelletube/collections/routes.gr.dart';
+import 'package:kelletube/collections/kelletube_icons.dart';
+import 'package:kelletube/modules/settings/section_card_with_heading.dart';
+import 'package:kelletube/components/adaptive/adaptive_list_tile.dart';
+import 'package:kelletube/extensions/context.dart';
+import 'package:kelletube/provider/user_preferences/user_preferences_provider.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 class SettingsAboutSection extends HookConsumerWidget {
@@ -27,7 +27,7 @@ class SettingsAboutSection extends HookConsumerWidget {
         if (!Env.hideDonations)
           AdaptiveListTile(
             leading: const Icon(
-              SpotubeIcons.heart,
+              KelletubeIcons.heart,
               color: Colors.pink,
             ),
             title: SizedBox(
@@ -36,7 +36,7 @@ class SettingsAboutSection extends HookConsumerWidget {
               child: Align(
                 alignment: Alignment.centerLeft,
                 child: AutoSizeText(
-                  context.l10n.u_love_spotube,
+                  context.l10n.u_love_kelletube,
                   maxLines: 1,
                   style: const TextStyle(
                     color: Colors.pink,
@@ -67,17 +67,17 @@ class SettingsAboutSection extends HookConsumerWidget {
               ),
               onPressed: () {
                 launchUrlString(
-                  "https://opencollective.com/spotube",
+                  "https://opencollective.com/kelletube",
                   mode: LaunchMode.externalApplication,
                 );
               },
-              leading: const Icon(SpotubeIcons.heart),
+              leading: const Icon(KelletubeIcons.heart),
               child: Text(context.l10n.please_sponsor),
             ),
           ),
         if (Env.enableUpdateChecker)
           ListTile(
-            leading: const Icon(SpotubeIcons.update),
+            leading: const Icon(KelletubeIcons.update),
             title: Text(context.l10n.check_for_updates),
             trailing: Switch(
               value: preferences.checkUpdate,
@@ -86,11 +86,11 @@ class SettingsAboutSection extends HookConsumerWidget {
             ),
           ),
         ListTile(
-          leading: const Icon(SpotubeIcons.info),
-          title: Text(context.l10n.about_spotube),
-          trailing: const Icon(SpotubeIcons.angleRight),
+          leading: const Icon(KelletubeIcons.info),
+          title: Text(context.l10n.about_kelletube),
+          trailing: const Icon(KelletubeIcons.angleRight),
           onTap: () {
-            context.navigateTo(const AboutSpotubeRoute());
+            context.navigateTo(const AboutKelletubeRoute());
           },
         )
       ],

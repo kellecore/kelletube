@@ -1,12 +1,12 @@
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:shadcn_flutter/shadcn_flutter.dart';
-import 'package:spotube/collections/language_codes.dart';
-import 'package:spotube/collections/markets.dart';
-import 'package:spotube/collections/spotube_icons.dart';
-import 'package:spotube/modules/getting_started/blur_card.dart';
-import 'package:spotube/extensions/context.dart';
-import 'package:spotube/l10n/l10n.dart';
-import 'package:spotube/provider/user_preferences/user_preferences_provider.dart';
+import 'package:kelletube/collections/language_codes.dart';
+import 'package:kelletube/collections/markets.dart';
+import 'package:kelletube/collections/kelletube_icons.dart';
+import 'package:kelletube/modules/getting_started/blur_card.dart';
+import 'package:kelletube/extensions/context.dart';
+import 'package:kelletube/l10n/l10n.dart';
+import 'package:kelletube/provider/user_preferences/user_preferences_provider.dart';
 
 class GettingStartedPageLanguageRegionSection extends HookConsumerWidget {
   final void Function() onNext;
@@ -42,7 +42,7 @@ class GettingStartedPageLanguageRegionSection extends HookConsumerWidget {
               Row(
                 children: [
                   const Icon(
-                    SpotubeIcons.language,
+                    KelletubeIcons.language,
                     size: 16,
                   ),
                   const SizedBox(width: 8),
@@ -180,7 +180,7 @@ class GettingStartedPageLanguageRegionSection extends HookConsumerWidget {
               Align(
                 alignment: Alignment.centerRight,
                 child: Button.primary(
-                  trailing: const Icon(SpotubeIcons.angleRight),
+                  trailing: const Icon(KelletubeIcons.angleRight),
                   onPressed: onNext,
                   child: Text(context.l10n.next),
                 ),
